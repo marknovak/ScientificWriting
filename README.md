@@ -30,27 +30,27 @@ If you would like to make suggestions for what we should cover in the course, cr
 
 Click on a topic to see the day's to-do's (incl. required before-class readings).
 
-| Wk |  Day | Date | Topic | Details |
-|:-:|:-----:|:------|:------|:-------|
-|1 | Mon | XXX  | [Writing Habits](XXX) | Daily writing routines, time management strategies, workflow organization tools, early drafting practices, protected writing time, major and minor deadlines, writer’s block, meta-cognitive approaches. |
-|  | Wed | XXX  | [XXX](XXX) | |
-|2 | Mon | XXX  | [Project Presentations: Topic, Goals, Timeline](XXX) | Project introductions, writing goals, target outputs, timelines, accountability structures, peer progress tracking.|
-|  | Wed | XXX  | [XXX](XXX) | |
-|3 | Mon | XXX  | [Manuscript Workflows](XXX) | Project organization strategies, idea-to-manuscript pipelines, research notes and code integration, manuscript templates, word processing tools (MS Word, LaTeX, Scrivener, Markdown), digital lab notebooks. |
-|  | Wed | XXX  | [XXX](XXX) | |
-|4 | Mon | XXX | [Manuscript Meta-Structuring ](XXX) | Audience identification, journal selection, methods section detail, integration of equations, title and abstract design, analysis of effective papers, signposting strategies, structural coherence. |
-|  | Wed | XXX  | [XXX](XXX) | |
-|5 | Mon | XXX | [Literature Integration and Reference Management ](XXX) | Literature search strategies, staying current in the field, source organization, reference management tools, annotated bibliographies, literature integration techniques. |
-|  | Wed | XXX  | [XXX](XXX) | |
-|6 | Mon | XXX  | [Collaborators and Collaborative Writing](XXX) | Collaborative writing dynamics, version control, communication strategies, task delegation, authorship conventions, contribution tracking, co-authorship expectations. |
-|  | Wed | XXX  | [XXX](XXX) | |
-|7 | Mon | XXX | [Peer Review and Publication Process ](XXX) | Peer review stages, reviewer and author perspectives, reviewer feedback, revision and resubmission, rejection management, page charges, proofing processes. |
-|  | Wed | XXX  | [XXX](XXX) | |
-|8 | Mon | XXX  | [Pre-Publishing and Alternative Review Models](XXX) | Preprint server platforms, benefits and limitations, informal review processes, friendly review, alternative peer review models (e.g., Peer Community In). |
-|  | Wed | XXX  | [XXX](XXX) | |
-|9 | Mon | XXX  | [Journal Submission and Formatting](XXX) | Final formatting, author guidelines, journal-specific requirements, cover letter components, submission logistics, common pitfalls. | 
-|  | Wed | XXX  | [XXX](XXX) | |
-|10| Mon | XXX | [Final Project Presentations and Peer Feedback ](XXX) | Project outcomes, writing progress, successes and challenges, modified timelines, structured peer feedback. |
-|  | Wed | XXX  | [XXX](XXX) | |
+| Wk |  Day | Date | Topic |
+|:-:|:-----:|:------|:------|
+|1 | Mon | XXX  | [Writing Habits](classes/Habits) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|2 | Mon | XXX  | [Project Presentations](classes/ProjectProposal) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|3 | Mon | XXX  | [Writing Workflows](classes/Workflows) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|4 | Mon | XXX | [Manuscript Meta-Structuring ](classes/MetaStructure) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|5 | Mon | XXX | [Literature Integration and Reference Management ](classes/Literature) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|6 | Mon | XXX  | [Collaborators and Collaborative Writing](classes/Collaboration) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|7 | Mon | XXX | [Peer Review and Publication Process ](classes/PeerReview) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|8 | Mon | XXX  | [Pre-Publishing and Alternative Review Models](classes/PrePublish) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|9 | Mon | XXX  | [Journal Submission and Formatting](classes/JournalPrep) | 
+|  | Wed | XXX  | [XXX](XXX) |
+|10| Mon | XXX | [Final Project Presentations ](classes/ProjectReport) | 
+|  | Wed | XXX  | [XXX](XXX) |
 
----
+***
