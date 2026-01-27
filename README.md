@@ -14,7 +14,7 @@ Students must be ready to start writing a scientific manuscript the first week o
 
 ## Repository content
 The repository's most relevant folders are:
-- [course_info](course_info/) -  grading [rubrics](course_info/rubrics/) and the [course syllabus](course_info/syllabus/syllabus.pdf);
+- [course_info](course_info/) -  [assignments](course_info/assignments/), grading [rubrics](course_info/rubrics/), and the [course syllabus](course_info/syllabus/syllabus.pdf);
 - [classes](classes/) - sub-folders for each course topic;
 - [readings](readings/) - pdfs of the required and suggested readings.
 
