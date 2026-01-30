@@ -13,6 +13,7 @@ Literature search strategies, staying current in the field, source organization,
 
 ### Further readings
 
+[Tips on writing a literature review (De Vries on Substack)](https://catherineeunicedevries.substack.com/p/most-literature-reviews-miss-the)
 
 ### Additional resources
 

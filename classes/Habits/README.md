@@ -14,6 +14,13 @@ Daily writing routines, time management strategies, workflow organization tools,
 
 ### Further readings
 
+[Upper (1974) The unsuccessful self-treatment of a case of “writer's block”](../../readings/pdfs/Upper_1974.pdf)
+
+[Novak (202?) Upper’s (1974) unsuccessful self-treatment of a case of “writer’s block”: Renewed attempt using chat-based large language models.](../../readings/pdfs/Novak_unpubl.pdf)
+
+[Stearns (199?) Some modest advice for graduate students](../../readings/pdfs/Stearns_1999.pdf)
+
+[Huey (199?) Reply to Stearns: some acynical advice for graduate students](../../readings/pdfs/Huey_1999.pdf)
 
 ### Additional resources
 
