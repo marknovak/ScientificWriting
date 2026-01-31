@@ -32,25 +32,25 @@ Click on a topic to see the day's to-do's (incl. required before-class readings)
 
 | Wk |  Day | Date | Topic |
 |:-:|:-----:|:------|:------|
-|1 | Mon | XXX  | [Writing Habits](classes/Habits) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|2 | Mon | XXX  | [Project Presentations](classes/ProjectProposal) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|3 | Mon | XXX  | [Writing Workflows](classes/Workflows) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|4 | Mon | XXX | [Manuscript Meta-Structuring ](classes/MetaStructure) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|5 | Mon | XXX | [Literature Integration and Reference Management ](classes/Literature) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|6 | Mon | XXX  | [Collaborators and Collaborative Writing](classes/Collaboration) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|7 | Mon | XXX | [Peer Review and Publication Process ](classes/PeerReview) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|8 | Mon | XXX  | [Pre-Publishing and Alternative Review Models](classes/PrePublish) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|9 | Mon | XXX  | [Journal Submission and Formatting](classes/JournalPrep) | 
-|  | Wed | XXX  | [XXX](XXX) |
-|10| Mon | XXX | [Final Project Presentations ](classes/ProjectReport) | 
-|  | Wed | XXX  | [XXX](XXX) |
+|1 | Mon | 3/30  | [Writing Habits](classes/Habits) | 
+|  | Wed | 4/1  | [XXX](XXX) |
+|2 | Mon | 4/6  | [Project Presentations](classes/ProjectProposal) | 
+|  | Wed | 4/8  | [XXX](XXX) |
+|3 | Mon | 4/13  | [Writing Workflows](classes/Workflows) | 
+|  | Wed | 4/15  | [XXX](XXX) |
+|4 | Mon | 4/20 | [Manuscript Meta-Structuring ](classes/MetaStructure) | 
+|  | Wed | 4/22  | [XXX](XXX) |
+|5 | Mon | 4/27 | [Literature Integration and Reference Management ](classes/Literature) | 
+|  | Wed | 4/29  | [XXX](XXX) |
+|6 | Mon | 5/4  | [Collaborators and Collaborative Writing](classes/Collaboration) | 
+|  | Wed | 5/6  | [XXX](XXX) |
+|7 | Mon | 5/11 | [Peer Review and Publication Process ](classes/PeerReview) | 
+|  | Wed | 5/13  | [XXX](XXX) |
+|8 | Mon | 5/18  | [Pre-Publishing and Alternative Review Models](classes/PrePublish) | 
+|  | Wed | 5/20  | [XXX](XXX) |
+|9 | Mon | 5/25  | [Journal Submission and Formatting](classes/JournalPrep) | 
+|  | Wed | 5/27  | [XXX](XXX) |
+|10| Mon | 6/1 | [Final Project Presentations ](classes/ProjectReport) | 
+|  | Wed | 6/3  | [XXX](XXX) |
 
 ***
