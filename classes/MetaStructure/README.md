@@ -13,13 +13,19 @@ Audience identification, journal selection, methods section detail, integration 
 
 ### Further readings
 
-[Pechenik (2025) Chp1 General Rules](../../readings/pdfs/Pechenik_2025_Chp1.pdf)
+[Sand-Jensen (2007) How to write consistently boring scientific literature](../../readings/pdfs/SandJensen_2007.pdf)
 
-[Pechenik (2025) Chp6 Revising](../../readings/pdfs/Pechenik_2025_Chp6.pdf)
+[How to construct a Nature summary paragraph](../../readings/pdfs/nature-summary-paragraph.pdf)
+
+[Pechenik (2025) A Short Guide to Writing about Biology. Chp. 1 General Rules](../../readings/pdfs/Pechenik_2025_Chp1.pdf)
+
+[Pechenik (2025)  A Short Guide to Writing about Biology. Chp. 6 Revising](../../readings/pdfs/Pechenik_2025_Chp6.pdf)
+
+[Savage & Yeh (2019) Tips from a Pulitzer prizewinner](../../readings/pdfs/Savage_2019.pdf)
 
 [Harley et al. (2004) Scientific Writing And Publishing - A Guide For Students](../../readings/pdfs/Harley_2004.pdf)
 
-[Schimel (2012) Scientific Writing And Publishing - A Guide For Students](../../readings/pdfs/Schimel_2012.pdf)
+[Schimel (2012) Writing Science How to Write Papers That Get Cited and Proposals That Get Funded](../../readings/pdfs/Schimel_2012.pdf)
 
 
 
@@ -34,6 +40,10 @@ Audience identification, journal selection, methods section detail, integration 
 [Shaw et al. (2024) Six personas to adopt when framing theoretical research questions in biology](https://doi.org/10.1098/rspb.2024.0803)
 
 [Shoemaker et al. (2021) Writing mathematical ecology: A guide for authors and readers](https://doi.org/10.1002/ecs2.3701)
+
+
+#### Recommended writing
+[Wiens & Embert (2024) How life became colourful: colour vision, aposematism, sexual selection, owers, and fruits. _Biological Reviews_](../../readings/pdfs/recommended/Wiens_2024.pdf)
 
 
 ### Additional resources
