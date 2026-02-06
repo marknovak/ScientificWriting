@@ -24,6 +24,7 @@ Daily writing routines, time management strategies, workflow organization tools,
 
 ### Additional resources
 
+[Inframemethodology's Writing Process Reengineering](https://inframethodology.cbs.dk/?page_id=454)
 
 
 ***
