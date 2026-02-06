@@ -1,6 +1,6 @@
 # Journal Submission and Formatting
 
-Final formatting, author guidelines, journal-specific requirements, cover letter components, submission logistics, common pitfalls.
+Final formatting, author guidelines, journal-specific requirements, cover letter components, data & code sharing, submission logistics, common pitfalls.
 
 ### Required readings (_before class_)
 
