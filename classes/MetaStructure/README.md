@@ -25,7 +25,7 @@ Audience identification, journal selection, methods section detail, integration 
 
 [Harley et al. (2004) Scientific Writing And Publishing - A Guide For Students](../../readings/pdfs/Harley_2004.pdf)
 
-[Schimel (2012) Writing Science How to Write Papers That Get Cited and Proposals That Get Funded](../../readings/pdfs/Schimel_2012.pdf)
+[Schimel (2014) Writing Science How to Write Papers That Get Cited and Proposals That Get Funded](../../readings/pdfs/Schimel_2014.zip)
 
 
 
@@ -35,11 +35,11 @@ Audience identification, journal selection, methods section detail, integration 
 
 [Fawcett & Higgins 2012 Heavy use of equations impedes communication among biologists](https://www.pnas.org/content/109/29/11735)
 
-[Ou et al. (2022) Writing accessible theory in ecology and evolution: Insights from cognitive load theory](https://doi.org/10.1093/biosci/biab133)
+[Ou et al. (2022) Writing accessible theory in ecology and evolution: Insights from cognitive load theory](../../readings/pdfs/Ou_2022.pdf)
 
 [Shaw et al. (2024) Six personas to adopt when framing theoretical research questions in biology](https://doi.org/10.1098/rspb.2024.0803)
 
-[Shoemaker et al. (2021) Writing mathematical ecology: A guide for authors and readers](https://doi.org/10.1002/ecs2.3701)
+[Shoemaker et al. (2021) Writing mathematical ecology: A guide for authors and readers](../../readings/pdfs/Shoemaker_2021.pdf)
 
 
 #### Recommended writing
