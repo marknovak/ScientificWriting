@@ -1,6 +1,6 @@
-# Manuscript Meta-Structuring
+# Manuscript Structuring
 
-Audience identification, journal selection, methods section detail, integration of equations, title and abstract design, analysis of effective papers, signposting strategies, structural coherence.
+Audience identification, journal selection, methods section detail, integration of equations, title and abstract design, analysis of effective papers, signposting, structural coherence, use and ethics of Large Language Models (generative AI).
 
 ### Required readings (_before class_)
 
@@ -48,8 +48,18 @@ Audience identification, journal selection, methods section detail, integration 
 - [Shoemaker et al. (2021) Writing mathematical ecology: A guide for authors and readers](../../readings/pdfs/Shoemaker_2021.pdf)
 
 
-#### Exemplary writing recommended by colleagues
+### Exemplary writing recommended by colleagues
+
 - [Wiens & Embert (2024) How life became colourful: colour vision, aposematism, sexual selection, owers, and fruits. _Biological Reviews_](../../readings/pdfs/recommended/Wiens_2024.pdf)
+
+- [Gabay et al. (2019) Inter-Partner Specificity Limits the Acquisition of Thermotolerant Symbionts in a Model Cnidarian-Dinoflagellate Symbiosis. _ISME Journal_](../../readings/pdfs/recommended/Gabay_2019.pdf)
+
+- [Maruyama et al. (2022) Heat Stress of Algal Partner Hinders Colonization Success and Alters the Algal Cell Surface Glycome in a Cnidarian-Algal Symbiosis. _Microbiology Spectrum_](../../readings/pdfs/recommended/Maruyama_2022.pdf)
+
+- [Matthews et al. (2017) Optimal Nutrient Exchange and Immune Responses Operate in Partner Specificity in the Cnidarian-Dinoflagellate Symbiosis. _PNAS_](../../readings/pdfs/recommended/Matthews_2017.pdf)
+
+- [Parkinson et al. (2018) Subtle Differences in Symbiont Cell Surface Glycan Profiles Do Not Explain Species-Specific Colonization Rates in a Model Cnidarian-Algal Symbiosis. _Frontiers in Microbiology_](../../readings/pdfs/recommended/Parkinson_2018.pdf)
+
 
 
 ### Additional resources
