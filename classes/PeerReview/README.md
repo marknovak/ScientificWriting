@@ -8,9 +8,13 @@ Peer review stages; editor, reviewer and author perspectives; responding to revi
 ### To do (_before class_)
 - Read/skim the full "_peer review history_" of 2 or 3 published papers.
 (_Look for a link at the top or bottom of an article's online version.  See below for a set of journals that publish the peer review history of their articles._)
-You don't need to understand/explain the discussion, but come to class prepared to summarize and discuss the format (structure) and nature (e.g., professionalism, detail) of the editors decisions, the reviews, and the author's responses.
+You don't need to understand/explain the discussion, but come to class prepared to summarize and discuss the format (structure) and nature (e.g., professionalism, detail) of the editors decisions, the reviews, and the author's responses. 
+
 
 ### Class structure
+
+Here's an [example response letter](Novak2025/response_PCI-Round1.pdf) (public on [PCI Ecology](https://ecology.peercommunityin.org/PCIEcology/articles/rec?id=702)) for a [manuscript of mine](https://www.journals.uchicago.edu/doi/10.1086/737023) that was ultimately published in _The American Naturalist_.
+
 
 
 ### Further readings
