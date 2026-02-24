@@ -14,7 +14,7 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 ### Class structure
 Discussion of topics outlined on slides.
 
-Complete this [Writing is Brain Training](Writing_Is_Brain_Training.md) form.
+Complete this [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
 
 ### Further readings
 

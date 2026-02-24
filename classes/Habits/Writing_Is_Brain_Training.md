@@ -3,7 +3,7 @@
 
 
 Rate your current writing and thinking skills. 
-(5 means "I'm excellent at this"; 1 means "I'm just beginning to develop this skill")
+(5: "I'm excellent at it"; 1: "I'm just beginning to develop it")
 
 1 2 3 4 5 Organizing your thoughts logically
 
@@ -22,11 +22,21 @@ Now, put an asterisk (*) next to the skill above that feels most important to yo
 Then reflect on it. 
 Why does it matter that YOU develop this skill yourself instead of letting AI do it for you?
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 
 What could you lose if you never build this capacity?
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 Next, imaging that this skill got significantly STRONGER over the next year. 
@@ -34,6 +44,11 @@ Then reflect on that.
 What would change in your life?
 What would you be capable of that you can't do now?
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ---
 *Optional:*
