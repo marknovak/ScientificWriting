@@ -1,43 +1,34 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 
-%\usepackage{utopia} %font utopia imported
-
 \usetheme{Berkeley}
 \usecolortheme{default}
 
+\setbeamertemplate{footline}[frame number]
+\beamertemplatenavigationsymbolsempty
+
 %------------------------------------------------------------
-%This block of code defines the information to appear in the
-%Title page
-\title[Scientific Writing] %optional
+\title[Scientific Writing]
 {Scientific Writing}
 
 \subtitle{IB 514}
 
-\author[] % (optional)
+\author[] 
 {Mark Novak}
 
-\institute[] % (optional)
+\institute[]
 {
-  \inst{}%
+  \inst{}
   Dept. of Integrative Biology\\
   Oregon State University
 }
 
-\date[] % (optional)
+\date[] 
 {}
 
 
-% \logo{\includegraphics[height=1.5cm]{lion-logo.jpg}}
-
-%End of title page configuration block
-%------------------------------------------------------------
-
-
 
 %------------------------------------------------------------
-%The next block of commands puts the table of contents at the
-%beginning of each section and highlights the current section:
 
 \AtBeginSection[]
 {
@@ -47,20 +38,15 @@
   \end{frame}
 }
 
-%------------------------------------------------------------
-
-\hypersetup{pdfpagemode=FullScreen} % This will auto-start the pdf presentation in fullscreen mode
 
 %------------------------------------------------------------
 
 \begin{document}
 
-%The next statement creates the title page.
 \frame{\titlepage}
 
 %---------------------------------------------------------
-%This block of code is for the table of contents after
-%the title page
+
 \begin{frame}
     \frametitle{Overview}
 

@@ -1,6 +1,6 @@
 # Manuscript Structuring
 
-Audience identification, journal selection, methods section detail, integration of equations, title and abstract design, analysis of effective papers, signposting, structural coherence, use and ethics of Large Language Models (generative AI).
+Audience identification, journal selection, methods section detail, integration of equations, title and abstract design, analysis of effective papers, signposting, structural coherence.
 
 ### Required readings (_before class_)
 
