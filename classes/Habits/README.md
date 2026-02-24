@@ -1,7 +1,6 @@
 # Writing Habits
 
-Daily writing routines, time management strategies (incl. protected writing time), workflow organization tools, early drafting practices, major and minor deadlines, writer’s block, meta-cognitive approaches,
-use and ethics of Large Language Models (generative AI)
+Daily writing routines, time management strategies (incl. protected writing time), workflow organization tools, early drafting practices, major and minor deadlines, writer’s block, meta-cognitive approaches.
 
 
 ### Required readings (_before class_)
@@ -9,13 +8,13 @@ use and ethics of Large Language Models (generative AI)
 [Summary of Boice's "Write in Mindful Ways"](Boice_2000)
 
 ### To do (_before class_)
-Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Writing Leaderboard](https://trackbear.app/leaderboards/join?joinCode=3d5e3f6e-b0dd-4f18-8203-c352b4a07e33) with join code: _3d5e3f6e-b0dd-4f18-8203-c352b4a07e33_, and create a shortcut to it in your browser.  (We will be keeping track of our -- and each other's -- daily writing successes over the quarter.)
-
-Complete this [Writing is Brain Training](Writing_Is_Brain_Training.md) form and bring it to class to discuss it.
+Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Writing Leaderboard](https://trackbear.app/leaderboards/join?joinCode=3d5e3f6e-b0dd-4f18-8203-c352b4a07e33) with join code: _3d5e3f6e-b0dd-4f18-8203-c352b4a07e33_, and create a shortcut to it in your browser.  (To help us keep track of our -- and each other's -- daily writing successes.)
 
 
 ### Class structure
+Discussion of topics outlined on slides.
 
+Complete this [Writing is Brain Training](Writing_Is_Brain_Training.md) form.
 
 ### Further readings
 
