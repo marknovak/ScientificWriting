@@ -36,11 +36,11 @@ Click on a topic to see the day's plan (incl. required _before-class_ readings a
 |  | Wed | 4/29  | [_Implementation_](classes/Implementation) |
 |6 | Mon | 5/4  | [Collaborators & Collaborative Writing](classes/Collaboration) | 
 |  | Wed | 5/6  | [_Implementation_](classes/Implementation) |
-|7 | Mon | 5/11 | [Peer Review, Pre-publishing, Publication Processes](classes/PeerReview) |
+|7 | Mon | 5/11 | [Peer Review, Pre-publishing, Publication Process](classes/PeerReview) |
 |  | Wed | 5/13  | [_Implementation_](classes/Implementation) |
 |8 | Mon | 5/18  |  |
 |  | Wed | 5/20  | [_Implementation_](classes/Implementation) |
-|9 | Mon | 5/25  | No class - _Memorial Day_ 
+|9 | Mon | 5/25  | No class - _Memorial Day_  |
 |  | Wed | 5/27  | [Journal Formatting & Submission](classes/JournalPrep) | 
 |10| Mon | 6/1 | [Final Report Presentations](classes/ProjectReport) | 
 |  | Wed | 6/3  | [Final Report Presentations](classes/ProjectReport) & Wrap-up | 
