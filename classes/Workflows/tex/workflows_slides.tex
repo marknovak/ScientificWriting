@@ -1,0 +1,610 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Berkeley}
+\usecolortheme{default}
+
+\setbeamertemplate{footline}[frame number]
+\beamertemplatenavigationsymbolsempty
+
+\usepackage[most]{tcolorbox}
+
+\title{Project Workflows and Writing Tools}
+\subtitle{From Ideas to Submission-Ready Manuscripts}
+\author[]{IB 514: Scientific Writing}
+\date[]{}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Overview}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+
+\begin{document}
+
+%------------------------------------------------
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Overview}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+%------------------------------------------------
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% -------------------------------------------------
+
+
+\begin{frame}{Framing the Session: Why Workflows Matter}
+
+\small
+
+\textbf{Central Premise:}
+    High-quality writing emerges from high-quality systems, not last-minute effort.
+
+
+\vspace{0.5em}
+
+\textbf{Three Guiding Questions}
+\begin{enumerate}
+    \item How can I reduce friction between ideas and written text?
+    \item How can I prevent structural chaos as projects grow?
+    \item How can I ensure my workflow supports collaboration and revision?
+\end{enumerate}
+
+\vspace{0.5em}
+
+\textbf{Session Objectives}
+\begin{itemize}
+    \item Design a scalable project structure
+    \item Identify points where inefficiency may emerge
+    \item Evaluate writing tools strategically
+\end{itemize}
+
+\vspace{0.5em}
+
+\begin{block}{\textbf{Key Insight:} Workflow design is a methodological decision }
+    It shapes clarity, reproducibility, and speed.
+\end{block}
+
+\end{frame}
+
+% -------------------------------------------------
+
+\section{Project Structure and Organization}
+
+\begin{frame}{Project Structure}
+
+\vspace{0.5em}
+
+\textbf{Recommended Folder Architecture}
+
+    \begin{itemize}
+        \item \texttt{/notes} – reading notes, idea sketches, meeting notes
+        \item \texttt{/data}
+            \begin{itemize}
+                \item \texttt{/raw} (read-only)
+                \item \texttt{/processed}
+            \end{itemize}
+        \item \texttt{/code} – scripts, functions, notebooks
+        \item \texttt{/results} – exploratory outputs, intermediary results
+        \item \texttt{/tables} - publication-ready tables\footnote{Exported if using \LaTeX}
+        \item \texttt{/figures} – exported publication-ready figures
+        \item \texttt{/manuscript} – bibliography, drafts and versions\footnote{If not using version control software}
+    \end{itemize}
+
+\end{frame}
+
+% ---------------------------------------------
+
+\begin{frame}{Project Structure}
+
+\textbf{Best Practices}
+\begin{itemize}
+    \item Explanatory README file in root directory
+    \item Separate raw and cleaned/processed data
+    \item Separate exploratory from finalized results (figs and tables)
+    \item Consistent naming conventions
+\end{itemize}
+
+\vspace{0.5em}
+
+\textbf{File Naming Conventions}
+
+\begin{itemize}
+    \item Consistent ordering:
+    \begin{itemize}
+        \item \texttt{survey\_raw\_2025.csv}
+        \item \texttt{survey\_cleaned\_2025.csv}
+    \end{itemize}
+    \textbf{Consistent capitalization:}
+    \begin{itemize}
+        \item \texttt{Upperstart} vs. \texttt{lowercase}
+        \item \texttt{CamelCase} vs. \texttt{start\_end}
+    \end{itemize}
+    \item Use descriptive, machine-readable names:
+    \begin{itemize}
+        \item Avoid: \texttt{final\_real\_final2.docx}
+        \item Prefer: \texttt{results/regression\_modelA.csv}
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}{Version Control}
+
+\textbf{Why Version Control?}
+\begin{itemize}
+    \item Prevents loss of work
+    \item Eases identification and fixing of problems/bugs
+    \item Avoid concern over losing removed text
+    \item Enables collaboration
+    \item Documents intellectual development
+\end{itemize}
+
+
+\textbf{Approaches}
+\begin{itemize}
+    \item Manual versioning 
+        \begin{itemize}
+            \item Use ISO dates: \texttt{2026-02-15\_analysis.R}
+            \item Version numbers: \texttt{manuscript\_v03.tex}
+            \item Coauthor comments: \texttt{manuscript\_v03\_MN.tex}
+        \end{itemize}
+    \item Cloud version history (synced folders, e.g., Dropbox, Box)
+    \item Git-based workflows (e.g., Git with GitHub)
+\end{itemize}
+
+
+\end{frame}
+
+%------------------------------------------------
+\section{Writing Workflows}
+
+\begin{frame}{Writing Workflow: From Ideas to Manuscript}
+\textbf{Linear model (non-existent):}
+\[
+\text{Ideas} \rightarrow \text{Notes} \rightarrow \text{Data} \rightarrow \text{Code} \rightarrow \text{Figures} \rightarrow \text{Manuscript}
+\]
+
+\vspace{0.5em}
+\begin{block}
+    {\textbf{Key Insight:} The workflow is iterative, not strictly linear.}
+    Most time is spent revising.
+\end{block}
+\vspace{0.5em}
+
+\textbf{Common Transition Points}
+\begin{itemize}
+    \item Notes $\rightarrow$ structured research questions
+    \item Code $\rightarrow$ validated results
+    \item Clarity $\rightarrow$ candidate figures
+    \item Figures $\rightarrow$ narrative refinement
+\end{itemize}
+
+\begin{block}{\textbf{Reminder:}}
+    Draft sections early (especially Methods and Results).
+\end{block}
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}{Pre-Drafting Structural Design}
+
+\begin{block}{\textbf{Core Principle:}}
+    Design structure deliberately; diagnose structure explicitly.
+\end{block}
+
+\textbf{Storyboarding}
+\begin{itemize}
+    \item Construct the argument visually before drafting prose.
+    \item Create one slide, page, or card per figure or major claim.
+    \item For each, specify:
+    \begin{itemize}
+        \item The core claim (1 sentence)
+        \item The evidence shown
+        \item Why it matters for the overall argument
+    \end{itemize}
+    \item Arrange in logical order to test narrative flow.
+    \item Identify missing transitions or unsupported claims early.
+\end{itemize}
+
+\textbf{Goal:}
+Ensure overall logical coherence before drafting prose\footnote{But remain open to change!}
+
+\end{frame}
+
+% --------------------------------------------
+\begin{frame}{Post-Drafting Structural Diagnosis}
+
+\begin{block}{\textbf{Core Principle:}}
+    Design structure deliberately; diagnose structure explicitly.
+\end{block}
+
+\textbf{Reverse Outlining}
+\begin{itemize}
+    \item Extract 1–2 bullet-point claims per paragraph.
+    \item Ignore prose quality; focus only on argumentative function.
+    \item Ask:
+    \begin{itemize}
+        \item Does each paragraph have a clear purpose?
+        \item Does the sequence of bullets form a coherent argument?
+        \item Are there redundancies or logical gaps?
+    \end{itemize}
+    \item Revise structure before revising sentences.
+\end{itemize}
+
+\textbf{Goal:}
+Ensure both internal and overall logical coherence after drafting prose.
+
+\end{frame}
+
+
+
+
+%------------------------------------------------
+\section{Journal Article Types}
+
+%------------------------------------------------
+\begin{frame}{IMRaD (Introduction–Methods–Results–Discussion)}
+    \fontsize{9pt}{10pt}\selectfont
+
+\begin{enumerate}
+    \item \textbf{Methods} first (most structurally constrained).
+    \item \textbf{Results} second (figure-driven; claim-evidence alignment).
+    \item \textbf{Introduction} after results clarify true contribution.
+    \item \textbf{Discussion} last to interpret, generalize, and situate.
+\end{enumerate}
+
+\vspace{0.4em}
+
+\textbf{Introduction (Why?)}
+\begin{itemize}
+    \item Move from broad problem to specific knowledge gap.
+    \item Critically evaluate literature (don't summarize passively).
+    \item End with explicit research questions, hypotheses, or key finding.
+\end{itemize}
+
+\textbf{Methods (How?)}
+\begin{itemize}
+    \item Provide enough detail for replication.
+    \item Use clear subheadings aligned with research questions.
+    \item Justify key analytical decisions.
+\end{itemize}
+
+\textbf{Results (What?)}
+\begin{itemize}
+    \item Organize around figures/tables.
+    \item Lead each subsection with the main finding, align with Methods sections
+    \item Avoid interpretation beyond minimal context.
+\end{itemize}
+
+\textbf{Discussion (So what?)}
+\begin{itemize}
+    \item Interpret findings relative to hypotheses.
+    \item Compare with prior literature.
+    \item Address limitations and articulate broader implications.
+\end{itemize}
+
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}{Methods-at-the-End Papers}
+\fontsize{9pt}{10pt}\selectfont
+
+
+\textbf{Design a Figure-Driven Narrative}
+\begin{itemize}
+    \item Determine the logical sequence of core results.
+    \item Ensure each figure advances the central claim.
+    \item Remove peripheral analyses from main text.
+\end{itemize}
+
+\textbf{Front-Load Essential Context}
+\begin{itemize}
+    \item Provide minimal methodological orientation in Results.
+    \item Define key variables and datasets before presenting outcomes.
+\end{itemize}
+
+\textbf{Write Results as a Coherent Argument}
+\begin{itemize}
+    \item Each subsection should answer a focused question.
+    \item Maintain conceptual momentum between figures.
+\end{itemize}
+
+\textbf{Develop Detailed Methods Section at End}
+\begin{itemize}
+    \item Provide full reproducibility detail.
+    \item Use clear subsections for sampling, measurements, analyses.
+    \item Anticipate reviewer questions and address proactively.
+\end{itemize}
+
+\textbf{Key:}
+Requires exceptionally clear storytelling
+
+\end{frame}
+
+% -----------------------------------------
+\begin{frame}{Literature Reviews}
+\fontsize{9pt}{10pt}\selectfont
+    
+\begin{itemize}
+    \item \textbf{Define scope precisely}
+    \begin{itemize}
+        \item What question is the review answering?
+        \item What time period, disciplines, or methodologies are included?
+    \end{itemize}
+    \item \textbf{Develop a transparent search strategy}
+    \begin{itemize}
+        \item Databases used, search terms, inclusion/exclusion criteria.
+        \item Consider a flow diagram for study selection.
+    \end{itemize}
+    \item \textbf{Organize by conceptual structure (not chronology)}
+    \begin{itemize}
+        \item Thematic clusters
+        \item Competing hypotheses
+        \item Methodological approaches
+    \end{itemize}
+    \item \textbf{Synthesize within sections}
+    \begin{itemize}
+        \item Compare studies directly.
+        \item Highlight agreements, disagreements, and methodological drivers.
+    \end{itemize}
+    \item \textbf{Conclude with implications}
+    \begin{itemize}
+        \item Identify unresolved questions.
+        \item Clarify future research directions.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Synthesis}
+\fontsize{9pt}{10pt}\selectfont
+
+\begin{itemize}
+    \item \textbf{Begin with a conceptual problem }
+    \begin{itemize}
+        \item What tension, paradox, or fragmentation exists?
+    \end{itemize}
+    \item \textbf{Abstract upward }
+    \begin{itemize}
+        \item Move from specific findings to higher-level principles.
+    \end{itemize}
+    \item \textbf{Integrate across domains }
+    \begin{itemize}
+        \item Combine theories, datasets, or methods not typically linked.
+    \end{itemize}
+    \item \textbf{Develop a unifying framework }
+    \begin{itemize}
+        \item Conceptual diagram or model.
+        \item Clear definitions of key constructs.
+    \end{itemize}
+    \item \textbf{Demonstrate explanatory gain }
+    \begin{itemize}
+        \item Show how the synthesis resolves contradictions or generates predictions.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Data Papers}
+\begin{itemize}
+    \item Clarify dataset purpose and potential reuse scenarios.
+    \item Provide full documentation:
+    \begin{itemize}
+        \item Sampling design, instrumentation, preprocessing steps.
+        \item File structure and variable-level metadata.
+    \end{itemize}
+    \item Demonstrate quality control
+    \begin{itemize}
+        \item Validation checks, error screening, uncertainty description.
+    \end{itemize}
+    \item Include example use cases
+    \begin{itemize}
+        \item Illustrative analyses showing dataset functionality.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+\section{Writing Tools}
+\begin{frame}[allowframebreaks]{Writing Tools}
+    \fontsize{9pt}{8pt}\selectfont
+    \begin{columns}[t]
+        \begin{column}{0.48\textwidth}
+            \begin{block}{Word / Pages / Google Docs}
+                \textbf{Pros:}
+                \begin{itemize}
+                    \item Widely used; track-changes
+                    \item Real-time cloud collaboration
+                \end{itemize}
+                \textbf{Cons:}
+                \begin{itemize}
+                    \item No or poor version control
+                    \item Formatting instability
+                \end{itemize}
+            \end{block}
+            
+            \begin{block}{\LaTeX}
+                \textbf{Pros:}
+                \begin{itemize}
+                    \item Lightweight, plain text
+                    \item Superior math, refs, tables
+                    \item Auto-numbering \& insertion
+                \end{itemize}
+                \textbf{Cons:}
+                \begin{itemize}
+                    \item Learning curve
+                    \item No real-time WYSIWYG
+                    \item Harder for collaborators
+                    \item No built-in track-changes
+                \end{itemize}
+            \end{block}
+        \end{column}
+
+        \begin{column}{0.48\textwidth}
+            \begin{block}{Markdown}
+                \textbf{Pros:}
+                \begin{itemize}
+                    \item Lightweight, plain text
+                    \item Future-proof format
+                    \item Easy code integration
+                \end{itemize}
+                \textbf{Cons:}
+                \begin{itemize}
+                    \item Toolchain setup required
+                    \item Limited image handling
+                \end{itemize}
+            \end{block}
+
+            \begin{block}{Scrivener}
+                \textbf{Pros:}
+                \begin{itemize}
+                    \item Research \& reference binder
+                    \item Snapshots for safe revisions
+                    \item Great for nonlinear drafting
+                \end{itemize}
+                \textbf{Cons:}
+                \begin{itemize}
+                    \item Not for collaborative work
+                    \item Proprietary file format
+                    \item Export cleanup required
+                \end{itemize}
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\begin{frame}{Additional Tools}
+
+\fontsize{10pt}{10pt}\selectfont
+
+\textbf{Dictation Tools}
+
+e.g, MS Speech Recognition,  macOS Dictation, Otter.ai {\tiny (300 min./mo.)}
+
+\begin{columns}[T, totalwidth=\textwidth]
+    \column{0.48\textwidth}
+    {\fontsize{8pt}{9pt}\selectfont
+    \textbf{Pros:}
+    \begin{itemize}
+        \item Rapidly capture ideas, reduce typing fatigue
+        \item Lowers activation energy to overcome writing inertia
+    \end{itemize}
+    }
+
+    \column{0.48\textwidth}
+    {\fontsize{8pt}{9pt}\selectfont
+    \textbf{Cons:}
+    \begin{itemize}
+        \item Substantial editing (typos, grammar, clarity, formatting)
+        \item Misinterpretation of technical or domain-specific terms
+    \end{itemize}
+    }
+\end{columns}
+
+\vspace{0.5em}
+\noindent\rule{\textwidth}{1pt}
+\vspace{0.5em}
+
+\textbf{Large Language Models (LLMs)}
+
+    e.g., ChatGPT, Claude, Scite, Elicit
+
+\begin{columns}[T, totalwidth=\textwidth]
+    \column{0.48\textwidth}
+    {\fontsize{8pt}{9pt}\selectfont
+    \textbf{Pros:}
+    \begin{itemize}
+        \item Assist in drafting sentences, paragraphs, and structured outlines
+        \item Suggest structural improvements, phrasing, and organization
+        \item Literature summaries or conceptual scaffolds
+    \end{itemize}
+    }
+
+    \column{0.48\textwidth}
+    {\fontsize{8pt}{9pt}\selectfont
+    \textbf{Cons:}
+    \begin{itemize}
+        \item Risk of (over)reliance, inhibiting original thought
+        \item Factual inaccuracies, limited domain knowledge or literature access
+        \item Generic or formulaic writing
+        \item Environmental impact
+    \end{itemize}
+    }
+\end{columns}
+
+\end{frame}
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+
+%------------------------------------------------
+\section{Figures}
+
+\begin{frame}{Conceptual and Data Figures}
+\textbf{Conceptual Figures}
+\begin{itemize}
+    \item Clarify theoretical frameworks
+    \item Summarize complex relationships
+\end{itemize}
+
+\textbf{Data Figures}
+\begin{itemize}
+    \item Present core results
+    \item Should be interpretable independently
+\end{itemize}
+
+\textbf{Manual vs. Code-Based Creation}
+\begin{itemize}
+    \item Manual (e.g., Illustrator): high aesthetic control
+    \item Code-based: reproducible and scalable
+\end{itemize}
+
+\textbf{File Formats Commonly Requested}
+\begin{itemize}
+    \item PDF – typically sufficient
+    \item TIFF – high-resolution images
+    \item EPS – vector graphics
+    \item Figure resolution (e.g., 300–600 dpi)
+\end{itemize}
+
+\end{frame}
+
+%------------------------------------------------
+\section{Final thoughts}
+\begin{frame}{Workflow Integration}
+\textbf{Align structure, tools, and formatting strategy.}
+
+\begin{itemize}
+    \item Organize for clarity early to reduce friction later.
+    \item Choose tools that match writing needs.
+    \item Separate development and writing from formatting.
+\end{itemize}
+
+\begin{block}{\textbf{Goal:}}
+    Efficient, transparent, and reproducible writing workflow.
+\end{block}
+\end{frame}
+
+%------------------------------------------------
+\end{document}
