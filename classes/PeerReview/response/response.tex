@@ -1,0 +1,272 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+
+\input{LetterStructure.tex} % Include the file that specifies the document 
+%structure
+
+\setlength{\parindent}{0.5cm}
+
+\usepackage{graphicx} % to insert figure
+\usepackage{enumitem} % for alternative enumeration
+
+
+\makeatletter
+\newenvironment{thebibliography}[1]
+{\list{\@biblabel{\@arabic\c@enumiv}}%
+	{\settowidth\labelwidth{\@biblabel{#1}}%
+		\leftmargin\labelwidth
+		\advance\leftmargin\labelsep
+		\usecounter{enumiv}%
+		\let\p@enumiv\@empty
+		\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+	\sloppy
+	\clubpenalty4000
+	\@clubpenalty \clubpenalty
+	\widowpenalty4000%
+	\sfcode`\.\@m}
+{\def\@noitemerr
+	{\@latex@warning{Empty `thebibliography' environment}}%
+	\endlist}
+\newcommand\newblock{\hskip .11em\@plus.33em\@minus.07em}
+\makeatother
+\usepackage[round,numbers,sort]{natbib}
+\let\bibsection\relax
+
+
+%~~~~~~~~~~~
+% For annotation
+%~~~~~~~~~~~
+% For purposes of highlighting needed numbers
+\usepackage{xcolor}
+\newcommand{\redX}{\textcolor{red}{XXX} }
+
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+% For responding to reviewers
+%------------------------------------------------------------------------
+%------------------------------------------------------------------------
+%-----------------------
+% Line-referencing
+%-----------------------
+%\usepackage{nameref} 
+\usepackage{xr}
+	\externaldocument{../../manuscript} % to cross-reference files
+\usepackage{lineno}
+%  command to label changes
+\newcommand{\LL}[1]{\label{#1}\linelabel{#1}}
+% command to cross-reference changes
+\newcommand{\LR}[1]{line~\lineref{#1}}
+% To use, add above to ms.tex too, then
+% place ``\LL{A1}'' in ms where change was made
+% and place ``\LR{A1}'' in response to reference the location
+
+% Point counter and reply formatting
+\newcommand{\initresponses}{\newcounter{pointcounter}}
+\newenvironment{reviewer}{\setcounter{pointcounter}{1}}{}
+\initresponses
+
+\newcommand{\point}[1]{
+	\begin{quotation}
+		\noindent
+		{\fontseries{b}\selectfont [Pt.\thepointcounter]}
+		\stepcounter{pointcounter} \itshape{#1}
+	\end{quotation}}
+
+\newcommand{\nonpoint}[1]{
+	\begin{quotation}
+		\noindent
+		\itshape{#1}
+\end{quotation}}
+
+\newcommand{\reply}{\noindent \textbf{Response:}\ }
+
+%----------------------------------------------------------------------------------------
+%	YOUR INFORMATION
+%----------------------------------------------------------------------------------------
+
+\Who{Mark Novak} % Your name
+
+\Title{} % Your title, leave blank for no title
+
+\authordetails{
+	Department of Integrative Biology\\ % Your department/institution
+	mark.novak@oregonstate.edu\\ % Your email address
+	https://novaklabosu.github.io% Your URL
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER CONTENTS
+%----------------------------------------------------------------------------------------
+
+\logo{OSU_horizontal_2C_O_over_B.png} % Logo filename, your logo should have square dimensions (i.e. roughly the same width and height), if it does not, you will need to adjust spacing within the HEADER STRUCTURE block in structure.tex (read the comments carefully!)
+
+\headerlineone{} % Top header line, leave blank if you only want the bottom line
+\headerlinetwo{} % Bottom header line
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{
+	\textit{Journal Name}
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Dr. \textit{Editor},}
+
+Thank you very much for evaluating our manuscript
+and for finding such expert reviewers.
+We are grateful for the reviewers' suggestions and are pleased to hear that you 
+are willing to consider recommending the manuscript.  
+To summarize the primary changes we have made
+in response to the reviews, 
+we have:
+\begin{itemize}
+	\item x
+	\item y
+	 and
+	\item z.
+\end{itemize}
+Detailed explanations of how we addressed these and all other suggestions 
+follow below.
+
+On behalf of my co-authors, 
+I thank you again for your time and consideration, 
+and hope that you find our revisions satisfactory.  
+We look forward to your response.
+
+\closing{Sincerely,\\
+\includegraphics[scale=0.3]{Novak-signature-blue.jpg}\\ }
+
+\vspace{2mm}
+\noindent\rule{\textwidth}{1pt}
+
+\noindent
+Each comment and suggestion has been numbered and italicized, 
+and is followed by our response.  
+
+\noindent\rule{\textwidth}{1pt}
+
+\begin{reviewer}
+\noindent
+\textbf{Editor}	
+
+\nonpoint{
+	xyz:
+	}
+\point{
+	xyz
+}
+
+\reply{
+	Thank you for pointing out this source of potential confusion.
+	We have incorporated the Reviewer's suggestion on \LR{r1p1}.
+}
+
+
+
+\point{
+	xyz
+}
+
+\reply{
+	We have incorporated the Reviewer's suggestion on \LR{r1p2}.
+}
+
+\end{reviewer}
+
+\noindent\rule{\textwidth}{1pt}
+
+\begin{reviewer}
+
+\noindent
+\textbf{Reviewer \#2}
+
+\nonpoint{
+xyz
+}
+
+\reply{
+	We thank the referee for providing this positive summary of our manuscript!
+}
+
+\point{
+	xyz
+}
+\reply{
+ xyz
+}
+
+\end{reviewer}
+
+
+\noindent\rule{\textwidth}{1pt}
+
+\begin{reviewer}
+	
+\noindent
+\textbf{Reviewer \#2}
+
+\nonpoint{
+	xyz
+}
+
+
+\point{
+	xyz
+}
+
+\reply{
+	xyz
+}
+
+
+
+%\begin{center}
+%	\begin{minipage}{0.9\textwidth}	
+	%%\includegraphics[width=0.9\textwidth]{figs/FracFeed-FigS-Histogram.pdf}\\
+	%		{\small \textbf{Figure A.} caption.}
+	%	\end{minipage}
+%\end{center}
+	
+\end{reviewer}
+
+\noindent\rule{\textwidth}{1pt}
+
+%\pagebreak
+
+%\bibliographystyle{abbrv}
+%{\footnotesize
+%	\bibliography{Response}}
+
+
+%----------------------------------------------------------------------------------------
+%	OPTIONAL FOOTNOTE
+%----------------------------------------------------------------------------------------
+
+% Uncomment the 4 lines below to print a footnote with custom text
+%\def\thefootnote{}
+%\def\footnoterule{\hrule}
+%\footnotetext{\hspace*{\fill}{\footnotesize\em Footnote text}}
+%\def\thefootnote{\arabic{footnote}}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+
+\end{document}
+
+
+
+
