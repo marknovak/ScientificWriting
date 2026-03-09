@@ -1,18 +1,15 @@
-# Journal Submission and Formatting
+# Journal Formatting and Submission
 
-Final formatting, author guidelines, journal-specific requirements, cover letter components, data & code sharing, submission logistics, common pitfalls.
+Final formatting, journal-specific author guidelines, Open Science, data & code sharing, submission logistics, page charges.
 
 ### Required readings (_before class_)
 
 
 ### To do (_before class_)
-- Ask your advisor for pdfs of one or two of their cover letters and confirm that they're willing to share it with the rest of the class (and on this public repository).  Read it to get a sense of its format and structure.
 
-- Read 3-4 of the example cover letters provided in [this](coverletters) folder and summarize their structure (i.e., write a sentence for each paragraph or key sentence to summarize its purpose).
 
 ### Class structure
-
-
+- Discussion of slides.
 
 ### Further readings
 
