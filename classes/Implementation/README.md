@@ -21,6 +21,6 @@ On some days we’ll also bring in guest speakers to share their insights and st
 
 [Reverse outlining](reverse_outline.md)
 
-Analysis of published papers
+[Analysis of published papers](paper_analysis.md)
 
 ***
