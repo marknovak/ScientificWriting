@@ -1,6 +1,6 @@
 # Writing Workflows
 
-Project organization strategies, idea-to-manuscript pipelines, research notes and code integration, manuscript templates, word processing tools (MS Word, LaTeX, Scrivener, Markdown), digital lab notebooks.
+Project organization strategies, idea-to-manuscript pipelines, research notes and code integration, manuscript templates, word processing tools (MS Word, LaTeX, Scrivener, Markdown), digital lab notebooks, use of generative AI.
 
 ### Required readings (_before class_)
 

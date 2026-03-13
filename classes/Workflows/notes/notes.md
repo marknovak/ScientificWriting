@@ -1,0 +1,6 @@
+## Use of AI
+
+### Example
+
+_The American Naturalist_
+"Authors may only use generative artificial intelligence (AI) and AI-assisted technologies to improve readability and language. Use of this technology should be done with human oversight and control, and authors should carefully review and edit the output, as it can include incorrect, biased, or incomplete statements. Please note that authors are ultimately fully responsible and accountable for all content, including any content produced by AI tools, and are thus liable for any breach of publication ethics. Any use of generative AI tools that goes beyond editing is prohibited unless it is explicitly part of the research (e.g., use of AI for data mining), in which case the use of AI tools must be fully disclosed and clearly described in the methods section. Any accompanying figures, images, or graphics cannot be products of such tools, without explicit permission of the editors. An AI program cannot be an author of a paper. A violation of this policy constitutes scientific misconduct."

@@ -1,0 +1,2 @@
+AmNat: 
+"Preprints are allowed if they are posted in noncommercial discipline-specific repositories such as BioRxiv, Arxiv, EcoEvoRxiv, or PCI. Preprints posted on commercial for-profit repositories (e.g., PeerJ) are not acceptable."
