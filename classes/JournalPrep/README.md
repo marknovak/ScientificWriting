@@ -9,7 +9,7 @@ Final formatting, journal-specific author guidelines, Open Science, data & code 
 
 
 ### Class structure
-- Discussion of slides.
+- Discussion of [slides](tex/JournalPrep_slides.pdf).
 
 ### Further readings
 

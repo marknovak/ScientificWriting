@@ -24,7 +24,7 @@ Click on a topic to see the day's plan (incl. required _before-class_ readings a
 
 | Week |  Day | Date | Topic |
 |:-:|:-----:|:------|:------|
-|1 | Mon | 3/30  | [Course Overview](classes/Introduction) & [Writing Habits](classes/Habits) | 
+|1 | Mon | 3/30  | [Course Overview](classes/Introduction) | 
 |  | Wed | 4/1  | [Writing Habits](classes/Habits) & [Project Proposal Presentations](classes/ProjectProposal) |
 |2 | Mon | 4/6  |  [Project Proposal Presentations](classes/ProjectProposal) |
 |  | Wed | 4/8  |  [_Implementation_](classes/Implementation) - Writing| 

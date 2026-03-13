@@ -12,7 +12,7 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 
 
 ### Class structure
-Discussion of topics outlined on slides.
+Discussion of topics outlined on [slides](tex/habits_slides.pdf).
 
 Complete this [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
 
