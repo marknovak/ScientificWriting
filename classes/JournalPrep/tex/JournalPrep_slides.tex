@@ -27,35 +27,83 @@
   \titlepage
 \end{frame}
 
-\section{Final Formatting}
+% -------------------------------------------------
 
+\section{Friendly Reviewers}
+
+\begin{frame}{Pre-Submission Review by Friendly Reviewers}
+  \footnotesize
+  \medskip
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Selecting Reviewers}
+      \begin{itemize}
+        \item Choose at least one \textbf{inside}
+          the specialty (for technical accuracy) and perhaps 
+          one \textbf{outside} it (for clarity and framing)
+        \item Avoid/Seek reviewers with strong prior positions on your findings
+        \item Prioritize people who will give
+          \emph{honest} feedback, not reassurance
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{Briefing Reviewers}
+      \begin{itemize}
+        \item State the target journal and audience
+        \item Set a realistic deadline
+          (2-3 weeks is standard)
+        \item Clarify what kind of feedback is useful:
+          structure, argument, clarity, or all three
+        \item Identify specific concerns you want addressed
+      \end{itemize}
+    \end{column}
+  \end{columns}
+
+  \medskip
+  Thank them by name in the Acknowledgments.
+
+  Consider mentioning in Cover Letter.
+
+  Friendly review is \emph{not} a substitute
+  for rigorous self-revision. Send out only
+  when you believe the manuscript is essentially complete.
+
+\end{frame}
+
+% -------------------------------------------------
+
+\section{Final Formatting}
+\footnotesize
 \begin{frame}
   \frametitle{Final Formatting}
-  \begin{itemize}
-    \item Things I ignore:
+
+    \textbf{Things I ignore:}
     \begin{itemize}
       \item Font type and size
       \item Margin requirements
       \item Journal-requested citation format
     \end{itemize}
-    \item Things I don't ignore:
+
+    \textbf{Things I don't ignore:}
     \begin{itemize}
       \item Word/page limits (\textit{incl. title, abstract, main text})
       \item Line spacing (\textit{double}) \& page numbering
       \item Figure placement (\textit{inline except if explicitly specified})
-      \begin{itemize}
-          \item Figure file formats (PDF, TIFF, EPS)
-      \end{itemize}
+          and formats (\textit{pdf, tiff, eps})
     \item Cover page and/or end-of-manuscript requirements
     \begin{itemize}
-      \item Author contribution and acknowledgments
-      \item Conflict of interest disclosure requirements
-      \item Data/code availability statement requirements
+      \scriptsize \item Author contribution and Acknowledgments
+      \item Conflict of Interest disclosure requirements
+      \item Data \& Code Availability statement requirements
     \end{itemize}
-     \end{itemize}
+    \end{itemize}
+
+    \textbf{Check:}
+    \begin{itemize}
     \item Triple-read for spelling and punctuation
     \item Citation completeness and consistency
-  \end{itemize}
+    \item Journal's double-blind requirements
+    \end{itemize}
 \end{frame}
 
 
@@ -75,13 +123,9 @@
 
   \medskip
   \textbf{The CRediT Taxonomy (14 Roles)} \href{https://credit.niso.org}{\texttt{credit.niso.org}}
-  \smallskip
-
   \begin{center}
   {\footnotesize
   \begin{tabular}{@{}ll@{}}
-    \hline
-    \textbf{Role} & \textbf{Role} \\
     \hline
     Conceptualization     & Methodology \\
     Data Curation         & Project Administration \\
@@ -117,8 +161,9 @@
 
       \bigskip
 
-      \textbf{All but imperative:} Agree on contributions \emph{before drafting}
-      --- not retroactively. Disagreements are common, uncomfortable, and potentially costly.\footnote{See \emph{Collaboration} class topic.}
+      \alert{\textbf{Imperative:}} Agree on contributions \emph{before drafting}, not retroactively. 
+      Disagreements are common, uncomfortable, and potentially costly.%
+      \footnote{See \emph{Collaboration} class.}
 
 \end{frame}
 % ============================================================
@@ -153,7 +198,7 @@
     \textbf{Type} & \textbf{Who Pays} & \textbf{Description} \\
     \hline
     \textbf{Gold}    & Author / funder   & Published OA immediately by the journal; APC required \\
-    \textbf{Green}   & Nobody            & Author self-archives a preprint or accepted manuscript in a repository (e.g., biorXiv) \\
+    \textbf{Green}   & Nobody            & Author self-archives a preprint or accepted manuscript in a repository (e.g., bior$\chi$iv) \\
     \textbf{Diamond} & Nobody            & Community- or institution-funded; no fees for authors or readers \\
     \textbf{Hybrid}  & Author            & Subscription journal offers OA for individual articles upon APC payment \\
     \textbf{Bronze}  & Nobody            & Freely readable on the publisher site \emph{without} open licence; access can be revoked \\
@@ -216,9 +261,40 @@
 
 \end{frame}
 
-
+% -------------------------------------------
 
 \section{Preprint Repositories}
+
+\begin{frame}{Preprint Repositories: Examples}
+
+  \footnotesize
+  \begin{description}
+    \item[\href{https://www.biorxiv.org}{\textbf{bioR$\chi$iv}}]
+      Life sciences; operated by Cold Spring Harbor Laboratory;
+      the dominant biology preprint server since 2013.
+
+    \item[\href{https://ecoevorxiv.org}{\textbf{EcoEvoR$\chi$iv}}]
+      Ecology and evolutionary biology; community-governed;
+      supports registered reports and post-publication versions.
+
+    \item[\href{https://arxiv.org}{\textbf{ar$\chi$iv}}]
+      Physics, mathematics, computer science, quantitative biology;
+      the oldest major preprint server (est.\ 1991); moderated by
+      field endorsers.
+
+    \item[\href{https://zenodo.org}{\textbf{Zenodo}}]
+      General-purpose; accepts preprints, datasets,
+      code, and presentations; assigns DOIs; widely used for
+      open science compliance.
+
+    \item[\href{https://www.authorea.com}{\textbf{Authorea}}]
+      Collaborative writing and preprint platform; supports
+      live figures, data embedding, and inline commenting;
+      blurs the boundary between manuscript and publication.
+  \end{description}
+
+\end{frame}
+
 \begin{frame}{Preprint Repositories: Primary Pros \& Cons}
 
   \footnotesize
@@ -261,125 +337,89 @@
 \end{frame}
 
 
+\begin{frame}{Peer Community In$\ldots$ (PCI)}
 
-\begin{frame}{Preprint Repository Examples}
+\begin{columns}[T, totalwidth=\textwidth]
 
-  \footnotesize
-  \begin{description}
-    \item[\href{https://www.biorxiv.org}{\textbf{bioR$\chi$iv}}]
-      Life sciences; operated by Cold Spring Harbor Laboratory;
-      the dominant biology preprint server since 2013.
-
-    \item[\href{https://ecoevorxiv.org}{\textbf{EcoEvoR$\chi$iv}}]
-      Ecology and evolutionary biology; community-governed;
-      supports registered reports and post-publication versions.
-
-    \item[\href{https://arxiv.org}{\textbf{ar$\chi$iv}}]
-      Physics, mathematics, computer science, quantitative biology;
-      the oldest major preprint server (est.\ 1991); moderated by
-      field endorsers.
-
-    \item[\href{https://zenodo.org}{\textbf{Zenodo}}]
-      General-purpose; accepts preprints, datasets,
-      code, and presentations; assigns DOIs; widely used for
-      open science compliance.
-
-    \item[\href{https://www.authorea.com}{\textbf{Authorea}}]
-      Collaborative writing and preprint platform; supports
-      live figures, data embedding, and inline commenting;
-      blurs the boundary between manuscript and publication.
-  \end{description}
-
-\end{frame}
-
-\begin{frame}{Peer Community In (PCI)}
+\column{0.8\textwidth}
 
   \footnotesize
-  \textbf{What is PCI?}\\
-  \smallskip
-  Peer Community In (\href{https://peercommunityin.org}{\texttt{peercommunityin.org}})
-  is a non-profit, community-driven initiative.
+  \href{https://peercommunityin.org}{\texttt{PeerCommunityIn.org}}
 
   \medskip
   \textbf{Goals}
   \begin{itemize}
-    \item Provide transparent peer review \emph{before}
-      or \emph{instead of} journal submission
-    \item Recommend high-quality preprints through a formal
-      \textbf{recommendation} process, equivalent to acceptance
-    \item Eliminate publication fees for authors and readers alike
-    \item Editorial and reviewer comments are public
+    \item Transparent peer review \emph{before}
+      (or \emph{instead of}) journal submission
+    \item Eliminate fees for authors and readers
     \item Reduce dependence on commercial publishers
   \end{itemize}
 
   \medskip
   \textbf{How It Works}
   \begin{itemize}
-    \item Authors submit a preprint (e.g., to bioR$\chi$iv) and
+    \item Authors submit preprint (e.g., to bioR$\chi$iv), then
       request PCI review
-    \item A recommender (acting editor) solicits reviews and
-      coordinates revision rounds
+    \item Volunteer recommender (acting editor) solicits and coordinates reviews
     \item Accepted preprints receive a \textbf{PCI Recommendation} ---
-      a citable, peer-reviewed endorsement
-    \item Many journals (PCI-friendly journals) accept
-      PCI-reviewed preprints with little or no additional review
+      citable endorsement
+    \item PCI-friendly journals accept
+      recommended preprints, or regular review
   \end{itemize}
 
-  \medskip
-  \textbf{Active Communities include:} Ecology, Evolutionary Biology,
-  Zoology, Neuroscience, Registered Reports, and others.
+\column{0.2\textwidth}
+\centering
+\includegraphics[width=\textwidth]{figs/PCI_list.png}
+
+\end{columns}
 
 \end{frame}
 
+
+% ----------------------------------
+
+\section{Page Charges}
+
+\begin{frame}{Page Charges \& Publication Fees}
+
+  \footnotesize
+  \begin{itemize}
+    \item \textbf{Article Processing Charges (APCs):} \$500--\$12,000+
+      depending on journal/OA model
+    \item \textbf{Page charges:}  \$0--\$200 per printed page for
+      subscription journals
+    \item \textbf{Color figure fees:} \$300--\$1,000+ per figure;
+      often free online-only
+  \end{itemize}
+
+  \medskip
+  \textbf{Who Pays --- and How to Find Out}
+  \begin{itemize}
+    \item \textbf{Ask your advisor first:} most PIs budget for publication
+      costs through grants; this is a normal conversation to have
+    \item \textbf{Institutional waivers:} many universities (but not OSU!) have
+      OA publishing funds; check with library
+    \item \textbf{Funder mandates:} NIH, Wellcome Trust, and others
+      \emph{require} OA and may cover fees directly
+    \item \textbf{Request a waiver:} most journals offer hardship waivers
+      for authors without funding --- ask before assuming you must pay
+  \end{itemize}
+
+  \medskip
+  \alert{\textbf{Bottom line:}} You shouldn't be expected to pay out of pocket.
+  Clarify funding \emph{before} submission, not after acceptance.
+
+\end{frame}
+
+% ----------------------------------
 
 \section{Submission Logistics}
 
 \begin{frame}
   \frametitle{Submission Logistics}
-  \begin{itemize}
-    \item Prepare submission materials:
-    \begin{itemize}
-      \item Main manuscript document
-      \item Figures and tables
-      \item Supplementary materials
-      \item Cover letter
-    \end{itemize}
-    \item Cover letter content:
-    \begin{itemize}
-      \item Significance of the work
-      \item Confirmation that work is original and not under review elsewhere
-      \item Suggested reviewers (if permitted)
-    \end{itemize}
-    \item Use journal's online submission system
-    \item Track manuscript number and submission confirmation
-    \item Plan for editorial timelines and revision rounds
-    \item Blind and double-blind reviews
-  \end{itemize}
-\end{frame}
-
-\section{Page Charges}
-
-\begin{frame}
-  \frametitle{Page Charges \& Publication Fees}
-  \begin{itemize}
-    \item Traditional journals may assess page charges:
-    \begin{itemize}
-      \item Usually charged per page
-      \item Costs vary widely by journal
-      \item May include color figure charges
-    \end{itemize}
-    \item Open access journals typically charge article processing fees (APCs)
-    \begin{itemize}
-      \item Range: \$0 to \$5,000+
-      \item Often discounted for specific regions or authors
-    \end{itemize}
-    \item Check funding sources:
-    \begin{itemize}
-      \item Many grants include publication budgets
-      \item Institutional memberships may provide discounts
-    \end{itemize}
-    \item Compare costs across potential target journals
-  \end{itemize}
+  \begin{center}
+      \textbf{Explore your target journal's submission system!}
+  \end{center}
 \end{frame}
 
 
