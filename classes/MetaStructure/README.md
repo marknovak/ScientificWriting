@@ -16,9 +16,13 @@ analysis of effective papers.
 
 ### To do (_before class_)
 
+Look over [slides](tex/MetaStructure_slides.pdf)
 
 ### Class structure
 
+Discussion of [slides](tex/MetaStructure_slides.pdf) & Sand-Jensen (2007).
+
+Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.md)
 
 ### Further readings
 
