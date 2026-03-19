@@ -2,6 +2,8 @@
 
 Literature search strategies, staying current in the field, source organization, reference management tools, annotated bibliographies, literature integration techniques.
 
+- Zotero Groups (Shared reference management) Shared library visible to all co-authors;syncs with Overleaf and Word
+
 ### Required readings (_before class_)
 
 

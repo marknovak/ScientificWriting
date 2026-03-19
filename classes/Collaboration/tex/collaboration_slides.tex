@@ -1,0 +1,405 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Berkeley}
+\usecolortheme{default}
+
+\setbeamertemplate{footline}[frame number]
+\beamertemplatenavigationsymbolsempty
+
+
+\title{Collaborative Writing}
+\author[]{IB 514: Scientific Writing}
+\date[]{}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Overview}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+% -------------------------------------------------
+\begin{frame}
+  \titlepage
+\end{frame}
+\section{Guiding Principles}
+
+\begin{frame}{Dissertation Manuscripts as Collaborative Efforts}
+
+  \footnotesize
+  \begin{itemize}
+    \item \textbf{You own the draft.} 
+        As first author, you are responsible for producing and maintaining 
+        the manuscript --- not for waiting on co-author input before moving forward.
+    \item \textbf{Your advisor may be a co-author, not an editor.}
+        They may revise and redirect, but the intellectual initiative
+        should come from you.
+    \item \textbf{Co-authorship is not automatic.} Contribution, not
+        relationship or seniority, should determine authorship; clarify
+        expectations \emph{before} writing begins.
+    \item \textbf{Co-authors have competing priorities.} 
+        You, your advisor, collaborating lab member, collaborator at another 
+        institution, need not share the same incentives.
+  \end{itemize}
+
+\end{frame}
+
+
+
+
+% ============================================================
+\section{Tools and Conventions}
+
+\begin{frame}{Tools for Collaborative Writing}
+
+  \footnotesize
+  \textbf{Choose tools that match your collaboration needs}
+
+  \begin{description}
+    \setlength{\itemsep}{5pt}
+    \item[\textbf{MS Word / Apple Pages}]
+      Share via email or cloud storage.
+      Well-known; track changes; offline editing;
+      weak for complex or equation-heavy formatting.
+
+    \item[\textbf{Google Docs}]
+      Real-time cloud-based editing.
+      Low barrier to entry; suggesting mode; comment threads;
+      best for early drafts or non-\LaTeX\ collaborators.
+
+    \item[\textbf{Overleaf}]
+      Cloud-based \LaTeX\ editor with real-time collaboration.
+      Comment threads; full revision history; Git sync;
+      the standard for \LaTeX\ manuscripts with multiple authors.
+
+    \item[\textbf{Git / GitHub}]
+      Version-controlled repositories; cloud-based.
+      Full audit trail; branching; ideal for \LaTeX\ and code;
+      not real-time; steeper learning curve.
+
+  \end{description}
+
+  \medskip
+  \textbf{Practical Rule:} Agree on a tool \emph{before} writing begins. Mid-project migrations are
+  time-consuming and introduce errors.
+
+\end{frame}
+
+
+\begin{frame}{File Versioning}
+
+  \footnotesize
+
+  If you're not using cloud-based or version control software...
+
+  \medskip
+  \textbf{File Naming}
+  Ambiguous filenames are a form of technical debt.
+  Adopt a convention and enforce it from day one.
+
+  \smallskip
+  \begin{center}
+  {\scriptsize
+  \begin{tabular}{@{}lp{8.5cm}@{}}
+    \textit{Avoid}  & \texttt{draft\_final\_v2\_JSmith\_revised\_FINAL.docx} \\
+    \textit{Better} & \texttt{2025-11-14\_manuscript\_v07.tex} \\
+  \end{tabular}
+  }
+  \end{center}
+
+  \medskip
+  \textbf{Versioning Conventions}
+  \begin{itemize}
+    \item Use \textbf{ISO dates} (\texttt{YYYY-MM-DD}) or
+      \textbf{sequential version numbers} (\texttt{v01}, \texttt{v02})
+      --- not both.  Append commenting author initials.
+    \item \textbf{Tag submission-ready versions} explicitly
+      (\texttt{v\_submitted}, \texttt{v\_R1})
+    \item \textbf{Don't delete old versions} --- archive them in
+      an \texttt{/archive} subfolder
+  \end{itemize}
+
+  \medskip
+  \textbf{Comment and Annotation Discipline}
+  \begin{itemize}
+    \item Resolve or explicitly defer all comments before
+      circulating a new draft
+    \item Use GitHub Issues or Google Docs comment threads to track
+      unresolved questions and decisions
+    \item Do not leave unresolved comments at submission ---
+      some journal portals expose tracked changes to reviewers
+  \end{itemize}
+
+\end{frame}
+
+
+% ============================================================
+\section{Collaboration is Communication}
+
+\begin{frame}{Establishing Norms and Expectations}
+
+    \footnotesize
+    \begin{block}{Collaboration is Communication}
+        Most conflicts stem from unmet unstated expectations
+    \end{block}
+
+    \medskip
+  \textbf{Clarify at the start:}
+  \begin{itemize}
+    \item \textbf{Authorship:} Confirm whether the advisor
+      will be last author and who is to be offered (the right to decline) authorship.
+    \item \textbf{Level of involvement:} Will advisor/collaborators
+      co-write sections, provide key figures, or provide feedback on drafts?
+    \item \textbf{Escalation path:} Who has final say on journal
+      choice, framing, interpretation, etc.?  What happens if co-authors disagree?
+    \item \textbf{Primary channel:} email, Slack, GitHub Issues ---
+      one platform for decisions, one for quick questions
+    \item \textbf{Response expectations:} what is a reasonable
+      turnaround for draft review (1 week? 3 weeks?) and for quick questions (48 hours?)
+    \item \textbf{Meeting cadence:} regular check-ins vs.\
+      milestone-driven meetings --- both have costs and benefits
+  \end{itemize}
+
+      \textbf{Decision documentation:} For large collaborations; all substantive
+      decisions recorded in a shared log (email thread, shared
+      doc, etc.)
+\end{frame}
+
+
+\begin{frame}{Common Issues}
+
+  \footnotesize
+  \textbf{Common Friction Points}
+  \begin{description}
+    \setlength{\itemsep}{4pt}
+    \item[\textit{Advisor rewrites your draft:}]
+      Treat as mentorship; study the changes;
+      ask for rationale on substantive edits.
+    \item[\textit{Co-author delays for weeks:}]
+      Set a gentle deadline when providing updated draft ---
+      \textit{``Could you get it back to me by X.''}
+    \item[\textit{Co-authors disagree:}]
+      Raise the conflict openly; do not triangulate
+      between them; request a joint discussion.
+  \end{description}
+
+  \medskip
+  \textbf{A Common Failure Mode}\\
+  \smallskip
+  Decisions made verbally in hallway conversations or lab meetings
+  that are not recorded. Three months later, co-authors remember
+  different outcomes.
+
+\end{frame}
+
+
+% ============================================================
+\section{Navigating Disagreements}
+
+\begin{frame}{Resolving Disagreements}
+
+  \footnotesize
+  \textbf{Identify the Type of Disagreement First}\\
+  \smallskip
+
+  {\scriptsize
+  \begin{tabular}{@{}lp{3.6cm}p{4cm}@{}}
+    \hline
+    \textbf{Type} & \textbf{Example} & \textbf{Possible Resolution Pathways} \\
+    \hline
+    \textbf{Scientific}
+      & Disagreement over statistical model choice
+        or interpretation of results
+      & Resolve with evidence; consider additional
+        analyses; consult a neutral expert \\[3pt]
+    \textbf{Framing}
+      & Disagreement over how to position
+        paper's contribution
+      & Consult target journal scope; summarize framing of
+        comparable studies \\[3pt]
+    \textbf{Stylistic}
+      & Disagreement over sentence-level writing choices
+      & Defer to the lead author; style is not worth
+        extended negotiation \\[3pt]
+    \textbf{Interpersonal}
+      & Conflict rooted in prior relationship dynamics,
+        credit concerns, or workload resentment
+      & Address directly and early; do not let it
+        contaminate scientific decisions \\
+    \hline
+  \end{tabular}
+  }
+
+  \medskip
+  \begin{itemize}
+    \item Separate \emph{positions} (what someone wants)
+      from \emph{interests} (why they want it) ---
+      interests are usually reconcilable
+    \item Put manuscript's quality and reader's
+      needs at the center of dispute
+    \item Seek advice from neutral party (e.g., committee member) if direct resolution
+      is failing
+  \end{itemize}
+
+\end{frame}
+
+
+% ============================================================
+
+\begin{frame}{Hierarchy and Power Imbalance}
+
+  \footnotesize
+  \textbf{Common Sources of Imbalance}
+  \begin{itemize}
+    \item \textbf{Career stage:} harder for student to
+      push back on a advisors framing choices, even when
+      student is domain expert
+    \item \textbf{Disciplinary norms:} fields may have incompatible assumptions about authorship
+      order, target journal status, publication timeline
+    \item \textbf{Publication pressure:} misaligned incentives
+      around when and where to publish can fracture teams
+  \end{itemize}
+
+  \begin{block}{Power Differentials Are Structural, Not Personal}
+  Collaborations can involve genuine differences in career vulnerability and publication pressure. 
+  Ignoring these dynamics does not neutralize them.
+  \end{block}
+
+  \textbf{Protective Strategies}
+  \begin{itemize}
+    \item Document your contributions in writing as work proceeds ---
+      do not rely on memory or goodwill at submission time
+    \item Raise authorship expectations explicitly and early,
+      before significant work has been invested
+    \item Consider drafting the \emph{Authorship Contributions} statement early
+  \end{itemize}
+
+\end{frame}
+
+
+% ============================================================
+\section{Task Management}
+\begin{frame}{Dividing and Tracking Contributions}
+
+  \footnotesize
+  \begin{center}
+    \emph{Ambiguity about responsibility is a project risk}
+  \end{center}
+
+  \textbf{Task Delegation Principles}
+  \begin{itemize}
+    \item \textbf{Assign ownership, not just involvement} ---
+      one person is responsible for each deliverable, even
+      if others contribute
+    \item \textbf{Be explicit about scope:} \textit{``draft
+      the methods section''} is a task;
+      \textit{``help with methods''} is not
+    \item \textbf{Revisit assignments} as the project evolves ---
+      initial task maps rarely survive contact with data
+    \item \textbf{Distinguish writing tasks from research tasks:}
+      the person who ran the analysis may not be the best person
+      to write it up, and vice versa
+  \end{itemize}
+
+  \medskip
+  \textbf{Contribution Tracking Tools}
+  \begin{description}
+    \setlength{\itemsep}{3pt}
+    \item[\textbf{Google Sheets}]
+      Simple shared task list with owner, status, and
+      deadline columns --- low barrier, universally accessible.
+    \item[\textbf{GitHub Issues}]
+      Create tasks with milestone tracking;
+      integrates directly with version-controlled repositories.
+    \item[\textbf{Asana/Trello/Notion}]
+      Visual project boards suited to larger or
+      longer-running collaborations.
+  \end{description}
+
+\end{frame}
+
+
+% ============================================================
+\section{Authorship Conversations}
+
+\begin{frame}{The Authorship Conversation}
+
+  \footnotesize
+  \textbf{When to Have It}\\
+  \smallskip
+  \textbf{Early} --- ideally before data collection begins,
+  certainly before writing starts. Revisit at submission.
+  (Conversations become exponentially harder once
+  significant effort has been invested.)
+
+  \medskip
+  \textbf{What to Establish}
+  \begin{itemize}
+    \item Who will be an author vs.\ acknowledged contributor?
+    \item What is the expected authorship order and on what basis?
+    \item What happens if contributions change substantially
+      during project?
+    \item Who is the senior and the corresponding author?
+    \item What is the plan if a co-author becomes unresponsive
+      before submission?
+  \end{itemize}
+
+  \medskip
+  \textbf{Avoid}
+  \begin{itemize}
+    \item \textbf{Gift authorship:} including advisor/collaborator who did not contribute substantially/intellectually
+    \item \textbf{Ghost authorship:} omitting those who  contributied substantially
+    \item \textbf{Retroactive negotiation:} changing authorship
+      order after submission without full co-author agreement
+  \end{itemize}
+
+\end{frame}
+
+
+% ============================================================
+\section{Friendly Reviewers}
+
+\begin{frame}{Pre-Submission Review by Friendly Reviewers}
+  \footnotesize
+  \medskip
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{Selecting Reviewers}
+      \begin{itemize}
+        \item Choose at least one \textbf{inside}
+          the specialty (for technical accuracy) and perhaps 
+          one \textbf{outside} it (for clarity and framing)
+        \item Avoid/Seek reviewers with strong prior positions on your findings
+        \item Prioritize people who will give
+          \emph{honest} feedback, not reassurance
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \textbf{Briefing Reviewers}
+      \begin{itemize}
+        \item State the target journal and audience
+        \item Set a realistic deadline
+          (2-3 weeks is standard)
+        \item Clarify what kind of feedback is useful:
+          structure, argument, clarity, or all three
+        \item Identify specific concerns you want addressed
+      \end{itemize}
+    \end{column}
+  \end{columns}
+
+  \medskip
+  Thank them by name in the Acknowledgments.
+
+  Consider mentioning in Cover Letter.
+
+  Friendly review is \emph{not} a substitute
+  for rigorous self-revision. Send out only
+  when you believe the manuscript is essentially complete.
+
+\end{frame}
+
+\end{document}

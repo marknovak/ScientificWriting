@@ -1,6 +1,6 @@
 # Collaborators and Collaborative Writing
 
-Collaborative writing dynamics, version control, communication strategies, task delegation, authorship conventions, contribution tracking, co-authorship expectations, (non-collaborator) friendly reviews.
+Collaborative writing dynamics, practical aspects such as collaborative use of version control (file version and comment tracking), communication strategies, dealing with disagreements, dealing with power imbalance and hierarchy and unaligned personal motivations, task delegation, contribution tracking, authorship conventions, establishing clarity for co-authorship expectations, use of (non-collaborator) friendly reviewers.
 
 ### Required readings (_before class_)
 
