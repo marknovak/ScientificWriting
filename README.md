@@ -1,5 +1,5 @@
 # Scientific Writing
-This repo contains the materials for _IB 514 Scientific Writing_, a graduate course in the department of Integrative Biology at Oregon State University.
+This repo contains the materials for _IB 514 Scientific Writing_, a graduate course in the [Department of Integrative Biology](https://ib.oregonstate.edu) at Oregon State University.
 The course will be taught for the first time in the Spring term of 2026 on Mondays and Wednesdays 12-1:20p, and every Spring term after that.
 
 ## Official course description
@@ -27,34 +27,29 @@ Click on a topic to see the day's plan (incl. required _before-class_ readings a
 |1 | Mon | 3/30  | [Course Overview](classes/Introduction) | 
 |  | Wed | 4/1  | [Writing Habits](classes/Habits) & [Project Proposal Presentations](classes/ProjectProposal) |
 |2 | Mon | 4/6  |  [Project Proposal Presentations](classes/ProjectProposal) |
-|  | Wed | 4/8  |  [_Implementation_](classes/Implementation) - Writing| 
+|  | Wed | 4/8  |  [_Exercises & Implementation_](classes/Implementation) - Writing| 
 |3 | Mon | 4/13  | [Writing Workflows](classes/Workflows) | 
 |  | Wed | 4/15  | [Manuscript Structuring ](classes/MetaStructure) |
-|4 | Mon | 4/20 |  [_Implementation_](classes/Implementation)  - Writing  (_Mark gone to OIMB_)|
-|  | Wed | 4/22  | [_Implementation_](classes/Implementation)  - Writing |
-|5 | Mon | 4/27 | [Literature Integration & Management](classes/Literature) | 
-|  | Wed | 4/29  | [_Implementation_](classes/Implementation)  - Writing |
-|6 | Mon | 5/4  | [Collaborators & Collaborative Writing](classes/Collaboration) | 
-|  | Wed | 5/6  | [_Implementation_](classes/Implementation)  - Writing |
-|7 | Mon | 5/11 | [Peer Review, Pre-publishing, Publication Process](classes/PeerReview) |
-|  | Wed | 5/13  | [_Implementation_](classes/Implementation)  - Writing|
-|8 | Mon | 5/18  | [_Implementation_](classes/Implementation) - Writing|
-|  | Wed | 5/20  | [Journal Formatting & Submission](classes/JournalPrep) | 
-|9 | Mon | 5/25  |  ------ No class - _Memorial Day_ ------  |
-|  | Wed | 5/27  | [_Implementation_ - Cover Letters](classes/CoverLetters) |
+|4 | Mon | 4/20 |  [_Exercises & Implementation_](classes/Implementation)  - Writing  (_Mark gone to OIMB_)|
+|  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - Writing |
+|5 | Mon | 4/27 | [Literature Management](classes/Literature) | 
+|  | Wed | 4/29  | [_Exercises & Implementation_](classes/Implementation)  - Writing |
+|6 | Mon | 5/4  | [Collaboration & Collaborative Writing](classes/Collaboration) | 
+|  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - Writing & Revising|
+|7 | Mon | 5/11 | [Peer Review Process](classes/PeerReview) |
+|  | Wed | 5/13  | [_Exercises & Implementation_](classes/Implementation)  - Writing & Revising|
+|8 | Mon | 5/18  | [_Exercises & Implementation_](classes/Implementation) - Writing & Revising|
+|  | Wed | 5/20  | [Journal Preparation & Submission](classes/JournalPrep) | 
+|9 | Mon | 5/25  |  ------ **No class** - _Memorial Day_ ------  |
+|  | Wed | 5/27  | [_Exercises & Implementation_ - Cover Letters](classes/CoverLetters) |
 |10| Mon | 6/1 | [Final Report Presentations](classes/ProjectReport) | 
 |  | Wed | 6/3  | [Final Report Presentations](classes/ProjectReport) & Wrap-up | 
 |11| Mon | 6/7 | **_Manuscripts due!_** | 
 
 
-## Potential topics
-If you would like to make suggestions for what we should cover in the course, create an `Issue` or add your suggestions and comments to this [GoogleDoc](https://docs.google.com/document/d/1859Pso6qjKtsYYzDdeIeb6kMisjx3tT7lTsLHW0632U/edit?usp=sharing).
-
-[Pre-Publishing & Alternative Review Models](classes/PrePublish) 
-
-## Broken links and Suggestions
+## Potential topics, Broken links & Suggestions
+If you would like to make suggestions for topics we should cover in the course, create an `Issue` or add your suggestions and comments to this [GoogleDoc](https://docs.google.com/document/d/1859Pso6qjKtsYYzDdeIeb6kMisjx3tT7lTsLHW0632U/edit?usp=sharing).
 If you find a broken link or typo, please create an Issue to let me know where it is! 
-You can also create an Issue to leave feedback, pose questions, or suggest new or alternative materials (e.g., new publications) to include. 
-You can also write to me at mark.novak@oregonstate.edu.
+Please also create an `Issue` to leave feedback, pose questions, or suggest new or alternative materials (e.g., new publications) to include. 
 
 ***
