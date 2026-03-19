@@ -1,20 +1,24 @@
 % This script will pull the tex-created pdfs of all specified classe notes together into one pdf container
 
-\documentclass{report}
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
 \usepackage{pdfpages}
+\usepackage{hyperref}
 
+\newcommand{\insertsection}[2]{%
+    \section{#1}
+    \includepdf[pages=-]{../../classes/#2/tex/#2}
+    \begin{frame}[plain]
+    \end{frame}
+}
 
-% Note: there are two ways to pull LaTeX documents together.  This tex file simply combines 
-%pre-compiled pdfs.  The other is to pull together and compile the individual tex files together (which 
-%requires those files not having their own preamble setups).
-% See https://tex.stackexchange.com/questions/155867/making-one-pdf-file-from-multiple-pdfs-or-tex
-
-\title{\textbf{Scientific Writing}\\All course notes strung together}
+\title{\textbf{IB 514: Scientific Writing}\\{\footnotesize \textit{All course slides strung together}}}
 
 \begin{document}
-	\maketitle
+    \maketitle
+    \tableofcontents
 
-%	\includepdf[pages=-]{../../classes/}
-
+    \insertsection{Introduction}{Introduction_slides.pdf}
+	\insertsection{Habits}{Habits_slides.pdf}
 
 \end{document}
