@@ -1,0 +1,458 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Berkeley}
+\usecolortheme{default}
+
+\setbeamertemplate{footline}[frame number]
+\beamertemplatenavigationsymbolsempty
+
+\setbeamerfont{subsection in toc}{size=\scriptsize}
+
+\usepackage[most]{tcolorbox}
+
+\title{Literature Managment}
+\author[]{IB 514: Scientific Writing}
+\date[]{}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Overview}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+
+\begin{document}
+
+%------------------------------------------------
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Overview}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+%------------------------------------------------
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ============================================================
+\section{Framing the Challenge}
+% ============================================================
+\begin{frame}{The Literature Problem}
+
+  \footnotesize
+  \textbf{Two Competing Demands}
+  \begin{itemize}
+    \item Knowing the \textbf{foundational and classic} literature
+      in your field
+    \item Staying current with a \textbf{rapidly expanding} body
+      of new work --- often across multiple subfields
+  \end{itemize}
+
+  \medskip
+  \textbf{Common Failure Modes}
+  \begin{itemize}
+    \item \textbf{Passive accumulation:} PDF hoarding without
+      reading or annotation
+    \item \textbf{Over-reading without synthesis:} consuming
+      papers without integrating them into an argument
+    \item \textbf{Reliance on incomplete system:} searching
+      only Google Scholar, relying only on specific keyword alert
+  \end{itemize}
+
+  \medskip
+  \begin{block}{Key Principle}
+    You do not need to read everything.
+    You need a \textbf{structured system} for filtering,
+    organising, and revisiting literature that balances skimming
+    and deep reading.
+  \end{block}
+
+\end{frame}
+
+
+% ============================================================
+\section{Staying Current}
+% ============================================================
+% ------------------------------------------------------------
+\subsection{Alerts and Feeds}
+% ------------------------------------------------------------
+
+\begin{frame}{Staying Current: Alerts and Feeds}
+
+  \footnotesize
+  \textbf{Set up alerts --- then let new literature come to you}
+
+  \smallskip
+  \begin{description}
+
+    \item[\textbf{Journal ToC / bioR$\chi$v Alerts}]
+      Subscribe through websites or aggregate
+      via RSS reader (e.g., Feedly). Best for core journals in
+      your subfield --- gives you everything, not just keyword matches.
+
+    \item[\textbf{Web of Science / Google Scholar Alerts}]
+      Key paper and keyword alerts delivered by email on a schedule
+      you control. \textit{Highly filtered; low noise.}
+
+    \item[\textbf{ResearchGate / Google Scholar Profile Suggestions}]
+      Follow authors in your field, surface papers
+      based on your reading history.
+
+    \item[\textbf{Social Media}]
+      Direct announcements of new papers; hashtags
+      and community accounts surface work quickly.
+      \textit{Informal but fast.}
+  \end{description}
+
+  \medskip
+  \begin{block}{\textbf{Strategy}}
+    Separate \textbf{scanning} from \textbf{deep reading}; schedule dedicated time for each.
+  \end{block}
+
+\end{frame}
+
+
+% ------------------------------------------------------------
+\subsection{Active Filtering}
+% ------------------------------------------------------------
+
+\begin{frame}{Staying Current: Active Filtering}
+
+  \footnotesize
+  \textbf{Three-Tier Filtering System}
+  \smallskip
+  \begin{enumerate}
+    \item \textbf{Scan:} titles / abstracts only ---
+      decide relevance in under 60 sec.
+    \item \textbf{Triage:} save potentially relevant PDFs
+      to reference manager or folder
+    \item \textbf{Deep Read:} full reading reserved for
+      highest-priority papers
+  \end{enumerate}
+
+  \medskip
+  \textbf{Heuristics for Prioritisation}
+  \begin{itemize}
+    \item Direct relevance to current or future projects
+    \item Methods, datasets, or frameworks of potential use
+    \item Intriguing novelty / fun
+  \end{itemize}
+
+  \medskip
+  \textbf{AI-Assisted Reading Tools (examples)}
+
+  \smallskip
+  \begin{tabular}{@{}lp{7.5cm}@{}}
+    \hline
+    NotebookLM  & Query PDFs conversationally;
+                           rapid orientation to new subfield \\
+    Speechify   & Convert papers to audio for
+                           assessment in low-focus time \\
+    \hline
+  \end{tabular}
+
+  \vfill
+  \begin{block}{Reading everything is inefficient}
+    \textbf{Selective re-reading} is where understanding develops.
+  \end{block}
+
+\end{frame}
+
+
+% ============================================================
+\section{Literature Search}
+% ============================================================
+% ------------------------------------------------------------
+\subsection{Search Strategies}
+% ------------------------------------------------------------
+\begin{frame}{Literature Search Strategies (Traditional)}
+
+  \footnotesize
+  \textbf{Citation Chaining}
+  \begin{itemize}
+    \item \textbf{Backward search:} scan for common references in recent papers
+    \item \textbf{Forward search:} scan and follow citations of key papers
+  \end{itemize}
+
+  \medskip
+  \textbf{Author Search}
+  \begin{itemize}
+    \item Identify 5--10 leading (frequently cited) researchers;
+    track the citation records of most cited papers
+  \end{itemize}
+
+  \medskip
+  \textbf{Start Broad, Then Narrow}
+  \begin{itemize}
+    \item Use general keywords to identify core papers;
+      refine iteratively using Boolean operators
+      (\texttt{AND}, \texttt{OR}, \texttt{NOT})
+    \item Update as terminology, useful keywords and authors become clearer
+  \end{itemize}
+
+  \medskip
+  \begin{block}{Goal (especially for new-to-you fields)}
+    Identify the \textbf{core intellectual structure} of a topic,
+    not just a list of papers.
+  \end{block}
+
+\end{frame}
+
+
+% ------------------------------------------------------------
+\subsection{Search Tools}
+% ------------------------------------------------------------
+\begin{frame}{Literature Search Tools}
+
+  \footnotesize
+  \begin{description}
+    \item[\textbf{Web of Science}]
+      Curated index; strong citation tracking and bibliometric
+      tools; advanced Boolean searches and exportable
+      results. The Standard for systematic searches.
+      {\scriptsize \textit{Requires institutional access.}}
+
+    \item[\textbf{Google Scholar}]
+      Far less precise than WoS but broad coverage including preprints, theses, and
+      grey literature. 
+      Useful for quick searches and obtaining PDFs.
+      {\scriptsize \textit{Free.}}
+
+    \item[\textbf{AI-Assisted Tools}]
+       {\scriptsize Tools evolving rapidly. Reliability growing but TBD.}\\
+      \begin{itemize}\footnotesize
+        \item \textbf{Elicit:} structured queries
+          and paper summaries
+        \item \textbf{Scite:} identifies whether papers \emph{support} or
+          \emph{contrast} the work they cite
+        \item \textbf{Semantic Scholar / ResearchRabbit:}
+          relevance ranking, topic mapping, and citation
+          network visualisation
+      \end{itemize}
+  \end{description}
+
+\end{frame}
+
+
+% ============================================================
+\section{Reference Management}
+% ============================================================
+% ------------------------------------------------------------
+\subsection{Tools}
+% ------------------------------------------------------------
+\begin{frame}{Reference Managers}
+
+  \footnotesize
+
+  \begin{block}{\textbf{Core Function}}
+    Database to organize sources and auto-format citations and bibliographies
+  \end{block}
+  \textbf{Other Functions}
+  \begin{itemize}\scriptsize
+    \item Enable tagging, search, and annotation
+    \item Store and organise PDFs
+    \item Sync across devices; shared group libraries
+  \end{itemize}
+
+  \medskip
+  \textbf{Zotero\footnote{{\tiny Free (maybe limited) and open-source; $\phantom{}^2$\$\$\$ proprietary}}} (most used?)
+  \begin{itemize}
+     \item Integrates with Word, Google, \LaTeX{}
+      (w/ \texttt{Better BibTeX})
+    \item Browser plugin captures
+      metadata and PDFs in one click
+    \item Group libraries: share collections with
+      co-authors in real time
+    \item Supports tags, notes, related items, PDF annotation
+  \end{itemize}
+
+  \medskip
+  \scriptsize
+  \textbf{Alternatives include:} 
+  BibDesk$\phantom{}^1$ (\LaTeX), 
+  Mendeley$\phantom{}^2$ (strong PDF reader),
+  EndNote$\phantom{}^2$ (institutional standard), 
+  Paperpile$\phantom{}^2$ (Google Docs integration)
+
+\end{frame}
+
+
+% ------------------------------------------------------------
+\subsection{Organisation and Annotation}
+% ------------------------------------------------------------
+\begin{frame}{Organizing Sources}
+
+  \footnotesize
+  \textbf{Build Structure, Not Just Storage}
+  \begin{itemize}
+    \item Organise by \textbf{project} or \textbf{manuscript},
+      not by topic alone --- projects have deliverables
+    \item Use \textbf{tags} for cross-cutting themes
+      {\scriptsize (e.g., \texttt{classic},
+      \texttt{2read}, \texttt{cited-in-ch2})}
+  \end{itemize}
+
+  \medskip
+  \textbf{Recommended Approach: Two-Layer System}
+  \begin{itemize}
+    \item \textbf{Reference manager:} storage, PDF access, citation generation
+    \item \textbf{External notes} (e.g., a plain-text or
+      Markdown file per project): conceptual synthesis,
+      argument mapping, connections across papers
+  \end{itemize}
+  \begin{block}{The two layers complement each other}
+    The reference manager stores, the notes file thinks
+  \end{block}
+\end{frame}
+
+
+% ------------------------------------------------------------
+\begin{frame}{Annotated Bibliographies}
+
+  \footnotesize
+  \textbf{Purpose}
+  \begin{itemize}
+    \item Convert reading into structured, reusable knowledge
+    \item Force active engagement
+    {\scriptsize (you can't annotate what you've only skimmed)}
+    \item Becomes raw material for your Introduction and
+      Discussion sections
+  \end{itemize}
+
+  \medskip
+  \textbf{What to Include per Entry}
+  \begin{itemize}
+    \item Core question or objective of the paper
+    \item Key findings and conclusions
+    \item Methods or analytical approach
+    \item Relevance to your own work
+    \item Limitations or unresolved gaps
+  \end{itemize}
+
+  \medskip
+  \textbf{Suggestions}
+  \begin{itemize}
+    \item Write in your own words --- not copy-pasted from abstract
+    \item Keep entries concise: 3--6 bullet points
+    \item Use Zotero's note field to keep with reference
+    \item Update entries as your understanding evolves
+  \end{itemize}
+
+\end{frame}
+
+
+% ============================================================
+\section{Writing from the Literature}
+% ============================================================
+\subsection{Integration Strategies}
+% ------------------------------------------------------------
+\begin{frame}{Integrating Literature in Your Writing}
+
+  \footnotesize
+
+  \textbf{Writing \textit{with} specific papers in mind}
+  \begin{itemize}
+    \item \emph{Pros:} precise citation; accurate representation
+      of prior work; anchors claims to evidence
+    \item \emph{Cons:} can produce fragmented,
+      citation-heavy prose; limits synthesis; writing
+      follows the literature rather than your argument
+    \item \emph{Best for:} methods sections, direct
+      comparisons, specific statistics
+  \end{itemize}
+
+  \medskip
+  \textbf{Writing \textit{without} specific papers in mind}
+  \begin{itemize}
+    \item \emph{Pros:} promotes conceptual clarity;
+      argument-driven structure; encourages synthesis, faster drafting%
+      {\scriptsize \footnote{\textit{"Write drunk, edit sober."} --- Hemingway}}
+    \item \emph{Cons:} risk of vague/unsupportable claims;
+      requires well-stocked library; misrepresented citations
+    \item \emph{Best for:} introduction and discussion (synthesis)
+  \end{itemize}
+
+\end{frame}
+
+
+% ------------------------------------------------------------
+\subsection{Hybrid Writing Strategy}
+% ------------------------------------------------------------
+
+\begin{frame}{Best Practice: The Hybrid Writing Strategy}
+
+  \footnotesize
+  \textbf{Step 1 --- Draft Conceptually}
+  \begin{itemize}
+    \item Write the argument without citations
+    \item Focus on logic, structure, and your own voice
+    \item Placeholder (\texttt{[CITE]}) where citation is needed
+  \end{itemize}
+
+  \medskip
+  \textbf{Step 2 --- Map Literature Onto the Argument}
+  \begin{itemize}
+    \item Add citations to support each claim
+    \item Replace general statements with specific evidence
+    \item Consult annotated bibliography ---
+      most sources are likely there
+  \end{itemize}
+
+  \medskip
+  \textbf{Step 3 --- Refine for Balance}
+  \begin{itemize}
+    \item Avoid over-citation --- not every sentence
+      needs a reference
+    \item Ensure key and foundational works are represented
+    \item Verify every citation against the source
+    \item Never cite a paper you have not fully read
+  \end{itemize}
+
+  \medskip
+  \begin{block}{Recommendation}
+    Use argument-first writing for structure and flow,
+    then verify every citation.
+  \end{block}
+
+\end{frame}
+
+
+
+% ============================================================
+\section{Takeaway}
+% ============================================================
+\begin{frame}{Takeaway}
+
+  \footnotesize
+
+  Knowing the classics and staying on top of the literature is a \textbf{process} 
+  and is a part of your \textbf{job} as a scientist (and educator).
+
+  \smallskip
+  Recognize it as such and \textbf{regularize it} as part of your weekly schedule.
+
+  \medskip
+  \textbf{Remember the four pillars:}
+  \begin{description}
+     \item[\textbf{Discover:}] alerts + citation chaining + active search 
+    \item[\textbf{Filter:}] scan $\rightarrow$ triage $\rightarrow$ deep read
+    \item[\textbf{Organise:}] reference manager + external synthesis notes + annotated bibliography
+    \item[\textbf{Integrate:}] argument-first drafting $\rightarrow$ citation mapping $\rightarrow$ refinement
+  \end{description}
+
+  \medskip
+  \begin{block}{Takeaway}
+    Managing the literature is not about volume.\\
+    It's about \textbf{structure, selectivity, and synthesis}.
+  \end{block}
+
+\end{frame}
+
+\end{document}
