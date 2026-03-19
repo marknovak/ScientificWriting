@@ -7,6 +7,7 @@ Collaborative writing dynamics, practical aspects such as collaborative use of v
 
 ### To do (_before class_)
 
+Read through of [slides](tex/collaboration_slides.pdf)
 
 ### Class structure
 
