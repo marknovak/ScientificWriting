@@ -5,10 +5,15 @@
 \usepackage{pdfpages}
 \usepackage{bookmark}
 
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+
 \newcommand{\addsectionpdf}[1]{%
     \section{#1}
     \includepdf[pages=-]{../../classes/#1/tex/#1_slides.pdf}
-    \begin{frame}[plain]
+    \begin{frame}
+        \tableofcontents
     \end{frame}
 }
 
@@ -29,6 +34,7 @@
     \addsectionpdf{MetaStructure}
     \addsectionpdf{Literature}
     \addsectionpdf{Collaboration}
+    \addsectionpdf{PeerReview}
     \addsectionpdf{JournalPrep}
 
 \end{document}
