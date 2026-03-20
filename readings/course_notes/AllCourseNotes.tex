@@ -1,17 +1,19 @@
-% This script will pull the tex-created pdfs of all specified classe notes together into one pdf container
-
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage{pdfpages}
 \usepackage{bookmark}
+\usepackage{standalone} % to ignore preambles of included files
+
+
 
 \setbeamertemplate{section in toc}[sections numbered]
 \setbeamertemplate{subsection in toc}[subsections numbered]
 
 
-\newcommand{\addsectionpdf}[1]{%
+\newcommand{\addsection}[1]{%
     \section{#1}
-    \includepdf[pages=-]{../../classes/#1/tex/#1_slides.pdf}
+ %   \includepdf[pages=-]{../../classes/#1/tex/#1_slides.pdf}
+    \input{../../classes/#1/tex/#1_slides.tex}
     \begin{frame}
         \tableofcontents
     \end{frame}
@@ -28,13 +30,13 @@
         \tableofcontents
     \end{frame}
 
-    \addsectionpdf{Introduction}
-    \addsectionpdf{Habits}
-    \addsectionpdf{Workflows}
-    \addsectionpdf{MetaStructure}
-    \addsectionpdf{Literature}
-    \addsectionpdf{Collaboration}
-    \addsectionpdf{PeerReview}
-    \addsectionpdf{JournalPrep}
+    \addsection{Introduction}
+    \addsection{Habits}
+    \addsection{Workflows}
+    \addsection{MetaStructure}
+    \addsection{Literature}
+    \addsection{Collaboration}
+    \addsection{PeerReview}
+    \addsection{JournalPrep}
 
 \end{document}
