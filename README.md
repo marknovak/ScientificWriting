@@ -13,8 +13,8 @@ You must be ready to start writing a scientific manuscript the first week of the
 
 ## Repository content
 The repository's most relevant folders are:
-- [course_info](course_info/) -  [assignments](course_info/assignments/), grading [rubrics](course_info/rubrics/), and the [course syllabus](course_info/syllabus/syllabus.pdf);
-- [classes](classes/) - sub-folders for each course topic;
+- [course_info](course_info/) -  [assignments](course_info/assignments/), grading [rubrics](course_info/rubrics/), [course syllabus](course_info/syllabus/syllabus.pdf), and [combined table of contents](course_info/course_ToC/course_ToC.pdf) for all the course slides;
+- [classes](classes/) - sub-folders for each course topic (see topic-specific links in the [schedule](#schedule) below);
 - [readings](readings/) - pdfs of the required and suggested readings.
 
 
