@@ -10,19 +10,23 @@ signposting,
 structural coherence,
 analysis of effective papers.
 
+---
+
 ### Required readings (_before class_)
 
 - [Sand-Jensen (2007) How to write consistently boring scientific literature](../../readings/pdfs/SandJensen_2007.pdf)
 
 ### To do (_before class_)
 
-Look over [slides](tex/MetaStructure_slides.pdf)
+Look over [slides](tex/MetaStructure_slides.pdf).
 
 ### Class structure
 
 Discussion of [slides](tex/MetaStructure_slides.pdf) & Sand-Jensen (2007).
 
 Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.md)
+
+---
 
 ### Further readings
 

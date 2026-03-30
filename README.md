@@ -19,33 +19,34 @@ The repository's most relevant contents:
 - [course_notes](readings/course_notes/AllCourseNotes.pdf) - aggregated slide deck containing all course slides.
 
 
-
 ## Schedule
 Click on a topic to see the day's plan (incl. required _before-class_ readings and to-do list).
 
 | Week |  Day | Date | Topic |
 |:-:|:-----:|:------|:------|
-|1 | Mon | 3/30  | [Course Overview](classes/Introduction) | 
-|  | Wed | 4/1  | [Writing Habits](classes/Habits) & [Project Proposal Presentations](classes/ProjectProposal) |
-|2 | Mon | 4/6  |  [Project Proposal Presentations](classes/ProjectProposal) |
-|  | Wed | 4/8  |  [_Exercises & Implementation_](classes/Implementation) - Writing| 
-|3 | Mon | 4/13  | [Writing Workflows](classes/Workflows) | 
-|  | Wed | 4/15  | [Manuscript Structuring ](classes/MetaStructure) |
+|1 | Mon | 3/30  | [Welcome & Course Overview](classes/Introduction) | 
+|  | Wed | 4/1  | [Project Proposal Presentations](classes/ProjectProposal) &  [Writing Habits](classes/Habits) |
+|2 | Mon | 4/6  |  [Writing Workflows](classes/Workflows) |
+|  | Wed | 4/8  |  [_Exercises & Implementation_](classes/Implementation) - [Paper Analysis](classes/PaperAnalysis/README.md)| 
+|3 | Mon | 4/13  | [Manuscript Structuring ](classes/MetaStructure) | 
+|  | Wed | 4/15  |  [_Exercises & Implementation_](classes/Implementation)  - Writing (incl. Squibler tool)|
 |4 | Mon | 4/20 |  [_Exercises & Implementation_](classes/Implementation)  - Writing  (_Mark gone to OIMB_)|
-|  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - Writing |
+|  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - [Rainbow Paragraphs](classes/Implementation/rainbow_paragraphs.md) |
 |5 | Mon | 4/27 | [Literature Management](classes/Literature) | 
 |  | Wed | 4/29  | [_Exercises & Implementation_](classes/Implementation)  - Writing |
 |6 | Mon | 5/4  | [Collaboration & Collaborative Writing](classes/Collaboration) | 
-|  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - Writing & Revising|
+|  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - [Reverse Outlining](classes/Implementation/reverse_outline.md)|
 |7 | Mon | 5/11 | [Peer Review Process](classes/PeerReview) |
-|  | Wed | 5/13  | [_Exercises & Implementation_](classes/Implementation)  - Writing & Revising|
+|  | Wed | 5/13  | [_Exercises & Implementation_](classes/Implementation)  - [Peer Intro Analysis](classes/Implementation/peer_introductions.md)|
 |8 | Mon | 5/18  | [_Exercises & Implementation_](classes/Implementation) - Writing & Revising|
 |  | Wed | 5/20  | [Journal Preparation & Submission](classes/JournalPrep) | 
 |9 | Mon | 5/25  |  ------ **No class** - _Memorial Day_ ------  |
 |  | Wed | 5/27  | [_Exercises & Implementation_ - Cover Letters](classes/CoverLetters) |
-|10| Mon | 6/1 | [Final Report Presentations](classes/ProjectReport) | 
+|10| Mon | 6/1 | [_Exercises & Implementation_](classes/Implementation) - Writing & Revising|
 |  | Wed | 6/3  | [Final Report Presentations](classes/ProjectReport) & Wrap-up | 
 |11| Mon | 6/7 | **_Manuscripts due!_** | 
+
+---
 
 
 ## Potential topics, Broken links & Suggestions

@@ -1,7 +1,14 @@
 # Writing Habits
 
-Daily writing routines, time management strategies (incl. protected writing time), workflow organization tools, early drafting practices, major and minor deadlines, writer’s block, meta-cognitive approaches.
+Daily writing routines, 
+time management strategies (incl. protected writing time), 
+workflow organization tools, 
+early drafting practices,
+ major and minor deadlines, 
+ writer’s block, 
+ meta-cognitive approaches.
 
+---
 
 ### Required readings (_before class_)
 
@@ -14,7 +21,9 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 ### Class structure
 Discussion of topics outlined on [slides](tex/habits_slides.pdf).
 
-Complete this [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
+Discussion of [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
+
+---
 
 ### Further readings
 

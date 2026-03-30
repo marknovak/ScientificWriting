@@ -2,19 +2,23 @@
 
 Collaborative writing dynamics, practical aspects such as collaborative use of version control (file version and comment tracking), communication strategies, dealing with disagreements, dealing with power imbalance and hierarchy and unaligned personal motivations, task delegation, contribution tracking, authorship conventions, establishing clarity for co-authorship expectations.
 
+---
+
 ### Required readings (_before class_)
 
+_Nothing_ (but see next).
 
 ### To do (_before class_)
 
-Read through of [slides](tex/collaboration_slides.pdf)
+Look over [slides](tex/collaboration_slides.pdf).
 
 ### Class structure
 
 Discussion of [slides](tex/collaboration_slides.pdf)
 
-### Further readings
+---
 
+### Further readings
 
 [Duffy (2016) Fun ways of deciding authorship order (on Dynamic Ecology blog)](https://dynamicecology.wordpress.com/2016/09/21/fun-ways-of-deciding-authorship-order/)
 

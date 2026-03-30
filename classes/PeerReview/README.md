@@ -6,8 +6,11 @@ responding to reviewer feedback, revision and resubmission;
 rejection management; 
 proofing process.
 
+---
+
 ### Required readings (_before class_)
 
+_Nothing_ (but see next).
 
 ### To do (_before class_)
 
@@ -18,10 +21,12 @@ You don't need to understand/explain the discussion, but come to class prepared 
 Here's an [example response letter](Novak2025/response_PCI-Round1.pdf) (public on [PCI Ecology](https://ecology.peercommunityin.org/PCIEcology/articles/rec?id=702)) for a [manuscript of mine](https://www.journals.uchicago.edu/doi/10.1086/737023) that was ultimately published in _The American Naturalist_.
 
 
+
 ### Class structure
 
 Discussion of [slides](tex/PeerReview_slides.pdf)
 
+---
 
 ### Additional resources
 
@@ -41,6 +46,7 @@ My own LaTeX response [letter template](response/response.pdf).  (See the [folde
 
 [De Vries et al. (2009) Exploring the Peer Review Process: What is it, Does it Work, and Can it Be Improved?](../../readings/pdfs/DeVries_2009.pdf)
 
+---
 
 ### Transparent review journals (_unordered examples_)
 _Open peer review_ generally refers to disclosing the identities of reviewers to authors (and sometimes the public), while _transparent peer review_ focuses on publishing the actual review reports, editor decisions, and author responses alongside the final article, often while keeping reviewers anonymous. 

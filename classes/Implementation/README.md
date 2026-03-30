@@ -5,22 +5,25 @@ On some days we’ll also bring in guest speakers to share their insights and st
 
 ## Exercises
 
-### Habits
+### Planning & Outlining
 
-[Writing is Brain Training](Writing_Is_Brain_Training.pdf) _- Using LLMs mindfully_
+[Analysis of published paper](../PaperAnalysis/README.md)
 
 ### Write drunk, edit sober
 
 [Squibler's Most Dangerous Writing App](https://www.squibler.io/dangerous-writing-prompt-app) _- Don't stop typing or all progress will be lost!_
 
-### Outlining, Analysing, Revising
+### Analysing & Revising
 
 [Rainbow paragraphs](rainbow_paragraphs.md)
 
-[Analysis of peer Introductions](peer_introductions.md)
 
 [Reverse outlining](reverse_outline.md)
 
-[Analysis of published papers](paper_analysis.md)
+[Analysis of peer Introductions](peer_introductions.md)
+
+### Submission
+
+[Cover letters](../CoverLetters/coverletter.md)
 
 ***
