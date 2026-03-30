@@ -13,10 +13,15 @@ You must be ready to start writing a scientific manuscript the first week of the
 
 ## Repository content
 The repository's most relevant contents:
-- [course_info](course_info/) -  [assignments](course_info/assignments/), grading [rubrics](course_info/rubrics/), [course syllabus](course_info/syllabus/syllabus.pdf), and [combined table of contents](course_info/course_ToC/course_ToC.pdf) for all the course slides;
+- [course_info/](course_info/)  
+    - [syllabus](course_info/syllabus/syllabus.pdf)
+    - [assignments](course_info/assignments/)
+    - [rubrics](course_info/rubrics/)
+    - [course_ToC](course_info/course_ToC/course_ToC.pdf) - table of contentsfor all the course slides
+    - [course_notes](course_info/course_notes/AllCourseNotes.pdf) - aggregated slide deck containing all course slides
 - [classes](classes/) - sub-folders for each course topic (see topic-specific links in the [schedule](#schedule) below);
 - [readings](readings/) - pdfs of the required and suggested readings;
-- [course_notes](readings/course_notes/AllCourseNotes.pdf) - aggregated slide deck containing all course slides.
+
 
 
 ## Schedule

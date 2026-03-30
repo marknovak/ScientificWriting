@@ -248,7 +248,7 @@ def make_preamble():
 \title{\textbf{IB 514: Scientific Writing}}
 \author{Mark Novak \\
   \small Dept.\ of Integrative Biology, Oregon State University}
-\date
+\date{}
 
 \begin{document}
 
