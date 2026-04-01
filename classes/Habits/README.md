@@ -1,12 +1,12 @@
 # Writing Habits
 
-Daily writing routines, 
-time management strategies (incl. protected writing time), 
-workflow organization tools, 
+Daily writing routines,
+time management strategies (incl. protected writing time),
+workflow organization,
 early drafting practices,
- major and minor deadlines, 
- writer’s block, 
- meta-cognitive approaches.
+major and minor deadlines,
+writer’s block,
+meta-cognitive approaches.
 
 ---
 
