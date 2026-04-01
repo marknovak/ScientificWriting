@@ -2,7 +2,7 @@
 
 Daily writing routines, 
 time management strategies (incl. protected writing time), 
-workflow organization tools, 
+workflow organization, 
 early drafting practices,
  major and minor deadlines, 
  writer’s block, 
@@ -19,9 +19,16 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 
 
 ### Class structure
-Discussion of topics outlined on [slides](tex/habits_slides.pdf).
 
-Discussion of [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
+- Discussion of topics outlined on [slides](tex/habits_slides.pdf).
+
+    - Incl. [Boice's "Write in Mindful Ways"](Boice_2000).
+
+- (Re)Establish personal writing habits.
+    - Pick and schedule writing routine.
+    - [Trackbear](https://trackbear.app/) setup.
+
+- Discussion of [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
 
 ---
 

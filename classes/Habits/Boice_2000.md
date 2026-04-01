@@ -5,46 +5,45 @@ The following points are extracted with little or no modification from the work 
 _Robert Boice, 2000, Advice for New Faculty Members: Nihil Nimus, Allyn and Bacon, Boston, 319 pp._
 
 ### 1. Wait mindfully... 
-by pausing reflectively to begin work in the moment and to resist
+...by pausing reflectively to begin work in the moment and to resist
 old habits of rushing impulsively into prose. Set the stage for writing to come and
 loosen blocking.
 
 ### 2. Begin writing early, before feeling ready... 
 ...through prewriting, conceptual outlining,
-imaging that soon become prose and complete manuscripts.
+imagining what soon will become prose and a complete manuscript.
 
 ### 3. Work with mindful constancy and moderation... 
 ...in brief, daily sessions and, after each, with ongoing awareness of what you will write the next session.
 
-- When writers work on daily projects-even very briefly-the ideas stay fresh in
-mind from day to day; so less warm up time is needed before writing the next
+- When writers work on daily projects — even very briefly — the ideas stay fresh in mind from day to day; so less warm up time is needed before writing the next
 day.
 
 - Brief daily sessions (BDSs) allow time and energy for interludes of “near
-writing” at other times of the day—for noticing things that relate to writing,
+writing” at other times of the day — for noticing things that relate to writing,
 for collecting and noting things that induce more imaginativeness and clearer
 organization.
 
 - The habit of writing every day helps make the work more welcome, less a
 struggle.
 
-- BDSs mean shorter, less fatiguing sessions of work.
+- Brief daily sessions mean shorter, less fatiguing sessions of work.
 
 - Because they eventually provide a realistic sense of doing enough and of
 progressing fast enough, brief daily sessions help reduce pressures to write
 quickly and perfectly in first drafts.
 
-- BDSs help writers learn how to work proficiently, like real writers, and to feel
+- Brief daily sessions help writers learn how to work proficiently, like real writers, and to feel
 like real writers.
 
-- Because they are brief, BDSs fit into already busy schedules.
+- Because they are brief, brief daily sessions fit into already busy schedules.
 
-- Brief, daily sessions are more productive, creative, and successful in the long
+- Brief daily sessions are more productive, creative, and successful in the long
 run than writing in spurts and binges.
 
 
 ### 4. Stop...
-...in a timely fashion... before a product orientation and its rushing subverts
+...in a timely fashion and before a product orientation and its rushing subverts
 your process mode of writing. When we cannot stop because of the short-term
 rewards of continuing, we binge. That often means that the next day or two must be
 devoted to work other than writing, or maybe a needed rest.
