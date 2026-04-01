@@ -30,15 +30,15 @@ Click on a topic to see the day's plan (incl. required _before-class_ readings a
 | Week |  Day | Date | Topic |
 |:-:|:-----:|:------|:------|
 |1 | Mon | 3/30  | [Welcome & Course Overview](classes/Introduction) | 
-|  | Wed | 4/1  | [Project Proposal Presentations](classes/ProjectProposal) &  [Writing Habits](classes/Habits) |
-|2 | Mon | 4/6  |  [Writing Workflows](classes/Workflows) |
-|  | Wed | 4/8  |  [_Exercises & Implementation_](classes/Implementation) - [Paper Analysis](classes/PaperAnalysis/README.md)| 
+|  | Wed | 4/1  | [Project Proposal Presentations](classes/ProjectProposal) |
+|2 | Mon | 4/6  |    [Writing Habits](classes/Habits) |
+|  | Wed | 4/8  |  [Writing Workflows](classes/Workflows)| 
 |3 | Mon | 4/13  | [Manuscript Structuring ](classes/MetaStructure) | 
-|  | Wed | 4/15  |  [_Exercises & Implementation_](classes/Implementation)  - Writing (incl. Squibler tool)|
-|4 | Mon | 4/20 |  [_Exercises & Implementation_](classes/Implementation)  - Writing  (_Mark gone to OIMB_)|
+|  | Wed | 4/15  |  [_Exercises & Implementation_](classes/Implementation) - [Paper Analysis](classes/PaperAnalysis/README.md) |
+|4 | Mon | 4/20 |  [_Exercises & Implementation_](classes/Implementation)  - Structuring (outlining / self-analysis) (_Mark gone to OIMB_)|
 |  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - [Rainbow Paragraphs](classes/Implementation/rainbow_paragraphs.md) |
-|5 | Mon | 4/27 | [Literature Management](classes/Literature) | 
-|  | Wed | 4/29  | [_Exercises & Implementation_](classes/Implementation)  - Writing |
+|5 | Mon | 4/27 | [_Exercises & Implementation_](classes/Implementation)  - Writing (incl. Squibler tool)| 
+|  | Wed | 4/29  | [Literature Management](classes/Literature)  |
 |6 | Mon | 5/4  | [Collaboration & Collaborative Writing](classes/Collaboration) | 
 |  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - [Reverse Outlining](classes/Implementation/reverse_outline.md)|
 |7 | Mon | 5/11 | [Peer Review Process](classes/PeerReview) |

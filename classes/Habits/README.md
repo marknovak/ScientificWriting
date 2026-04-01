@@ -12,6 +12,7 @@ early drafting practices,
 
 ### Required readings (_before class_)
 
+
 [Summary of Boice's "Write in Mindful Ways"](Boice_2000)
 
 ### To do (_before class_)
@@ -19,9 +20,12 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 
 
 ### Class structure
-Discussion of topics outlined on [slides](tex/habits_slides.pdf).
 
-Discussion of [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
+- Discussion of topics outlined on [slides](tex/habits_slides.pdf).
+
+- Pairing up for [accountabilibuddies](https://neologisms.rice.edu/word/40996)
+
+- Discussion of [Writing is Brain Training](Writing_Is_Brain_Training.pdf) form.
 
 ---
 

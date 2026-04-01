@@ -1,14 +1,15 @@
 # Welcome, Course Goals & Philosophy
 
 ### To do (_before class_)
-Have a plan for a manuscript (see _Unofficial requirement_ on [main README](../../README.md))
 
+_Get ready for a busy term!_
 
 ### Class structure
 - Welcome & Introductions
-- [Course Overview](../tex/Introduction_slides.pdf)
-- Pairing up for [accountabilibuddies](https://neologisms.rice.edu/word/40996)
-- Start creating [Project Proposals](../ProjectProposal) (_remaining time_)
+- [Course Overview Slides](../tex/Introduction_slides.pdf)
 
+### After class
+
+Create your [Project Proposal](../ProjectProposal) slides
 
 ***
