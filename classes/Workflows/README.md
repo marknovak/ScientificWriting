@@ -1,6 +1,6 @@
 # Writing Workflows
 
-Project organization strategies, idea-to-manuscript pipelines, research notes and code integration, word processing tools, uses of generative AI.
+Project organization strategies, idea-to-manuscript pipelines, word processing tools, uses of generative AI.
 
 ---
 
@@ -9,15 +9,18 @@ Project organization strategies, idea-to-manuscript pipelines, research notes an
 _Nothing_ (but see next).
 
 ### To do (_before class_)
+
 Read through the [slides](tex/workflows_slides.pdf).
 
 ### Class structure
-Discussion of [slides](tex/workflows_slides.pdf).
+
+- Finish up discussion of [Writing Habits](../Habits/).
+
+- Discussion of [slides](tex/workflows_slides.pdf).
 
 ---
 
 ### Further readings
-
 
 [Alshwairikh et al. (2023)](../../readings/pdfs/Alshwairikh_2023.pdf) Habits and attitudes toward writing affect the publication output of environmental biology trainees. _Ecosphere_, 14(10), e4664.
 
