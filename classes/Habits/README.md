@@ -25,9 +25,9 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 
 - Pairing up for [accountabilibuddies](https://neologisms.rice.edu/word/40996)
 
-- Discussion of [Summary of Boice's "Write in Mindful Ways"](Boice_2000.md)
-
 - Discussion of [Writing is Brain Training](Writing_Is_Brain_Training.pdf)
+
+- Discussion of [Summary of Boice's "Write in Mindful Ways"](Boice_2000.md)
 
 - Discussion of topics outlined on [slides](tex/habits_slides.pdf)
 
