@@ -1,0 +1,24 @@
+{
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.latex.watch.files.ignore": [
+    "**/*.aux",
+    "**/*.bbl",
+    "**/*.bcf",
+    "**/*.blg",
+    "**/*.fdb_latexmk",
+    "**/*.fls",
+    "**/*.idx",
+    "**/*.ind",
+    "**/*.lof",
+    "**/*.lot",
+    "**/*.nav",
+    "**/*.out",
+    "**/*.run.xml",
+    "**/*.snm",
+    "**/*.synctex.gz",
+    "**/*.toc",
+    "**/*.vrb",
+    "**/*.xdv",
+    "**/*.pdf"
+  ]
+}
