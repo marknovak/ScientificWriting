@@ -16,7 +16,10 @@ meta-cognitive approaches.
 [Summary of Boice's "Write in Mindful Ways"](Boice_2000.md)
 
 ### To do (_before class_)
-Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Writing Leaderboard](https://trackbear.app/leaderboards/join?joinCode=3d5e3f6e-b0dd-4f18-8203-c352b4a07e33) with join code: _3d5e3f6e-b0dd-4f18-8203-c352b4a07e33_, and create a shortcut to it in your browser.  (To help us keep track of our -- and each other's -- daily writing successes.)
+
+- Look through the [slides](tex/habits_slides.pdf) 
+
+- Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Writing Leaderboard](https://trackbear.app/leaderboards/join?joinCode=3d5e3f6e-b0dd-4f18-8203-c352b4a07e33) with join code: _3d5e3f6e-b0dd-4f18-8203-c352b4a07e33_, and create a shortcut to it in your browser.  We'll use this to keep track of our -- and each other's -- daily writing progress.  Setup instructions are [here](Trackbear_Setup.md).
 
 
 ### Class structure
@@ -31,7 +34,7 @@ Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Wri
 
 - Discussion of topics outlined on [slides](tex/habits_slides.pdf)
 
-- [Trackbear](https://trackbear.app/) setup
+- [Trackbear](https://trackbear.app/) setup support (_as needed_)
 
 ---
 
