@@ -86,11 +86,12 @@
 \vspace{0.5em}
 
 \textbf{Recommended Folder Architecture}
-
+    \scriptsize
     \begin{itemize}
         \item \texttt{/notes} – reading notes, idea sketches, meeting notes
         \item \texttt{/data}
             \begin{itemize}
+                \scriptsize
                 \item \texttt{/raw} (read-only)
                 \item \texttt{/processed}
             \end{itemize}
@@ -99,6 +100,12 @@
         \item \texttt{/tables} - publication-ready tables\footnote{Exported!  (e.g., \texttt{stargazer}, \texttt{kableExtra}, \texttt{flextable} R packages)}
         \item \texttt{/figures} – exported publication-ready figures
         \item \texttt{/manuscript} – bibliography, draft(s and versions\footnote{If not using version control software})
+            \begin{itemize}
+                \scriptsize
+                \item \texttt{/biblio} – .bib files, reference management exports
+                \item \texttt{/versions} – draft versions, co-author comments
+                \item \texttt{/submitted} – submitted files, cover letter, reviews, review responses
+            \end{itemize}
     \end{itemize}
 
 \end{frame}
@@ -132,7 +139,7 @@
     \end{itemize}
     \item Use descriptive, machine-readable names:
     \begin{itemize}
-        \item Avoid: \texttt{final\_real\_final2.docx}
+        \item Avoid: \texttt{finalresults\_real\_final2.csv}
         \item Prefer: \texttt{results/regression\_modelA.csv}
     \end{itemize}
 \end{itemize}
