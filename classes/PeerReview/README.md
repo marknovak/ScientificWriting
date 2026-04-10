@@ -10,7 +10,7 @@ proofing process.
 
 ### Required readings (_before class_)
 
-_Nothing_ (but see next).
+[Parker et al. (2018)](../../readings/pdfs/Parker_2018.pdf) Empowering peer reviewers with a checklist to improve transparency. _Nature Ecology \& Evolution_, or the synthesis by [Bolnick (2019)](../../readings/pdfs/Bolnick_2019.pdf).
 
 ### To do (_before class_)
 
@@ -30,7 +30,9 @@ Discussion of [slides](tex/PeerReview_slides.pdf)
 
 ### Additional resources
 
-My own LaTeX response [letter template](response/response.pdf).  (See the [folder](response/) for the generating files.)
+- My own LaTeX response [letter template](response/response.pdf).  (See the [folder](response/) for the generating files.)
+
+- [American Naturalist's Data Checklist](../../readings/pdfs/AmNat-DATAchecklist.pdf) for preparing data to upload to DRYAD or other repository
 
 ### Further readings
 
