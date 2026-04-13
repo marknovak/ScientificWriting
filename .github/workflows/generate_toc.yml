@@ -1,6 +1,6 @@
 name: Generate Course ToC
 
-# ── TRIGGER ──────────────────────────────────────────────────────────────────
+# ── TRIGGER ────────────────────────────────────────────────────────────[...]
 # Fires only on pushes to `main` where at least one .tex file inside
 # the classes/ directory tree was changed.
 on:
@@ -10,12 +10,12 @@ on:
     paths:
       - 'classes/**/*.tex'
 
-# ── PERMISSIONS ──────────────────────────────────────────────────────────────
+# ── PERMISSIONS ──────────────────────────────────────────────────────────�[...]
 # `contents: write` lets the workflow create branches, commit, and push.
 permissions:
   contents: write
 
-# ── JOB ──────────────────────────────────────────────────────────────────────
+# ── JOB ─────────────────────────────────────────────────────────────[...]
 jobs:
   generate-toc:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
       # Branch name embeds the short SHA so every trigger gets a unique branch.
       - name: Create new branch
         run: |
-          SHORT_SHA="${{ github.sha }}"
+          SHORT_SHA="${{ github.sha }})"
           BRANCH_NAME="auto/generate_all_TOC-${SHORT_SHA::7}"
           echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
           git checkout -b "${BRANCH_NAME}"
@@ -61,7 +61,20 @@ jobs:
             echo "No requirements.txt found, skipping."
           fi
 
-      # ── STEP 5: Run the combine_toc.py script ────────────────────────────
+      # ── STEP 5: Install LaTeX  ─────────
+      # texlive-latex-extra covers most common packages; add others as needed.
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            texlive-latex-base \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-binaries
+          command -v pdflatex
+          pdflatex --version
+
+      # ── STEP 6: Run the combine_toc.py script ────────────────────────────
       # Working directory is set to the script's location so relative
       # paths inside the script resolve correctly.
       - name: Run combine_toc.py
@@ -71,14 +84,9 @@ jobs:
             --classes-dir ../../classes \
             -f tex2include.md \
             -o ../../course_info/course_ToC/course_ToC.tex
-
-      # ── STEP 6: Install LaTeX and compile the generated .tex file ─────────
-      # texlive-latex-extra covers most common packages; add others as needed.
-      - name: Install LaTeX
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended
-
+  
+      # ── STEP 7: Install LaTeX and compile the generated .tex file ─────────
+      # texlive-latex-extra covers most common packages; add others as needed.          
       - name: Compile course_ToC.tex
         working-directory: course_info/course_ToC
         run: |
@@ -86,7 +94,7 @@ jobs:
           # Run twice to resolve cross-references / TOC entries
           pdflatex -interaction=nonstopmode course_ToC.tex
 
-      # ── STEP 7: Commit and push output files ─────────────────────────────
+      # ── STEP 8: Commit and push output files ─────────────────────────────
       # Configures git identity, stages all changed/new files under
       # course_info/course_ToC/, and pushes the new branch to origin.
       - name: Configure git identity
