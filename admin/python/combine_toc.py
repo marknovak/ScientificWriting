@@ -26,6 +26,9 @@ Markdown file format:
   Custom title:   - [My Custom Title](lecture1)
   All other lines (headings, blank lines, prose) are silently ignored.
 
+Folder name matching is case-insensitive: "Lecture1", "lecture1", and
+"LECTURE1" all resolve to whichever spelling exists on disk.
+
 Usage:
   python combine_toc.py --classes-dir /path/to/classes -f lectures.md
   python combine_toc.py --classes-dir /path/to/classes -f lectures.md -o syllabus_toc.tex
@@ -55,7 +58,8 @@ def parse_args():
             "Markdown file format — each bullet list item names one folder:\n"
             "  Plain bullet:   - lecture1\n"
             "  Custom title:   - [My Custom Title](lecture1)\n\n"
-            "Lines that are not bullet items are silently ignored."
+            "Lines that are not bullet items are silently ignored.\n\n"
+            "Folder names are matched case-insensitively against the filesystem."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -138,12 +142,52 @@ def parse_markdown_file(md_path):
 
 
 # ---------------------------------------------------------------------------
+# Case-insensitive folder resolution
+# ---------------------------------------------------------------------------
+
+def resolve_folder_name(classes_dir, folder_name):
+    """
+    Return the actual on-disk directory name inside *classes_dir* that matches
+    *folder_name* case-insensitively, or *None* if no match is found.
+
+    When the filesystem is already case-insensitive (macOS HFS+, Windows NTFS)
+    this is a no-op safety net.  On case-sensitive filesystems (Linux ext4)
+    it allows callers to supply any capitalisation variant.
+
+    If multiple entries happen to differ only in case the first one found
+    (alphabetical order) is returned and a warning is printed.
+    """
+    try:
+        entries = os.listdir(classes_dir)
+    except OSError as exc:
+        print(f"ERROR: Cannot list '{classes_dir}': {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    needle = folder_name.lower()
+    matches = [e for e in entries
+               if e.lower() == needle and os.path.isdir(os.path.join(classes_dir, e))]
+
+    if not matches:
+        return None
+    if len(matches) > 1:
+        print(
+            f"WARNING: Multiple directories match '{folder_name}' "
+            f"case-insensitively: {matches}. Using '{matches[0]}'.",
+            file=sys.stderr,
+        )
+    return matches[0]
+
+
+# ---------------------------------------------------------------------------
 # Resolving a folder name to its .tex file path
 # ---------------------------------------------------------------------------
 
 def resolve_tex_path(classes_dir, folder_name):
     """
     'lecture1'  ->  '<classes_dir>/lecture1/tex/lecture1_slides.tex'
+
+    *folder_name* must already be the real on-disk name (use
+    resolve_folder_name() first to normalise capitalisation).
     """
     return os.path.join(classes_dir, folder_name, "tex",
                         f"{folder_name}_slides.tex")
@@ -388,12 +432,27 @@ def main():
     # ------------------------------------------------------------------
     folder_entries = []   # (folder_name, filepath, entries, custom_title)
 
-    for folder_name, custom_title in folder_specs:
-        filepath = resolve_tex_path(classes_dir, folder_name)
+    for raw_name, custom_title in folder_specs:
+        # --- Case-insensitive lookup: find the real on-disk folder name ---
+        actual_name = resolve_folder_name(classes_dir, raw_name)
+        if actual_name is None:
+            print(
+                f"WARNING: '{raw_name}' -> no matching directory found in "
+                f"'{classes_dir}' (case-insensitive) — skipping.",
+                file=sys.stderr,
+            )
+            continue
+        if actual_name != raw_name:
+            print(
+                f"Note: '{raw_name}' matched on-disk folder '{actual_name}' "
+                f"(case-insensitive)."
+            )
+
+        filepath = resolve_tex_path(classes_dir, actual_name)
 
         if not os.path.isfile(filepath):
             print(
-                f"WARNING: '{folder_name}' -> file not found: {filepath} — skipping.",
+                f"WARNING: '{actual_name}' -> file not found: {filepath} — skipping.",
                 file=sys.stderr,
             )
             continue
@@ -409,7 +468,7 @@ def main():
             subsec = sum(1 for lvl, _ in entries if lvl == "subsection")
             print(f"  found {sec} section(s), {subsec} subsection(s)")
 
-        folder_entries.append((folder_name, filepath, entries, custom_title))
+        folder_entries.append((actual_name, filepath, entries, custom_title))
 
     if not folder_entries:
         print("No valid input files found. Exiting.", file=sys.stderr)
