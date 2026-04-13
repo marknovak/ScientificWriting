@@ -61,18 +61,7 @@ jobs:
             echo "No requirements.txt found, skipping."
           fi
 
-      # ── STEP 5: Run the combine_toc.py script ────────────────────────────
-      # Working directory is set to the script's location so relative
-      # paths inside the script resolve correctly.
-      - name: Run combine_toc.py
-        working-directory: admin/python
-        run: |
-          python3 combine_toc.py \
-            --classes-dir ../../classes \
-            -f tex2include.md \
-            -o ../../course_info/course_ToC/course_ToC.tex
-
-      # ── STEP 6: Install LaTeX and compile the generated .tex file ─────────
+      # ── STEP 5: Install LaTeX  ─────────
       # texlive-latex-extra covers most common packages; add others as needed.
       - name: Install LaTeX
         run: |
@@ -85,6 +74,19 @@ jobs:
           command -v pdflatex
           pdflatex --version
 
+      # ── STEP 6: Run the combine_toc.py script ────────────────────────────
+      # Working directory is set to the script's location so relative
+      # paths inside the script resolve correctly.
+      - name: Run combine_toc.py
+        working-directory: admin/python
+        run: |
+          python3 combine_toc.py \
+            --classes-dir ../../classes \
+            -f tex2include.md \
+            -o ../../course_info/course_ToC/course_ToC.tex
+  
+      # ── STEP 7: Install LaTeX and compile the generated .tex file ─────────
+      # texlive-latex-extra covers most common packages; add others as needed.          
       - name: Compile course_ToC.tex
         working-directory: course_info/course_ToC
         run: |
@@ -92,7 +94,7 @@ jobs:
           # Run twice to resolve cross-references / TOC entries
           pdflatex -interaction=nonstopmode course_ToC.tex
 
-      # ── STEP 7: Commit and push output files ─────────────────────────────
+      # ── STEP 8: Commit and push output files ─────────────────────────────
       # Configures git identity, stages all changed/new files under
       # course_info/course_ToC/, and pushes the new branch to origin.
       - name: Configure git identity
