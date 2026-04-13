@@ -1,6 +1,6 @@
 name: Generate Course ToC
 
-# ── TRIGGER ──────────────────────────────────────────────────────────────────
+# ── TRIGGER ────────────────────────────────────────────────────────────[...]
 # Fires only on pushes to `main` where at least one .tex file inside
 # the classes/ directory tree was changed.
 on:
@@ -10,12 +10,12 @@ on:
     paths:
       - 'classes/**/*.tex'
 
-# ── PERMISSIONS ──────────────────────────────────────────────────────────────
+# ── PERMISSIONS ──────────────────────────────────────────────────────────�[...]
 # `contents: write` lets the workflow create branches, commit, and push.
 permissions:
   contents: write
 
-# ── JOB ──────────────────────────────────────────────────────────────────────
+# ── JOB ─────────────────────────────────────────────────────────────[...]
 jobs:
   generate-toc:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
       # Branch name embeds the short SHA so every trigger gets a unique branch.
       - name: Create new branch
         run: |
-          SHORT_SHA="${{ github.sha }}"
+          SHORT_SHA="${{ github.sha }})"
           BRANCH_NAME="auto/generate_all_TOC-${SHORT_SHA::7}"
           echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
           git checkout -b "${BRANCH_NAME}"
@@ -77,7 +77,13 @@ jobs:
       - name: Install LaTeX
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y texlive-latex-base texlive-latex-extra texlive-fonts-recommended
+          sudo apt-get install -y --no-install-recommends \
+            texlive-latex-base \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-binaries
+          command -v pdflatex
+          pdflatex --version
 
       - name: Compile course_ToC.tex
         working-directory: course_info/course_ToC
