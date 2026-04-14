@@ -186,11 +186,30 @@ def resolve_tex_path(classes_dir, folder_name):
     """
     'lecture1'  ->  '<classes_dir>/lecture1/tex/lecture1_slides.tex'
 
-    *folder_name* must already be the real on-disk name (use
+    *folder_name* must already be the real on-disk directory name (use
     resolve_folder_name() first to normalise capitalisation).
+
+    The slide filename itself is resolved case-insensitively so that, e.g.,
+    'Collaboration_slides.tex' and 'collaboration_slides.tex' are both
+    accepted.
     """
-    return os.path.join(classes_dir, folder_name, "tex",
-                        f"{folder_name}_slides.tex")
+    tex_dir = os.path.join(classes_dir, folder_name, "tex")
+    expected = f"{folder_name}_slides.tex"
+
+    if not os.path.isdir(tex_dir):
+        return None
+
+    try:
+        entries = os.listdir(tex_dir)
+    except OSError:
+        return None
+
+    needle = expected.lower()
+    for entry in entries:
+        if entry.lower() == needle and os.path.isfile(os.path.join(tex_dir, entry)):
+            return os.path.join(tex_dir, entry)
+
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -450,9 +469,11 @@ def main():
 
         filepath = resolve_tex_path(classes_dir, actual_name)
 
-        if not os.path.isfile(filepath):
+        if filepath is None:
             print(
-                f"WARNING: '{actual_name}' -> file not found: {filepath} — skipping.",
+                f"WARNING: '{actual_name}' -> expected slide file not found in "
+                f"'{os.path.join(classes_dir, actual_name, 'tex')}' "
+                f"(case-insensitive match for '{actual_name}_slides.tex') — skipping.",
                 file=sys.stderr,
             )
             continue
