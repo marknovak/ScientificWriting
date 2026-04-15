@@ -3,6 +3,7 @@
 - Habits
 - Workflows
 - MetaStructure
+- PaperAnalysis
 - Literature
 - Collaboration
 - PeerReview
