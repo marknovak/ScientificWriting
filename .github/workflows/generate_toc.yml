@@ -39,7 +39,7 @@ jobs:
       # Branch name embeds the short SHA so every trigger gets a unique branch.
       - name: Create new branch
         run: |
-          SHORT_SHA="${{ github.sha }})"
+          SHORT_SHA="${{ github.sha }}"
           BRANCH_NAME="auto/generate_all_TOC-${SHORT_SHA::7}"
           echo "BRANCH_NAME=${BRANCH_NAME}" >> $GITHUB_ENV
           git checkout -b "${BRANCH_NAME}"
@@ -103,13 +103,25 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Commit and push output files
+        id: commit_push
         run: |
           git add course_info/course_ToC/
           # Only commit if there is actually something staged
           if git diff --cached --quiet; then
             echo "No changes to commit."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             git commit -m "chore: auto-generate course_ToC [skip ci]"
             git push --set-upstream origin "${BRANCH_NAME}"
             echo "Pushed branch: ${BRANCH_NAME}"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
+
+      # ── STEP 9: Merge auto branch into main and push merge commit ────────
+      - name: Merge generated branch into main
+        if: steps.commit_push.outputs.has_changes == 'true'
+        run: |
+          git fetch origin main "${BRANCH_NAME}"
+          git checkout -B main origin/main
+          git merge --no-ff "${BRANCH_NAME}" -m "chore: merge ${BRANCH_NAME} into main [skip ci]"
+          git push origin main
