@@ -71,16 +71,29 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.TinyTeX
-          key: ${{ runner.os }}-tinytex-v1
+          key: ${{ runner.os }}-tinytex-v2
 
       - name: Install TinyTeX (cache miss only)
         if: steps.tinytex-cache.outputs.cache-hit != 'true'
         run: |
+          set -euxo pipefail
+
           curl -fsSL https://yihui.org/tinytex/install-bin-unix.sh | sh
-          ~/.TinyTeX/bin/*/tlmgr install \
-            collection-latexrecommended \
-            collection-latexextra \
-            collection-fontsrecommended
+
+          # Use a stable CTAN mirror to avoid checksum/download issues
+          ~/.TinyTeX/bin/*/tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
+
+          # Update tlmgr + packages before installing large collections
+          ~/.TinyTeX/bin/*/tlmgr update --self --all
+
+          # Install required collections with a few retries for transient mirror/network blips
+          for i in 1 2 3; do
+            ~/.TinyTeX/bin/*/tlmgr install \
+              collection-latexrecommended \
+              collection-latexextra \
+              collection-fontsrecommended && break
+            sleep $((i*10))
+          done
 
       - name: Add TinyTeX to PATH
         run: |
