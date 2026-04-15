@@ -59,16 +59,26 @@ jobs:
             echo "No requirements.txt found, skipping."
           fi
 
-      # ── STEP 4: Install LaTeX  ─────────
-      # texlive-latex-extra covers most common packages; add others as needed.
-      - name: Install LaTeX
+      # ── STEP 4: Restore/install cached TinyTeX ──────────────────────────
+      - name: Restore TinyTeX cache
+        id: tinytex-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.TinyTeX
+          key: ${{ runner.os }}-tinytex-v1
+
+      - name: Install TinyTeX (cache miss only)
+        if: steps.tinytex-cache.outputs.cache-hit != 'true'
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends \
-            texlive-latex-base \
-            texlive-latex-extra \
-            texlive-fonts-recommended \
-            texlive-binaries
+          curl -fsSL https://yihui.org/tinytex/install-bin-unix.sh | sh
+          ~/.TinyTeX/bin/*/tlmgr install \
+            collection-latexrecommended \
+            collection-latexextra \
+            collection-fontsrecommended
+
+      - name: Add TinyTeX to PATH
+        run: |
+          echo "$HOME/.TinyTeX/bin/x86_64-linux" >> $GITHUB_PATH
           command -v pdflatex
           pdflatex --version
 
