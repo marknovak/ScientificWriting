@@ -9,6 +9,8 @@ on:
       - main
     paths:
       - 'classes/**/*.tex'
+      - 'admin/python/tex2include.md'
+      - 'admin/python/combine_toc.py'
 
 # Cancel older in-progress runs on the same branch to avoid wasted work.
 concurrency:
@@ -71,33 +73,66 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.TinyTeX
-          key: ${{ runner.os }}-tinytex-v2
+          key: ${{ runner.os }}-tinytex-v3-${{ hashFiles('.github/workflows/generate_toc.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-tinytex-v3-
+
+      - name: Verify TinyTeX cache
+        id: tinytex-verify
+        run: |
+          tinytex_bin=$(find "$HOME/.TinyTeX/bin" -mindepth 1 -maxdepth 1 -type d | head -n 1 || true)
+
+          if [ -n "$tinytex_bin" ] && [ -x "$tinytex_bin/pdflatex" ] && [ -x "$tinytex_bin/tlmgr" ]; then
+            echo "valid=true" >> $GITHUB_OUTPUT
+            echo "tinytex_bin=$tinytex_bin" >> $GITHUB_OUTPUT
+          else
+            rm -rf "$HOME/.TinyTeX"
+            echo "valid=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Install TinyTeX (cache miss only)
-        if: steps.tinytex-cache.outputs.cache-hit != 'true'
+        if: steps.tinytex-cache.outputs.cache-hit != 'true' || steps.tinytex-verify.outputs.valid != 'true'
         run: |
           set -euxo pipefail
 
           curl -fsSL https://yihui.org/tinytex/install-bin-unix.sh | sh
 
+          tinytex_bin=$(find "$HOME/.TinyTeX/bin" -mindepth 1 -maxdepth 1 -type d | head -n 1)
+          export PATH="$tinytex_bin:$PATH"
+
           # Use a stable CTAN mirror to avoid checksum/download issues
-          ~/.TinyTeX/bin/*/tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
+          tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 
           # Update tlmgr + packages before installing large collections
-          ~/.TinyTeX/bin/*/tlmgr update --self --all
+          tlmgr update --self --all
 
           # Install required collections with a few retries for transient mirror/network blips
+          installed=false
           for i in 1 2 3; do
-            ~/.TinyTeX/bin/*/tlmgr install \
+            if tlmgr install \
               collection-latexrecommended \
               collection-latexextra \
-              collection-fontsrecommended && break
+              collection-fontsrecommended; then
+              installed=true
+              break
+            fi
             sleep $((i*10))
           done
 
+          if [ "$installed" != "true" ]; then
+            echo "ERROR: TinyTeX package installation failed after retries." >&2
+            exit 1
+          fi
+
       - name: Add TinyTeX to PATH
         run: |
-          echo "$HOME/.TinyTeX/bin/x86_64-linux" >> $GITHUB_PATH
+          TINYTEX_BIN=$(find "$HOME/.TinyTeX/bin" -mindepth 1 -maxdepth 1 -type d | head -n 1)
+          if [ -z "$TINYTEX_BIN" ]; then
+            echo "ERROR: TinyTeX bin directory not found." >&2
+            exit 1
+          fi
+          export PATH="$TINYTEX_BIN:$PATH"
+          echo "$TINYTEX_BIN" >> $GITHUB_PATH
           command -v pdflatex
           pdflatex --version
 
