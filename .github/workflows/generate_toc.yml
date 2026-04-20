@@ -1,4 +1,4 @@
-name: Generate Course ToC
+name: Generate Course ToC and Combined Slides
 
 # ── TRIGGER ────────────────────────────────────────────────────────────[...]
 # Fires only on pushes to `main` where at least one .tex file inside
@@ -11,6 +11,7 @@ on:
       - 'classes/**/*.tex'
       - 'admin/python/tex2include.md'
       - 'admin/python/combine_toc.py'
+      - 'admin/python/combine_slides.py'
 
 # Cancel older in-progress runs on the same branch to avoid wasted work.
 concurrency:
@@ -156,7 +157,25 @@ jobs:
           # Run twice to resolve cross-references / TOC entries
           pdflatex -interaction=nonstopmode course_ToC.tex
 
-      # ── STEP 7: Commit and push output files ─────────────────────────────
+      # ── STEP 7: Run the combine_slides.py script ──────────────────────────
+      - name: Run combine_slides.py
+        working-directory: admin/python
+        run: |
+          python3 combine_slides.py \
+            --classes-dir ../../classes \
+            -f tex2include.md \
+            -o ../../course_info/course_slides/course_slides.tex \
+            --no-compile
+
+      # ── STEP 8: Compile the generated course_slides.tex ────────────────────
+      - name: Compile course_slides.tex
+        working-directory: course_info/course_slides
+        run: |
+          pdflatex -interaction=nonstopmode course_slides.tex
+          # Run twice to resolve cross-references / TOC entries
+          pdflatex -interaction=nonstopmode course_slides.tex
+
+      # ── STEP 9: Commit and push output files ─────────────────────────────
       # Configures git identity, stages only .tex/.pdf artifacts, and pushes
       # directly to main with a single retry after rebase if main moved.
       - name: Configure git identity
@@ -168,12 +187,13 @@ jobs:
         id: commit_push
         run: |
           find course_info/course_ToC -maxdepth 1 -type f \( -name '*.tex' -o -name '*.pdf' \) -print0 | xargs -0 -r git add --
+          find course_info/course_slides -maxdepth 1 -type f \( -name '*.tex' -o -name '*.pdf' \) -print0 | xargs -0 -r git add --
           # Only commit if there is actually something staged
           if git diff --cached --quiet; then
             echo "No changes to commit."
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "chore: auto-generate course_ToC [skip ci]"
+            git commit -m "chore: auto-generate course_ToC and course_slides [skip ci]"
             pushed=false
             max_attempts=4
             for attempt in $(seq 1 ${max_attempts}); do
