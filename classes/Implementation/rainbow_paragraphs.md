@@ -8,6 +8,8 @@ Come to class having picked one written paragraph from your _Introduction_, _Res
 
 ## The Rainbow Paragraph Structure
 
+*Unfortunately GitHub does not render the color of color-formatted markdown files.  Therefore, to see the following text in its full rainbow glory either (1) download thIS README.md or (2) view and copy it in "raw" (see button in the top right), and then open/paste it in a markdown previewer like [https://markdownlivepreview.com](https://markdownlivepreview.com).*
+
 - <span style="color: red;">Red</span> (_Topic Sentence_): Introduces the main idea of the paragraph.
 - <span style="color: orange;">Orange</span> (_Context_): Provides background information. 
 - <span style="color: yellow;">Yellow</span>/<span style="color: green;">Green</span> (_Evidence/Data/Details_): Specific facts, data, or steps in a process.
