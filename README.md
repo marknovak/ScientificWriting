@@ -36,7 +36,7 @@ Click on a topic to see the day's plan (incl. required _before-class_ readings a
 |3 | Mon | 4/13  | [Manuscript Structuring ](classes/MetaStructure) | 
 |  | Wed | 4/15  |  [_Exercises & Implementation_](classes/Implementation) - [Paper Analysis](classes/PaperAnalysis/README.md) |
 |4 | Mon | 4/20 |  [_Exercises & Implementation_](classes/Implementation)  - Structuring (outlining / self-analysis) (_Mark gone to OIMB_)|
-|  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - [Rainbow Paragraphs](classes/Implementation/rainbow_paragraphs.md) |
+|  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - [Rainbow Paragraphs](classes/RainbowParagraphs) |
 |5 | Mon | 4/27 | [_Exercises & Implementation_](classes/Implementation)  - Writing (incl. Squibler tool)| 
 |  | Wed | 4/29  | [Literature Management](classes/Literature)  |
 |6 | Mon | 5/4  | [Collaboration & Collaborative Writing](classes/Collaboration) | 

@@ -15,7 +15,7 @@ On some days we’ll also bring in guest speakers to share their insights and st
 
 ### Analysing & Revising
 
-[Rainbow paragraphs](rainbow_paragraphs.md)
+[Rainbow paragraphs](.../RainbowParagraphs/README.md)
 
 
 [Reverse outlining](reverse_outline.md)
