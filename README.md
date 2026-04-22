@@ -27,6 +27,8 @@ The repository's most relevant contents:
 ## Schedule
 Click on a topic to see the day's plan (incl. required _before-class_ readings and to-do list).
 
+The first 5-10 minutes of every Wednesday will be [Accountabilibuddy](https://en.wiktionary.org/wiki/accountabilibuddy) check-ins.
+
 | Week |  Day | Date | Topic |
 |:-:|:-----:|:------|:------|
 |1 | Mon | 3/30  | [Welcome & Course Overview](classes/Introduction) | 
