@@ -4,7 +4,7 @@ The "rainbow paragraph" structure is a colour-coded pedagogical tool used to hig
 
 ## To do (_before_ class)
 
-Come to class having picked one written paragraph from your _Introduction_, _Results_, or _Discussion_ that you'd like to analyze, and one unwritten paragraph from either for which you've sketched out an outline.  You'll be sharing them with a classmate. (Paragraphs from _Methods_ sections might work too, but they tend to have few colors.)
+Come to class having picked one written paragraph from your _Introduction_, _Results_, or _Discussion_ (paste it into this [Google Doc](https://docs.google.com/document/d/1jnOHR07yf9hmKqEIO2vF1LfCJpgk2ID_5yVNITBfOsU/edit?usp=sharing)), and one unwritten paragraph from either for which you've sketched out an outline.  You'll be sharing the first paragraph with a classmate. (Paragraphs from _Methods_ sections might work too, but they tend to have few colors.)
 
 ## The Rainbow Paragraph Structure
 
