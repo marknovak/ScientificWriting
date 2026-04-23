@@ -42,9 +42,9 @@ The first 5-10 minutes of every Wednesday will be [Accountabilibuddy](https://en
 |5 | Mon | 4/27 | [_Exercises & Implementation_](classes/Implementation)  - Writing (incl. Squibler tool)| 
 |  | Wed | 4/29  | [Literature Management](classes/Literature)  |
 |6 | Mon | 5/4  | [Collaboration & Collaborative Writing](classes/Collaboration) | 
-|  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - [Reverse Outlining](classes/Implementation/reverse_outline.md)|
+|  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - [Reverse Outlining](classes/ReverseOutline)|
 |7 | Mon | 5/11 | [Peer Review Process](classes/PeerReview) |
-|  | Wed | 5/13  | [_Exercises & Implementation_](classes/Implementation)  - [Peer Intro Analysis](classes/Implementation/peer_introductions.md)|
+|  | Wed | 5/13  | [_Exercises & Implementation_](classes/Implementation)  - [Peer Intro Analysis](classes/PeerIntroAnalysis)|
 |8 | Mon | 5/18  | [_Exercises & Implementation_](classes/Implementation) - Writing & Revising|
 |  | Wed | 5/20  | [Journal Preparation & Submission](classes/JournalPrep) | 
 |9 | Mon | 5/25  |  ------ **No class** - _Memorial Day_ ------  |

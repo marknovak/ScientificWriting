@@ -4,7 +4,10 @@
 - Workflows
 - MetaStructure
 - PaperAnalysis
+- RainbowParagraphs
+- ReverseOutline
 - Literature
 - Collaboration
 - PeerReview
+- PeerIntroAnalysis
 - JournalPrep

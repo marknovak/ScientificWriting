@@ -11,7 +11,9 @@ These summaries collectively form a simplified “map” of the manuscript’s s
 This map allows you to quickly assess whether ideas progress logically, whether evidence appears in appropriate places, and whether any paragraphs are redundant, misplaced, or missing.
 
 For an individual paragraph, a reverse outline identifies two core things:
+
 1) What it says (_Topic_): The main idea or point being made; its central conceptual content.
+
 2) What it does (_Function_): How the paragraph serves the manuscript; its rhetorical role within the larger argument.
 
 ## To do (_before_ class)
@@ -19,7 +21,7 @@ Come to class having picked 3 or more sequential paragraphs from your draft manu
 
 
 ## Example
-For the second (longer) example provided in the [rainbow paragraphs](rainbow_paragraphs.md) activity, a reverse outline could look as follows:
+For the second (longer) example provided in the [rainbow paragraphs](/classes/RainbowParagraphs/README.md) activity, a reverse outline could look as follows:
 
 #### What it says (_Topic_)
 

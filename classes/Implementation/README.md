@@ -1,13 +1,13 @@
 # Implementation Day
 
 These days will primarily be a mix of continued discussion and implementation (i.e., exercises and writing time to put into practice what we've talked about).
-On some days we’ll also bring in guest speakers to share their insights and strategies.
+On some days we might also bring in a guest speaker to share their insights and strategies.
 
 ## Exercises
 
 ### Planning & Outlining
 
-[Analysis of published paper](../PaperAnalysis/README.md)
+[Analysis of published paper](../PaperAnalysis/)
 
 ### Write drunk, edit sober
 
@@ -15,15 +15,15 @@ On some days we’ll also bring in guest speakers to share their insights and st
 
 ### Analysing & Revising
 
-[Rainbow paragraphs](.../RainbowParagraphs/README.md)
+[Rainbow paragraphs](.../RainbowParagraphs/)
 
 
-[Reverse outlining](reverse_outline.md)
+[Reverse outlining](../ReverseOutline/)
 
-[Analysis of peer Introductions](peer_introductions.md)
+[Analysis of peer Introductions](../PeerIntroAnalysis/)
 
 ### Submission
 
-[Cover letters](../CoverLetters/coverletter.md)
+[Cover letters](../CoverLetters/)
 
 ***
