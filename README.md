@@ -39,7 +39,7 @@ The first 5-10 minutes of every Wednesday will be [Accountabilibuddy](https://en
 |  | Wed | 4/15  |  [_Exercises & Implementation_](classes/Implementation) - [Paper Analysis](classes/PaperAnalysis/README.md) |
 |4 | Mon | 4/20 |  [_Exercises & Implementation_](classes/Implementation)  - Structuring (outlining / self-analysis) (_Mark gone to OIMB_)|
 |  | Wed | 4/22  | [_Exercises & Implementation_](classes/Implementation)  - [Rainbow Paragraphs](classes/RainbowParagraphs) |
-|5 | Mon | 4/27 | [_Exercises & Implementation_](classes/Implementation)  - Writing (incl. Squibler tool)| 
+|5 | Mon | 4/27 | [_Exercises & Implementation_](classes/Implementation)  - [Unfiltered Flow](classes/UnfilteredFlow/)| 
 |  | Wed | 4/29  | [Literature Management](classes/Literature)  |
 |6 | Mon | 5/4  | [Collaboration & Collaborative Writing](classes/Collaboration) | 
 |  | Wed | 5/6  | [_Exercises & Implementation_](classes/Implementation)  - [Reverse Outlining](classes/ReverseOutline)|
