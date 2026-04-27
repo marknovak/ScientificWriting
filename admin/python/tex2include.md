@@ -5,6 +5,7 @@
 - MetaStructure
 - PaperAnalysis
 - RainbowParagraphs
+- UnfilteredFlow
 - ReverseOutline
 - Literature
 - Collaboration

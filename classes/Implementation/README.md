@@ -11,7 +11,7 @@ On some days we might also bring in a guest speaker to share their insights and 
 
 ### Write drunk, edit sober
 
-[Squibler's Most Dangerous Writing App](https://www.squibler.io/dangerous-writing-prompt-app) _- Don't stop typing or all progress will be lost!_
+[Squibler's Most Dangerous Writing App](../UnfilteredFlow/) _- Don't stop typing or all progress will be lost!_
 
 ### Analysing & Revising
 
