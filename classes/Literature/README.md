@@ -3,7 +3,7 @@
 Staying current in the field;
 literature search strategies and tools; 
 reference management tools and usage; 
-annotated bibliographies; techniques for integrating literature in writing.
+techniques for integrating literature in writing.
 
 ---
 
@@ -13,7 +13,7 @@ Read through of [slides](tex/Literature_slides.pdf)
 
 ### Class structure
 
-Discussion of [slides](tex/collaboration_slides.pdf)
+Discussion of [slides](tex/Literature_slides.pdf)
 
 ---
 
