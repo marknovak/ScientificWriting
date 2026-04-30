@@ -20,6 +20,23 @@ For an individual paragraph, a reverse outline identifies two core things:
 Come to class having picked 3 or more sequential paragraphs from your draft manuscript.
 
 
+## Activity
+
+What we'll do in class is the following:
+
+### Part 1
+Produce a reverse outline for each of your paragraphs as objectively as you can.  Don't do any editing or modifying; keep notes if you don't want to forget something.
+
+### Part 2
+Produce a reverse outline for a classmate's paragraphs.
+
+### Part 3
+Use both reverse outlines to assess whether the sentences in your paragraphs actually say what you need them to say and do. 
+
+### Part 4
+Pull away from the sentences of the paragraphs to a higher, manuscript level focus and assess how each paragraph as whole serves the manuscript and its audience.
+
+
 ## Example
 For the second (longer) example provided in the [rainbow paragraphs](/classes/RainbowParagraphs/README.md) activity, a reverse outline could look as follows:
 
@@ -38,20 +55,4 @@ It serves the manuscript by introducing foundational concepts and motivating the
 * **Connects empirical findings to theory** by explaining how different functional responses and prey-switching influence stability, oscillations, and coexistence in population models.
 * **Synthesizes the argument** by concluding that predictive models of predator–prey dynamics must consider functional responses and adaptive foraging behaviors.
 
-
-## Activity
-
-### Part 1
-Produce a reverse outline for each of your paragraphs as objectively as you can.  Don't do any editing or modifying; keep notes if you don't want to forget something. (_up to 30 minutes_)
-
-### Part 2
-Use your reverse outline to assess whether the sentences in your paragraphs actually say what you need them to say and do _for the manuscript_. (_up to 15 minutes_)
-
-### Part 3
-Pull away from the sentences of the paragraphs to a higher, manuscript level focus and assess how each paragraph as whole serves the manuscript and its audience. (_up to 15 minutes_)
-
 ---
-
- We'll use the remaining class period to reflect on the activity as a group and for reverse outlining additional paragraphs of our manuscripts.
-
- ---
