@@ -4,15 +4,15 @@ Project organization strategies, idea-to-manuscript pipelines, word processing t
 
 ---
 
-### Required readings (_before class_)
+## Required readings (_before class_)
 
 _Nothing_ (but see next).
 
-### To do (_before class_)
+## To do (_before class_)
 
 Read through the [slides](tex/workflows_slides.pdf).
 
-### Class structure
+## Class structure
 
 - Finish up discussion of [Writing Habits](../Habits/).
 
@@ -20,12 +20,11 @@ Read through the [slides](tex/workflows_slides.pdf).
 
 ---
 
-### Further readings
+## Further readings
 
 [Alshwairikh et al. (2023)](../../readings/pdfs/Alshwairikh_2023.pdf) Habits and attitudes toward writing affect the publication output of environmental biology trainees. _Ecosphere_, 14(10), e4664.
 
 [Drake, J. M., & Han, B. A. (2025)](../../readings/pdfs/Drake_2025.pdf) How to write a scientific paper in fifteen steps. PLOS Computational Biology, 21(9), e1013505.
-
 
 [Bryan (2018)](../../readings/pdfs/Bryan_2017.pdf) Excuse Me, Do You Have a Moment to Talk About Version Control? _The American Statistician_, 72(1), 20–27.
 
@@ -35,7 +34,7 @@ Read through the [slides](tex/workflows_slides.pdf).
 
 [Rougier et al. (2014)](../../readings/pdfs/Rougier_2014.pdf) Ten simple rules for better figures. _PLoS Computational Biology_ 10.9: e1003833.
 
-### Additional resources
+## Additional resources
 
 [Flextable R package](https://ardata-fr.github.io/flextable-book/) - for making tables in R that can be easily exported to Word or PowerPoint.
 
@@ -43,4 +42,4 @@ Read through the [slides](tex/workflows_slides.pdf).
 
 [Scapple](https://www.literatureandlatte.com/scapple/overview) - free-form mind-mapping software for brainstorming and organizing ideas.
 
-***
+---

@@ -1,30 +1,28 @@
 # Literature Integration and Reference Management
 
 Staying current in the field;
-literature search strategies and tools; 
-reference management tools and usage; 
+literature search strategies and tools;
+reference management tools and usage;
 techniques for integrating literature in writing.
 
 ---
 
-### Required readings (_before class_)
+## Required readings (_before class_)
 
 Read through of [slides](tex/Literature_slides.pdf)
 
-### Class structure
+## Class structure
 
 Discussion of [slides](tex/Literature_slides.pdf)
 
 ---
 
-### Further readings
+## Further readings
 
 [Rekdal (2014) Academic urban legends.](../../readings/pdfs/Rekdal_2014.pdf) - _Highly_ recommended on the (im)proper use of citations.
 
 [Tips on writing a literature review (De Vries on Substack)](https://catherineeunicedevries.substack.com/p/most-literature-reviews-miss-the)
 
-### Additional resources
+## Additional resources
 
-
-
-***
+---

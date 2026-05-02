@@ -6,18 +6,18 @@ We'll use timed, high-velocity drafting activities to reduce perfectionism, incr
 
 ---
 
-### To do (_before class_)
+## To do (_before class_)
 
 Come mentally prepared for timed writing sprints!
 
 Come with your manuscript open, a key figure ready to describe, and a rough sense of your central hypothesis — you'll use all three.
 
-### Class structure
+## Class structure
 
 We'll proceed through a series of activities using [Squibler's Most Dangerous Writing App](https://www.squibler.io/dangerous-writing-prompt-app) to enforces continuous writing: if you stop typing for more than a few seconds, your text is erased!
 
+## Additional Resources
 
-### Additional Resources
+- [The Up-goer Five text edition](https://splasho.com/upgoer5/) - Explain a hard idea using only the ten hundred most used words. (See the inspiration [xkcd upgoer five comic](https://xkcd.com/1133/).)
 
-- [The Up-goer Five text edition](https://splasho.com/upgoer5/) - Explain a hard idea using only the ten hundred most used words. (See the inspiration [here](https://xkcd.com/1133/).)
-***
+---

@@ -1,26 +1,26 @@
 # Manuscript Structuring
 
-Audience identification, 
-journal selection, 
-methods section detail, 
-supplementary materials, 
-integration of equations, 
-title and abstract design, 
-signposting, 
+Audience identification,
+journal selection,
+methods section detail,
+supplementary materials,
+integration of equations,
+title and abstract design,
+signposting,
 structural coherence,
 analysis of effective papers.
 
 ---
 
-### Required readings (_before class_)
+## Required readings (_before class_)
 
 - [Sand-Jensen (2007) How to write consistently boring scientific literature](../../readings/pdfs/SandJensen_2007.pdf)
 
-### To do (_before class_)
+## To do (_before class_)
 
 Look over [slides](tex/MetaStructure_slides.pdf).
 
-### Class structure
+## Class structure
 
 Discussion of [slides](tex/MetaStructure_slides.pdf) & Sand-Jensen (2007).
 
@@ -28,7 +28,7 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 ---
 
-### Further readings
+## Further readings
 
 - [How to construct a Nature summary paragraph](../../readings/pdfs/nature-summary-paragraph.pdf)
 
@@ -50,7 +50,7 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 - [Orwell (1946) Politics and the English language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
 
-#### Math/theory-relevant papers
+### Math/theory-relevant papers
 
 - [Ellner (2006) How to write a theoretical ecology paper that people will cite](../../readings/pdfs/Ellner_2006.pdf)
 
@@ -62,8 +62,7 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 - [Shoemaker et al. (2021) Writing mathematical ecology: A guide for authors and readers](../../readings/pdfs/Shoemaker_2021.pdf)
 
-
-### Exemplary writing recommended by colleagues
+## Exemplary writing recommended by colleagues
 
 - [Wiens & Embert (2024) How life became colourful: colour vision, aposematism, sexual selection, owers, and fruits. _Biological Reviews_](../../readings/pdfs/recommended/Wiens_2024.pdf)
 
@@ -75,9 +74,8 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 - [Parkinson et al. (2018) Subtle Differences in Symbiont Cell Surface Glycan Profiles Do Not Explain Species-Specific Colonization Rates in a Model Cnidarian-Algal Symbiosis. _Frontiers in Microbiology_](../../readings/pdfs/recommended/Parkinson_2018.pdf)
 
+## Additional resources
 
-
-### Additional resources
 - [Squibler's Most Dangerous Writing App](https://www.squibler.io/dangerous-writing-prompt-app) _- Don't stop typing or all progress will be lost!_
 
 - [BioRender](https://www.biorender.com) _- "Professional" science figures_
@@ -90,4 +88,4 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 - [Duke Graduate School Scientific Writing Resource](https://sites.duke.edu/scientificwriting/)
 
-***
+---

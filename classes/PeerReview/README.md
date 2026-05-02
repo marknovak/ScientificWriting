@@ -1,34 +1,32 @@
 # Peer Review and Publication Process
 
-Peer review stages; 
-editor, reviewer and author perspectives; 
-responding to reviewer feedback, revision and resubmission; 
-rejection management; 
+Peer review stages;
+editor, reviewer and author perspectives;
+responding to reviewer feedback, revision and resubmission;
+rejection management;
 proofing process.
 
 ---
 
-### Required readings (_before class_)
+## Required readings (_before class_)
 
 [Parker et al. (2018)](../../readings/pdfs/Parker_2018.pdf) Empowering peer reviewers with a checklist to improve transparency. _Nature Ecology \& Evolution_, or the synthesis by [Bolnick (2019)](../../readings/pdfs/Bolnick_2019.pdf).
 
-### To do (_before class_)
+## To do (_before class_)
 
 - Read/skim the full "_peer review history_" of 2 or 3 published papers.
 (_Look for a link at the top or bottom of an article's online version.  See below for a set of journals that publish the peer review history of their articles._)
-You don't need to understand/explain the discussion, but come to class prepared to summarize and discuss the format (structure) and nature (e.g., professionalism, detail) of the editors decisions, the reviews, and the author's responses. 
+You don't need to understand/explain the discussion, but come to class prepared to summarize and discuss the format (structure) and nature (e.g., professionalism, detail) of the editors decisions, the reviews, and the author's responses.
 
 Here's an [example response letter](Novak2025/response_PCI-Round1.pdf) (public on [PCI Ecology](https://ecology.peercommunityin.org/PCIEcology/articles/rec?id=702)) for a [manuscript of mine](https://www.journals.uchicago.edu/doi/10.1086/737023) that was ultimately published in _The American Naturalist_.
 
-
-
-### Class structure
+## Class structure
 
 Discussion of [slides](tex/PeerReview_slides.pdf)
 
 ---
 
-### Additional resources
+## Additional resources
 
 - My own LaTeX response [letter template](response/response.pdf).  (See the [folder](response/) for the generating files.)
 
@@ -50,26 +48,30 @@ Discussion of [slides](tex/PeerReview_slides.pdf)
 
 ---
 
-### Transparent review journals (_unordered examples_)
-_Open peer review_ generally refers to disclosing the identities of reviewers to authors (and sometimes the public), while _transparent peer review_ focuses on publishing the actual review reports, editor decisions, and author responses alongside the final article, often while keeping reviewers anonymous. 
+## Transparent review journals (_unordered examples_)
+
+_Open peer review_ generally refers to disclosing the identities of reviewers to authors (and sometimes the public), while _transparent peer review_ focuses on publishing the actual review reports, editor decisions, and author responses alongside the final article, often while keeping reviewers anonymous.
 
 You can also access the peer review history of many articles via [Clarivate's Web Of Science](https://clarivate.com/academia-government/blog/introducing-open-peer-review-content-in-the-web-of-science/) database.  (You will need to be on campus, running a [VPN](https://technology.oregonstate.edu/services/vpn), or connect via the [library](https://library.oregonstate.edu) to access the WoS.)
 
-##### _General & Multidisciplinary Biology_
+### _General & Multidisciplinary Biology_
+
 - [Royal Society Open Science](https://royalsocietypublishing.org/rsos)
 - [Nature Communications](https://nature.com/ncomms)
 - [PLOS Biology](https://journals.plos.org/plosbiology/)
 - [Scientific Reports](https://nature.com/srep/)
 - [Biology Open](https://journals.biologists.com/bio)
 
-##### _Genetics & Molecular Biology_
+### _Genetics & Molecular Biology_
+
 - [EMBO Reports](https://link.springer.com/journal/44319)
 - [PLOS Genetics](https://journals.plos.org/plosgenetics/)
 - [Genome Biology](https://genomebiology.biomedcentral.com)
 - [G3: Genes, Genomes, Genetics](https://academic.oup.com/g3journal)
 - [Molecular Systems Biology](https://link.springer.com/journal/44320)
 
-##### _Ecology & Evolution_
+### _Ecology & Evolution_
+
 - [Nature Ecology & Evolution](https://www.nature.com/natecolevol/)
 - [BMC Ecology and Evolution](https://bmcecolevol.biomedcentral.com)
 - [Journal of Evolutionary Biology](https://academic.oup.com/jeb)
@@ -78,14 +80,12 @@ You can also access the peer review history of many articles via [Clarivate's We
 - [Ecology Letters](https://onlinelibrary.wiley.com/journal/14610248)
 - [Frontiers in Ecology and Evolution](https://www.frontiersin.org/journals/ecology-and-evolution)
 
-##### _Physiology & Cell Biology_
+### _Physiology & Cell Biology_
+
 - [The Journal of Physiology](https://physoc.onlinelibrary.wiley.com/journal/14697793)
 - [Frontiers in Physiology](https://www.frontiersin.org/journals/physiology)
 - [Physiological Reports](https://physoc.onlinelibrary.wiley.com/journal/2051817X)
 - [Journal of Cell Science](https://journals.biologists.com/jcs)
 - [Nature Cell Biology](https://www.nature.com/ncb/)
 
-
-
-
-***
+---

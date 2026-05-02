@@ -1,5 +1,7 @@
 # Rainbow paragraphs
 
+<!-- markdownlint-disable MD033 -->
+
 The "rainbow paragraph" structure is a colour-coded pedagogical tool used to highlight a paragraph's organization. It maps the components of a paragraph to colors, helping to ensure that you have a complete, balanced paragraph.  Paragraphs certainly don't have to rigidly adhere to the structure of a rainbow paragraph (_except for starting with a clear topic sentence!_) and your writing may diverge from it in usefully creative ways, but the structure of a rainbow paragraph is always a good default and a great way to outline a paragraph.
 
 ## To do (_before_ class)
@@ -8,16 +10,15 @@ Come to class having picked one written paragraph from your _Introduction_, _Res
 
 ## The Rainbow Paragraph Structure
 
-*Unfortunately GitHub does not render the color of color-formatted markdown files.  Therefore, to see the following text in its full rainbow glory either (1) download thIS README.md or (2) view and copy it in "raw" (see button in the top right), and then open/paste it in a markdown previewer like [https://markdownlivepreview.com](https://markdownlivepreview.com).*
+_Unfortunately GitHub does not render the color of color-formatted markdown files. Therefore, to see the following text in its full rainbow glory either (1) download thIS README.md or (2) view and copy it in "raw" (see button in the top right), and then open/paste it in a markdown previewer like [https://markdownlivepreview.com](https://markdownlivepreview.com)._
 
 - <span style="color: red;">Red</span> (_Topic Sentence_): Introduces the main idea of the paragraph.
-- <span style="color: orange;">Orange</span> (_Context_): Provides background information. 
+- <span style="color: orange;">Orange</span> (_Context_): Provides background information.
 - <span style="color: yellow;">Yellow</span>/<span style="color: green;">Green</span> (_Evidence/Data/Details_): Specific facts, data, or steps in a process.
 - <span style="color: blue;">Blue</span> (_Explanation/Analysis_): Explains why or how the evidence supports the topic sentence.
 - <span style="color: purple;">Purple</span> (_Conclusion_): Restates the main idea in a new way or summarizes the significance. ￼
 
 You'll find some examples below.  Note that, excepting <span style="color: red;">red</span> and <span style="color: purple;">purple</span>, the same colour can be used for multiple sentences within a paragraph.
-
 
 ## Activity
 
@@ -81,3 +82,5 @@ The Type III response is often also interpreted as encapsulating positive prey-s
 <span style="color: blue;">These processes generate genetic variation that natural selection, genetic drift, and recombination can act upon, allowing genomes to evolve new functions, regulatory networks, and levels of biological complexity.</span>
 
 <span style="color: purple;">Thus, genome evolution reflects the cumulative effects of mutation, structural change, and evolutionary forces acting over short and long timescales to shape the diversity of genetic architectures observed across the tree of life.</span>
+
+<!-- markdownlint-enable MD033 -->

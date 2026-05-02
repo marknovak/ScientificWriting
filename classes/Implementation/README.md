@@ -15,8 +15,7 @@ On some days we might also bring in a guest speaker to share their insights and 
 
 ### Analysing & Revising
 
-[Rainbow paragraphs](.../RainbowParagraphs/)
-
+[Rainbow paragraphs](../RainbowParagraphs/)
 
 [Reverse outlining](../ReverseOutline/)
 
@@ -26,4 +25,4 @@ On some days we might also bring in a guest speaker to share their insights and 
 
 [Cover letters](../CoverLetters/)
 
-***
+---

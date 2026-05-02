@@ -10,19 +10,17 @@ meta-cognitive approaches.
 
 ---
 
-### Required readings (_before class_)
-
+## Required readings (_before class_)
 
 [Summary of Boice's "Write in Mindful Ways"](Boice_2000.md)
 
-### To do (_before class_)
+## To do (_before class_)
 
-- Look through the [slides](tex/habits_slides.pdf) 
+- Look through the [slides](tex/habits_slides.pdf)
 
-- Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Writing Leaderboard](https://trackbear.app/leaderboards/join?joinCode=3d5e3f6e-b0dd-4f18-8203-c352b4a07e33) with join code: _3d5e3f6e-b0dd-4f18-8203-c352b4a07e33_, and create a shortcut to it in your browser.  We'll use this to keep track of our -- and each other's -- daily writing progress.  Setup instructions are [here](Trackbear_Setup.md).
+- Sign up for [Trackbear](https://trackbear.app/), join the [IB 514 Scientific Writing Leaderboard](https://trackbear.app/leaderboards/join?joinCode=3d5e3f6e-b0dd-4f18-8203-c352b4a07e33) with join code: _3d5e3f6e-b0dd-4f18-8203-c352b4a07e33_, and create a shortcut to it in your browser. We'll use this to keep track of our -- and each other's -- daily writing progress. Setup instructions are in [Trackbear setup instructions](Trackbear_Setup.md).
 
-
-### Class structure
+## Class structure
 
 - Finish up & discuss [Project Presentations](../ProjectProposal/)
 
@@ -38,7 +36,7 @@ meta-cognitive approaches.
 
 ---
 
-### Further readings
+## Further readings
 
 [Upper (1974) The unsuccessful self-treatment of a case of “writer's block”](../../readings/pdfs/Upper_1974.pdf)
 
@@ -48,9 +46,8 @@ meta-cognitive approaches.
 
 [Huey (199?) Reply to Stearns: some acynical advice for graduate students](../../readings/pdfs/Huey_1999.pdf)
 
-### Additional resources
+## Additional resources
 
 [Inframemethodology's Writing Process Reengineering](https://inframethodology.cbs.dk/?page_id=454)
 
-
-***
+---
