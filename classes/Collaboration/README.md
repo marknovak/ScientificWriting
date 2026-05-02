@@ -14,7 +14,7 @@ Look over [slides](tex/collaboration_slides.pdf).
 
 ## Class structure
 
-Discussion of [slides](tex/collaboration_slides.pdf)
+Discussion of [slides](tex/collaboration_slides.pdf).
 
 ---
 
@@ -25,5 +25,15 @@ Discussion of [slides](tex/collaboration_slides.pdf)
 [Strange (2008) Authorship: why not just toss a coin?](../../readings/pdfs/Strange_2008.pdf)
 
 ## Additional resources
+
+- [CRediT (Contributor Roles Taxonomy)](https://credit.niso.org/) - Standardized contributor-role taxonomy to support transparent contribution tracking and clearer authorship conversations.
+
+- [COPE: Authorship and contributorship guidance](https://publicationethics.org/authorship) - Practical publication-ethics guidance and case-oriented resources for authorship decisions and dispute handling.
+
+- [The Turing Way: Collaboration and Communication in Research](https://the-turing-way.netlify.app/collaboration/collaboration) - Practical guidance on setting collaboration norms, inclusive team practices, and documenting decisions.
+
+- [CIMER mentoring resources](https://www.cimerproject.org/) - Evidence-based tools for setting advisor-advisee expectations, improving research-group communication, and building healthier collaborations in graduate training.
+
+- [British Ecological Society Better Science Guides](https://www.britishecologicalsociety.org/content-type/better-science-guides/) - Short, field-relevant guides on improving scientific practice in ecology, including topics such as inclusive research culture, better publishing, and more transparent and equitable science.
 
 ---
