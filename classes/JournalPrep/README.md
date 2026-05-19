@@ -1,12 +1,6 @@
 # Journal Formatting and Submission
 
-Final formatting,
-journal-specific author guidelines,
-Open Science,
-data & code sharing,
-submission logistics,
-page charges,
-cover letters.
+In this class we'll cover practical steps for preparing a manuscript for journal submission, from final formatting and author contribution statements to page charges, reviewer selection, and submission logistics. We will also discuss several open science practices, including data and code sharing, open access publishing models, and preprint repositories.
 
 ---
 
@@ -22,11 +16,13 @@ Read through [slides](tex/JournalPrep_slides.pdf).
 
 - Discussion of [slides](tex/JournalPrep_slides.pdf).
 
-- Cover letter writing in remaining time.
+- [Cover letter](../CoverLetters/) writing in remaining time.
 
 ---
 
 ## Further readings
+
+[Koivisto et al. (2023) "The open science landscape of ecology and evolution"](../../readings/pdfs/Koivisto_2024.pdf)
 
 ## Additional resources
 
@@ -36,4 +32,9 @@ Read through [slides](tex/JournalPrep_slides.pdf).
 
 [Collection of Open Science Integrity Guides](https://cosig.net/)
 
+---
+## Example Journal Statements on Preprints
+
+_From The American Naturalist:_ 
+"Preprints are allowed if they are posted in noncommercial discipline-specific repositories such as BioRxiv, Arxiv, EcoEvoRxiv, or PCI. Preprints posted on commercial for-profit repositories (e.g., PeerJ) are not acceptable."
 ---
