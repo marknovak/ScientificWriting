@@ -1,6 +1,6 @@
 # Journal Formatting and Submission
 
-In this class we'll cover practical steps for preparing a manuscript for journal submission, from final formatting and author contribution statements to page charges, reviewer selection, and submission logistics. We will also discuss several open science practices, including data and code sharing, open access publishing models, and preprint repositories.
+In this class we'll consider the steps for preparing a manuscript for journal submission, from final formatting and author contribution statements to page charges, reviewer selection, and submission logistics. We'll each explore our own target journal's submission forms and we will discuss several open science practices, including data and code sharing, open access publishing models, and preprint repositories.
 
 ---
 
@@ -35,6 +35,7 @@ Read through [slides](tex/JournalPrep_slides.pdf).
 ---
 ## Example Journal Statements on Preprints
 
-_From The American Naturalist:_ 
-"Preprints are allowed if they are posted in noncommercial discipline-specific repositories such as BioRxiv, Arxiv, EcoEvoRxiv, or PCI. Preprints posted on commercial for-profit repositories (e.g., PeerJ) are not acceptable."
+The American Naturalist:
+"_Preprints are allowed if they are posted in noncommercial discipline-specific repositories such as BioRxiv, Arxiv, EcoEvoRxiv, or PCI. Preprints posted on commercial for-profit repositories (e.g., PeerJ) are not acceptable._"
+
 ---
