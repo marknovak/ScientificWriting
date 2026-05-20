@@ -10,15 +10,20 @@ _Nothing_ (but see next).
 
 ## To do (_before class_)
 
-Read through [slides](tex/JournalPrep_slides.pdf).
+- Create your [ORCID](https://orcid.org/) iD (if you don't already have one). This is a unique, globally-recognized identifier that distinguishes you from other researchers and allows you to link your publications, grants, and other professional activities to your ORCID record.
+
+- Create an author account on your target journal's submission portal (if you don't already have one).
+
+- Read through [slides](tex/JournalPrep_slides.pdf).
 
 ## Class structure
 
 - Discussion of [slides](tex/JournalPrep_slides.pdf).
 
-- [Cover letter](../CoverLetters/) writing in remaining time.
+- Investigate target journal's submission portal.
 
----
+## Submission files
+Feel free to use the following files if your journal's submission portal requires you to upload something to proceed through the submission process: [2submit.docx](tex/2submit.docx) and [2submit.pdf](tex/2submit.pdf).
 
 ## Further readings
 
@@ -33,7 +38,7 @@ Read through [slides](tex/JournalPrep_slides.pdf).
 [Collection of Open Science Integrity Guides](https://cosig.net/)
 
 ---
-## Example Journal Statements on Preprints
+## Journal Statements on Preprints
 
 The American Naturalist:
 "_Preprints are allowed if they are posted in noncommercial discipline-specific repositories such as BioRxiv, Arxiv, EcoEvoRxiv, or PCI. Preprints posted on commercial for-profit repositories (e.g., PeerJ) are not acceptable._"
