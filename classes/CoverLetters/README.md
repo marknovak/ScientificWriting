@@ -20,18 +20,23 @@ Alternatively, read 1-2 of the example cover letters provided in [this folder](e
 
 - Compare your reverse outlines to this [suggested structure and template](coverletter.md).
 Identify similarities and differences.
-Update the template to suite your personal desires.
 
 ## Class structure
 
-- Discussion of cover letters.
+- Overview using cover letter [slides](tex/coverletters.pdf).
 
-- Drafting of cover letters.
+- Small group discussion of the cover letters you read and their structure.
+
+- Outlining of your own cover letter.
 
 ---
 
 ## Further readings
 
+_I haven't found any particularly useful ones yet, but if you have suggestions, please share!_
+
 ## Additional resources
+
+_Same here_
 
 ---
