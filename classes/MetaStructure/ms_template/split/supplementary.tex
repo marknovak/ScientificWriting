@@ -1,0 +1,201 @@
+% Use only LaTeX2e, calling the article.cls class and 12-point type.
+\RequirePackage{lineno}
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb,cases,multirow, graphicx}
+%~~~~~~~~~~~
+% Reasonable page setup
+%~~~~~~~~~~~
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm
+\textheight 21cm
+\footskip 1.0cm
+
+%~~~~~~~~~~~
+% Section numbering
+%~~~~~~~~~~~
+%\setcounter{secnumdepth}{0}  % don't number sections (stars not needed)
+
+%~~~~~~~~~~~~
+% Line numbering for equations
+%~~~~~~~~~~~~
+\usepackage{lineno}
+\let\oldequation\equation
+\let\oldendequation\endequation
+
+\renewenvironment{equation}
+{\linenomathNonumbers\oldequation}
+{\oldendequation\endlinenomath}
+
+%~~~~~~~~~~~
+% Figures
+%~~~~~~~~~~~
+% Set the location of your figures
+% Further specified below within each relevant section
+\graphicspath{{figs}} 
+
+%~~~~~~~~~~~
+% Citation setup
+%~~~~~~~~~~~
+% In-text citation styles
+\usepackage[sort]{natbib}
+\bibpunct[; ]{(}{)}{;}{a}{,}{;}
+
+%~~~~~~~~~~~
+% Define convenience functions
+%~~~~~~~~~~~
+
+
+%~~~~~~~~~~~
+% Italicize and bold  \paragraph heading
+\usepackage{titlesec}
+\titleformat{\paragraph}{}{\theparagraph}{1em}{\itshape\textbf}
+\titlespacing*{\paragraph}{0pt}{5.5ex plus 1ex minus .2ex}{0pt}
+%  reduce size of Section heading text
+\titleformat*{\section}{\large\bfseries}
+%~~~~~~~~~~~
+
+%~~~~~~~~~~~
+% Table attributes
+%~~~~~~~~~~~
+% To force table caption above table
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+
+% For multi-page tables
+\usepackage{longtable}
+\setlength{\LTcapwidth}{1.5\textwidth}
+\renewcommand*{\arraystretch}{1.8} % increase row heights
+
+% To force table caption above table
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+
+%~~~~~~~~~~~
+% Activative links
+%~~~~~~~~~~~
+\usepackage[hidelinks]{hyperref}
+
+%~~~~~~~~~~~
+% Cross referencing between files
+%~~~~~~~~~~~
+%\usepackage{xr}
+%\externaldocument{manuscript}
+
+
+%~~~~~~~~~~~
+% For annotation
+%~~~~~~~~~~~
+
+% For commenting purposes (doesn't work in boxes!)
+\long\def\authornote#1{%
+	\leavevmode\unskip\raisebox{-3.5pt}{\rlap{$\scriptstyle\diamond$}}%
+	\marginpar{\raggedright\hbadness=10000
+		\def\baselinestretch{0.8}\tiny
+		\it #1\par}}
+\newcommand{\MN}[1]{\authornote{MN: #1}}
+% copy the last line and edit with co-author initials
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Include title here
+\title{
+	\emph{Supplementary Materials}:\\
+	Paper title}
+
+\author
+{Mark Novak \& xxx \\\\
+}
+
+% Include the date command, but leave its argument blank.
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\maketitle
+
+\setpagewiselinenumbers
+% turn off line numbers here:
+\nolinenumbers
+%\linenumbers
+
+
+% --------------------------------------------------------------------
+% --------------------------------------------------------------------
+% SUPPLEMENTARY MATERIALS
+% --------------------------------------------------------------------
+% --------------------------------------------------------------------
+
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+\setcounter{page}{1}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+
+\baselineskip12pt
+\tableofcontents
+%\baselineskip24pt
+
+	
+\clearpage
+
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+
+\section{Section title}
+
+
+% ------------------------------------
+% Table of original functional response models
+% ------------------------------------
+\footnotesize
+\setlength{\LTcapwidth}{1\textwidth} % width of caption (increase to 1.5 for landscape view)
+\renewcommand*{\arraystretch}{2} % increase row heights
+
+	\input{tables/exampleTable.tex}
+
+\renewcommand*{\arraystretch}{1} % reset row heights
+\normalsize
+\baselineskip30pt
+
+
+\clearpage
+
+\begin{figure}[!h]
+%	\centerline{\includegraphics*[width=1\textwidth]{exampleFig.pdf}}
+	\caption{
+		\baselineskip15pt
+		Caption.
+	}
+	\label{fig:myfig}
+\end{figure}
+
+\clearpage
+
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% REFERENCES
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+\clearpage
+
+% specify the bibiolography style file (without its file extension)
+\bibliographystyle{biblio/ecology_letters2}
+\addcontentsline{toc}{section}{References}
+% specify your bib file (without its file extension)
+\bibliography{biblio/bibliography}
+
+\end{document}

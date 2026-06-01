@@ -1,0 +1,145 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+
+\input{LetterStructure.tex} % Include the file that specifies the document structure
+
+\setlength{\parindent}{0.5cm}
+
+%\longindentation=0pt % Un-commenting this line will push the closing "Sincerely," and date to the left of the page
+
+%----------------------------------------------------------------------------------------
+%	YOUR INFORMATION
+%----------------------------------------------------------------------------------------
+
+\Who{Mark Novak} % Your name
+
+\Title{} % Your title, leave blank for no title
+
+\authordetails{
+	Department of Integrative Biology\\ % Your department/institution
+	mark.novak@oregonstate.edu\\ % Your email address
+	https://novaklabosu.github.io\\% Your URL
+	(541) 737-3610 % Your phone number
+}
+
+\newcommand{\TJ}{\textit{TargetJournal~}}
+
+%----------------------------------------------------------------------------------------
+%	HEADER CONTENTS
+%----------------------------------------------------------------------------------------
+
+\logo{OSU_horizontal_2C_O_over_B.png} % Logo filename, your logo should have square dimensions (i.e. roughly the same width and height), if it does not, you will need to adjust spacing within the HEADER STRUCTURE block in structure.tex (read the comments carefully!)
+
+\headerlineone{} % Top header line, leave blank if you only want the bottom line
+\headerlinetwo{} % Bottom header line
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{
+	\\Reciever
+}
+
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Editor XXX,}
+
+
+My co-authors and I would be grateful to you for considering our manuscript 
+--- 
+\textbf{\textit{
+		xxx
+}}
+---
+for publication.
+% in \TJ.
+% as a \textit{Perspectives} article.
+%(Our proposal to do so was kindly granted on May, Xth.)
+We are submitting our manuscript to \TJ because 
+%we believe it will hold appeal across your journal's diverse readership as 
+it speaks to both empiricists and theoreticians on a topic that is foundational to myriad lines of research.
+That topic is the challenge of XXXX.
+
+All ecologists are taught about the simplest of functional response model, 
+the so-called linear Type I response,
+which describes feeding rates as increasing linearly with resource abundance.  
+They nonetheless differ greatly in the degree to which they consider this model 
+to be "unrealistic" versus "sufficient".
+While empiricists consider it unsuitably non-mechanistic and irrelevant,
+most theoreticians consider it necessarily simple and approximately 
+appropriate. 
+Holling's original (rectilinear) Type I is dismissed by both camps, 
+with most compromising on the Type II model for which searching and handling are assumed to be mutually exclusive activities. 
+The overarching message of our manuscript is that empiricists should not dismiss 
+either of the linear functional responses as being unrealistic, 
+and that theoreticians must draw more bounded conclusions when presuming the linear Type I to be appropriate.
+
+We support this main message through an integration of empirical (statistical) and mathematical insights. 
+Our manuscript thereby entails three parts:
+First, we derive a simple "multiple-prey-at-a-time" functional response model 
+to represent predators for which searching and handling need not be 
+mutually exclusive; 
+they can continue to search while handling an arbitrary number of 
+already-captured prey.  
+We use this model to clarify the empirical relevance of the two Type I 
+models, delineating the conditions under which they can in fact be 
+mechanistically-reasoned descriptions of predator feeding rates even when handling times are long.  
+Second, we use the model to demonstrate statistical evidence for the the occurence of functional response linearity in a substantial number (35\%) of 2,598 compiled experiments, 
+and to demonstrate support for the hypothesis that larger predator-prey body-mass ratios affect 
+greater functional response linearity.
+Third, by incorporating the model into a classic consumer-resource population-dynamics model, 
+we show how multi-prey feeding can lead to dynamics unanticipated by current theory, 
+including long-term transients between bistable fixed-points and limit-cycles.
+The integration of the three parts of our manuscript leads to a novel prediction:~that these unanticipated dynamics are most likely to occur under conditions reflecting top-heavy food webs where functional responses are effectively linear.
+
+We believe that the foundational relevance of our manuscript will receive strong 
+interest from the wide variety of ecologists and evolutionary biologists working on the characterization and consequences of consumer-resource interactions. 
+Further, since the manuscript addresses both empiricists and theoreticians 
+alike, we consider \TJ to be a particularly good venue for its dissemination.
+
+%The manuscript has already been positively reviewed by
+%Peter Abrams.
+As per \TJ requirements, 
+all data and code are accessible on GitHub and have been posted to a permanent repository on FigShare.
+We also affirm that the manuscript is not under consideration by any other 
+journal and that all authors have read and approved it for submission.
+Finally, please note that our manuscript has already undergone careful evaluation by three expert reviewers 
+---
+---
+who considered 
+
+
+
+On behalf of my co-authors, I thank you very much for your consideration.
+
+\closing{Sincerely,\\
+\includegraphics[scale=0.3]{Novak-signature-blue.jpg}\\ }
+
+
+
+%----------------------------------------------------------------------------------------
+%	OPTIONAL FOOTNOTE
+%----------------------------------------------------------------------------------------
+
+% Uncomment the 4 lines below to print a footnote with custom text
+%\def\thefootnote{}
+%\def\footnoterule{\hrule}
+%\footnotetext{\hspace*{\fill}{\footnotesize\em Footnote text}}
+%\def\thefootnote{\arabic{footnote}}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}

@@ -1,0 +1,398 @@
+% Use only LaTeX2e, calling the article.cls class and 12-point type.
+\RequirePackage{lineno}
+\documentclass[11pt]{article}
+
+\usepackage{lipsum}
+\usepackage{amsmath,amssymb,cases,multirow, graphicx}
+\usepackage{dcolumn, rotating}
+
+%~~~~~~~~~~~
+% Reasonable page setup
+%~~~~~~~~~~~
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm
+\textheight 21cm
+\footskip 1.0cm
+
+
+%~~~~~~~~~~~
+% Section numbering
+%~~~~~~~~~~~
+\setcounter{secnumdepth}{0}  % don't number sections (stars not needed)
+
+%~~~~~~~~~~~~
+% Line numbering for equations
+%~~~~~~~~~~~~
+\usepackage{lineno}
+\let\oldequation\equation
+\let\oldendequation\endequation
+
+\renewenvironment{equation}
+{\linenomathNonumbers\oldequation}
+{\oldendequation\endlinenomath}
+
+%~~~~~~~~~~~
+% Figures & Tables
+%~~~~~~~~~~~
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Set the location of your figures
+\graphicspath{{figs/}}  % in git location
+%\graphicspath{{../../../../../../../Git/FR_n-prey-at-a-time/figs/}}  % in dropbox location
+
+
+% Set the location of your tables
+\newcommand*\inputtable[1]{\input{tables/#1.tex}}
+%\newcommand*\inputtable[1]{\input{../../../../../../../Git/FR_n-prey-at-a-time/tables/#1.tex}}
+
+
+
+% Uncomment following to place all figures at end
+%\usepackage{caption}
+%\captionsetup{labelsep=none,textformat=empty}
+%\usepackage[figuresonly]{endfloat}
+%\renewcommand{\listfigurename}{Figure captions}
+%\usepackage{tocloft}
+%\setlength{\cftfigindent}{0pt}
+%\renewcommand{\cftfigpresnum}{Fig. }
+%\addtolength{\cftfignumwidth}{1.5em}
+
+
+%~~~~~~~~~~~
+% Activative links
+%~~~~~~~~~~~
+\usepackage[hidelinks]{hyperref}
+
+%~~~~~~~~~~~
+% Citation setup
+%~~~~~~~~~~~
+% In-text citation styles
+\usepackage[sort]{natbib}
+\bibpunct[; ]{(}{)}{;}{a}{,}{;}
+
+% Separate references and table of contents for the main text and appendix
+\usepackage{appendix}
+\usepackage{minitoc}
+
+% Make the "Part I" text invisible
+\renewcommand \thepart{}
+\renewcommand \partname{}
+
+% Automatic citiation count
+\usepackage{totcount}
+\newtotcounter{citnum}
+\def\oldbibitem{} \let\oldbibitem=\bibitem
+\def\bibitem{\stepcounter{citnum}\oldbibitem}
+
+% Automatic figure and table count
+\regtotcounter{figure}
+\regtotcounter{table}
+
+%~~~~~~~~~~~
+% Table attributes
+%~~~~~~~~~~~
+% To force table caption above table
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+
+%  To rotate page to horizonal format for table
+\usepackage{lscape}
+
+% For multi-page tables
+\usepackage{longtable}
+
+%~~~~~~~~~~~
+% Boxes
+%~~~~~~~~~~~
+% For making a multi-page box
+\usepackage[most]{tcolorbox}
+
+
+%~~~~~~~~~~~
+% For non-numeric enumeration
+%~~~~~~~~~~~
+\usepackage{enumerate}
+
+%-----------------------
+% Line-referencing
+%-----------------------
+%  command to label changes
+\newcommand{\LL}[1]{\linelabel{#1}}
+%\newcommand{\LR}[1]{\lineref{#1}}
+
+%~~~~~~~~~~~
+% Environment for the abstract and cover page
+%~~~~~~~~~~~
+\newenvironment{myabstract}{\clearpage\section*{Abstract}}{\clearpage}
+\newenvironment{mysignificance}{\clearpage\section*{Significance}}{\clearpage}
+\newenvironment{cover}{\maketitle}{\clearpage}
+\newenvironment{myfigure}[1]{\begin{figure}[#1]\centerline{Figure
+			\arabic{figure}\medskip}}{\addtocounter{figure}{1}\end{figure}}
+
+
+%~~~~~~~~~~~
+% For annotation
+%~~~~~~~~~~~
+% For purposes of highlighting needed numbers
+\newcommand{\redX}{\textcolor{red}{ X}\MN{XXX} }
+
+% For commenting purposes (doesn't work in boxes!)
+\long\def\authornote#1{%
+	\leavevmode\unskip\raisebox{-3.5pt}{\rlap{$\scriptstyle\diamond$}}%
+	\marginpar{\raggedright\hbadness=10000
+		\def\baselinestretch{0.8}\tiny
+		\it #1\par}}
+\newcommand{\MN}[1]{\authornote{MN: #1}}
+\newcommand{\KEC}[1]{\authornote{KEC: #1}}
+% copy the last line and edit with co-author initials
+
+
+%~~~~~~~~~~~
+% Define convenience functions
+%~~~~~~~~~~~
+\DeclareMathOperator{\E}{\mathbb{E}} % For Expectation symbol
+\renewcommand{\L}{\mathcal{L}} % likelihood symbol
+\newcommand{\lL}{\ln \mathcal{L}} % log-likelihood symbol
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Include your paper's title here
+\title{Title}
+
+\author
+{Mark Novak$^1$\\\\
+	\small{$^1$Department of Integrative Biology, Oregon State University,}\\
+	\small{Corvallis, Oregon, 97331 USA}\\
+	\\
+}
+
+% Include the date command, but leave its argument blank.
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% END OF PREAMBLE   %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	
+\maketitle
+
+% ---------------------------------------
+% COVER PAGE
+% ---------------------------------------
+\begin{cover}
+	
+	\centerline{{\sc Running Title:} XXXXX}
+	
+	\bigskip
+	
+	\begin{center}
+		\begin{tabular}{ll}
+			\hline 
+			\\
+			{\bf Article type}							 & Original Research             \\
+			{\bf Words in abstract}					& XXX                                 \\
+			{\bf Words in manuscript}       	 & XXX                               \\
+			{\bf Number of references}			& \total{citnum}\                 \\
+			{\bf Number of figures}					& \total{figure}                     \\
+			{\bf Number of tables}					& \total{table}\                      \\
+			{\bf Number of boxes}				   & XXX\                                  \\
+			{\bf Corresponding author}		   & Mark Novak                    \\
+			{\bf Phone} 								   & (541) 737-3610               \\
+			{\bf Fax} 									  	  & (541)  737-3120              \\
+			{\bf Email} 									& mark.novak@oregonstate.edu     \\
+			\\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+\end{cover}
+
+
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+% SUMMARY OF REMAINING TO-DO'S
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+\baselineskip9pt
+\noindent
+\textbf{To do \& to discuss:}
+\begin{itemize}
+	\item{General}
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	\item Results
+	\begin{itemize}
+		\item
+	\end{itemize}
+	\item Discussion
+	\begin{itemize}
+		\item 
+	\end{itemize}
+	\item SOM
+	\begin{itemize}
+		\item 
+	\end{itemize}
+\end{itemize}
+
+\noindent
+\textbf{Potential reviewers:}\\\\
+	
+
+\clearpage
+
+\baselineskip12pt
+%\tableofcontents
+
+
+
+% ---------------------------------------
+% ABSTRACT 
+% ---------------------------------------
+
+\baselineskip20pt
+%\setpagewiselinenumbers
+\linenumbers
+
+\begin{myabstract}
+	
+	\lipsum[66]
+		
+	\noindent\textbf{Keywords:} 
+		\emph{
+			predator-prey
+		}
+\end{myabstract}
+
+
+
+%\begin{mysignificance}
+%	
+%	\lipsum[66]
+%	
+%\end{mysignificance}
+
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% BODY OF THE PAPER
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+\clearpage
+
+\baselineskip30pt
+
+% -----------------------------------------------------------------------------
+% INTRODUCTION
+% -----------------------------------------------------------------------------
+
+\section{Introduction}
+
+When using natbib, this is how to cite other papers \citep{kopka2004glt}.
+Of course, using natbib, you can also cite \citet{lamport1989ldp} like this.
+\MN{This is a comment}
+\LL{P1} % hidden label to line number
+
+%The line number was \LR{P1}.j
+
+
+% -----------------------------------------------------------------------------
+% Boxes
+% -----------------------------------------------------------------------------
+
+\begin{tcolorbox}[breakable, enhanced, before 
+upper={\parindent15pt},boxsep=2mm]
+	% set boxsep=0mm if not using line numbers
+		\begin{internallinenumbers}
+	\noindent
+	\textbf{Box 1. Box title.}
+	\lipsum[75]
+	
+	
+		\end{internallinenumbers}
+\end{tcolorbox}
+%\linenumbers
+\clearpage
+
+
+% -----------------------------------------------------------------------------
+% METHODS
+% -----------------------------------------------------------------------------
+
+\section{Methods}
+\lipsum[66]
+
+\subsection{Study system}
+A subsection is initiated like this.
+\lipsum[75]
+
+
+
+% -----------------------------------------------------------------------------
+% RESULTS
+% -----------------------------------------------------------------------------
+
+\section{Results}
+References a figure by referencing its label (Fig.~\ref{fig:fig1}).
+You can include a table either by making the table within this tex file, or call 
+from a separate file (e.g., an R-generated table) using the \texttt{input} function.
+As long as it has a label, you can reference your table the same way you reference figures and sections (Table~\ref{tab:table1}).
+
+%\input{exampleTable}j
+
+
+\begin{figure}[!h]
+	\centerline{\includegraphics*[width=0.5\textwidth]{exampleFig.pdf}}
+	\caption{
+		\baselineskip30pt
+		This is my first awesome figure.
+	}
+	\label{fig:fig1}
+\end{figure}
+
+
+% -----------------------------------------------------------------------------
+% DISCUSSION
+% -----------------------------------------------------------------------------
+
+\section{Discussion}
+
+\lipsum[75]
+
+
+
+
+
+% -----------------------------------------------------------------------------
+% ACKNOWLEDGMENTS
+% -----------------------------------------------------------------------------
+\section{Acknowledgments}
+We thank everyone we know
+
+\section{Author contributions}
+Both authors contributed equally.
+
+\section{Code and data availability}
+It's all on GitHub! \emph{url address here}
+
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% REFERENCES
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+
+% specify the bibiolography style file (without its file extension)
+\bibliographystyle{biblio/ecology_letters2}
+% specify your bib file (without its file extension)
+\bibliography{biblio/bibliography}
+
+
+
+\end{document}

@@ -76,6 +76,8 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 ## Additional resources
 
+- My [LaTeX manuscript template](ms_template/)
+
 - [Squibler's Most Dangerous Writing App](https://www.squibler.io/dangerous-writing-prompt-app) _- Don't stop typing or all progress will be lost!_
 
 - [BioRender](https://www.biorender.com) _- "Professional" science figures_

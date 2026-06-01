@@ -1,0 +1,449 @@
+% Use only LaTeX2e, calling the article.cls class and 12-point type.
+\RequirePackage{lineno}
+\documentclass[11pt]{article}
+
+\usepackage{lipsum}
+\usepackage{amsmath,amssymb,cases,multirow, graphicx}
+\usepackage{dcolumn, rotating}
+
+%~~~~~~~~~~~
+% Reasonable page setup
+%~~~~~~~~~~~
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm
+\textheight 21cm
+\footskip 1.0cm
+
+
+%~~~~~~~~~~~
+% Section numbering
+%~~~~~~~~~~~
+\setcounter{secnumdepth}{0}  % don't number sections (stars not needed)
+
+%~~~~~~~~~~~~
+% Line numbering for equations
+%~~~~~~~~~~~~
+\usepackage{lineno}
+\let\oldequation\equation
+\let\oldendequation\endequation
+
+\renewenvironment{equation}
+{\linenomathNonumbers\oldequation}
+{\oldendequation\endlinenomath}
+
+%~~~~~~~~~~~
+% Figures & Tables
+%~~~~~~~~~~~
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Set the location of your figures
+%\graphicspath{{../../../../../../../Git/FR_n-prey-at-a-time/figs/}}  % in dropbox 
+%%location
+%\graphicspath{{../figs/}}  % in git location
+
+% Set the location of your tables
+%\newcommand*\inputtable[1]{\input{../../../../../../../Git/FR_n-prey-at-a-time/tables/#1.tex}}
+%\newcommand*\inputtable[1]{\input{../tables/#1.tex}}
+
+
+% Uncomment following to place all figures at end
+%\usepackage{caption}
+%\captionsetup{labelsep=none,textformat=empty}
+%\usepackage[figuresonly]{endfloat}
+%\renewcommand{\listfigurename}{Figure captions}
+%\usepackage{tocloft}
+%\setlength{\cftfigindent}{0pt}
+%\renewcommand{\cftfigpresnum}{Fig. }
+%\addtolength{\cftfignumwidth}{1.5em}
+
+%~~~~~~~~~~~
+% Activative links
+%~~~~~~~~~~~
+\usepackage[hidelinks]{hyperref}
+
+%~~~~~~~~~~
+% Author block
+%~~~~~~~~~~
+\usepackage{authblk}
+\renewcommand\Affilfont{\fontsize{10}{12}\itshape}
+
+%~~~~~~~~~~~
+% Citation setup
+%~~~~~~~~~~~
+% In-text citation styles
+\usepackage[sort]{natbib}
+\bibpunct[; ]{(}{)}{;}{a}{,}{;}
+
+% Separate references and table of contents for the main text and appendix
+\usepackage{appendix}
+\usepackage{minitoc}
+
+% Make the "Part I" text invisible
+\renewcommand \thepart{}
+\renewcommand \partname{}
+
+% Automatic citiation count
+\usepackage{totcount}
+\newtotcounter{citnum}
+\def\oldbibitem{} \let\oldbibitem=\bibitem
+\def\bibitem{\stepcounter{citnum}\oldbibitem}
+
+% Automatic figure and table count
+\regtotcounter{figure}
+\regtotcounter{table}
+
+%~~~~~~~~~~~
+% Table attributes
+%~~~~~~~~~~~
+% To force table caption above table
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+
+%  To rotate page to horizonal format for table
+\usepackage{lscape}
+
+% For multi-page tables
+\usepackage{longtable}
+
+%~~~~~~~~~~~
+% Boxes
+%~~~~~~~~~~~
+% For making a multi-page box
+\usepackage[most]{tcolorbox}
+
+
+%~~~~~~~~~~~
+% For non-numeric enumeration
+%~~~~~~~~~~~
+\usepackage{enumerate}
+
+%-----------------------
+% Line-referencing
+%-----------------------
+%  command to label changes
+\newcommand{\LL}[1]{\linelabel{#1}}
+%\newcommand{\LR}[1]{\lineref{#1}}
+
+%~~~~~~~~~~~
+% Environment for the abstract and cover page
+%~~~~~~~~~~~
+\newenvironment{myabstract}{\clearpage\section*{Abstract}}{\clearpage}
+\newenvironment{mysignificance}{\clearpage\section*{Significance}}{\clearpage}
+\newenvironment{cover}{\maketitle}{\clearpage}
+\newenvironment{myfigure}[1]{\begin{figure}[#1]\centerline{Figure
+			\arabic{figure}\medskip}}{\addtocounter{figure}{1}\end{figure}}
+
+
+%~~~~~~~~~~~
+% For annotation
+%~~~~~~~~~~~
+% For purposes of highlighting needed numbers
+\newcommand{\redX}{\textcolor{red}{ X}\MN{XXX} }
+
+% For commenting purposes (doesn't work in boxes!)
+\long\def\authornote#1{%
+	\leavevmode\unskip\raisebox{-3.5pt}{\rlap{$\scriptstyle\diamond$}}%
+	\marginpar{\raggedright\hbadness=10000
+		\def\baselinestretch{0.8}\tiny
+		\it #1\par}}
+\newcommand{\MN}[1]{\authornote{MN: #1}}
+% copy the last line and edit with co-author initials
+
+
+%~~~~~~~~~~~
+% Define convenience functions
+%~~~~~~~~~~~
+\DeclareMathOperator{\E}{\mathbb{E}} % For Expectation symbol
+\renewcommand{\L}{\mathcal{L}} % likelihood symbol
+\newcommand{\lL}{\ln \mathcal{L}} % log-likelihood symbol
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Include your paper's title here
+\title{
+	Awesome title
+}
+
+\author[1]{Mark Novak$\thanks{Corresponding author: mark.novak@oregonstate.edu}$}
+\affil[1]{Department of Integrative Biology, Oregon State University, Corvallis, Oregon, 97331 USA}
+
+
+% Include the date command, but leave its argument blank.
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% END OF PREAMBLE   %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	
+\maketitle
+
+% ---------------------------------------
+% COVER PAGE
+% ---------------------------------------
+\begin{cover}
+	\thispagestyle{empty} 
+	
+	\centerline{{\sc Running Title:} Awesome subtitle  }
+	
+	\bigskip
+	
+%	\begin{center}
+%		\begin{tabular}{ll}
+%			\hline 
+%			\\
+%%			{\bf Article type}							 & Original Research             \\
+%			{\bf Words in abstract}					& 312                                 \\
+%			{\bf Words in manuscript}       	 & $\approx$6200                               \\
+%			{\bf Number of references}			& \total{citnum}\                 \\
+%			{\bf Number of figures}					& \total{figure}                     \\
+%			{\bf Number of tables}					& 0 \\ %\total{table}\                      \\
+%%			{\bf Number of boxes}				   & 0\                                  \\
+%			\\
+%			\hline
+%		\end{tabular}
+%	\end{center}
+
+
+% -----------------------------------------------------------------------------
+% ACKNOWLEDGMENTS
+% -----------------------------------------------------------------------------
+\subsection{Code and data availability}
+All code and data are available at 
+\url{https://github.com/marknovak/XXX} and 
+\url{FigShare_url_posted_after_acceptance}.
+
+\subsection{Author contributions}
+
+
+\subsection{Acknowledgments}
+
+
+\subsection{Funding}
+MN was supported by NSF DEB-2129758.
+
+\subsection{Conflict of interest disclosure}
+We declare to have no conflict of interest relating to the content of this manuscript.
+	
+\end{cover}
+
+
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+% SUMMARY OF REMAINING TO-DO'S
+% --------------------------------------------------------------------------------
+% --------------------------------------------------------------------------------
+%\baselineskip12pt
+%\thispagestyle{empty} 
+
+\noindent
+\textbf{To do \& to discuss:}
+\begin{itemize}
+		
+	\item Writing
+	\begin{itemize}
+		\item 
+	\end{itemize}
+
+\end{itemize}
+
+\noindent
+\textbf{Potential reviewers:}\\\\
+
+\noindent
+\textbf{Target journals}
+	\begin{enumerate}
+		\item Ecology Letters
+%		\item American Naturalist
+	\end{enumerate}
+
+
+\clearpage
+\thispagestyle{empty} 
+\baselineskip12pt
+
+% Comment out next  lines in order
+% to have appendix ToC contain only appendix parts
+\part{} % Start the document part
+\parttoc % Insert the document TOC
+
+
+\doparttoc % Tell to minitoc to generate a toc for the parts
+\faketableofcontents % Run a fake tableofcontents command for the partocs
+
+% ---------------------------------------
+% ABSTRACT 
+% ---------------------------------------
+
+%\clearpage
+
+%\baselineskip15pt
+\baselineskip22pt
+%\setpagewiselinenumbers
+\linenumbers
+
+\setcounter{page}{1}
+
+\begin{myabstract}
+	
+	\lipsum[66]
+	
+\vspace{3em}		
+
+	\noindent\sc{Keywords:} 
+		\emph{
+			xxx
+		}
+\end{myabstract}
+
+
+
+%\begin{mysignificance}
+%	
+%	\lipsum[66]
+%	
+%\end{mysignificance}
+
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% BODY OF THE PAPER
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+%\clearpage
+
+\baselineskip30pt
+
+% -----------------------------------------------------------------------------
+% INTRODUCTION
+% -----------------------------------------------------------------------------
+
+\section{Introduction}
+
+
+
+%\begin{figure}[th]
+%	\centerline{\includegraphics*[width=0.6\textwidth]{xx.pdf}}
+%	\caption{
+%		\baselineskip12pt
+%		xxx
+%	}
+%	\label{fig:xxx}
+%\end{figure}
+
+
+
+% -----------------------------------------------------------------------------
+% Boxes
+% -----------------------------------------------------------------------------
+%\nolinenumbers
+%\begin{tcolorbox}[breakable, enhanced, before 
+%upper={\parindent15pt},boxsep=2mm]
+%		\begin{internallinenumbers}
+%	\noindent
+%	\textbf{Box 1. .}	
+%	\end{internallinenumbers}
+%\end{tcolorbox}
+%\linenumbers
+%\clearpage
+
+
+% -----------------------------------------------------------------------------
+% METHODS
+% -----------------------------------------------------------------------------
+
+\section{Methods}
+
+% -----------------------------------------------------------------------------
+% RESULTS
+% -----------------------------------------------------------------------------
+
+\section{Results}
+
+
+
+
+% -----------------------------------------------------------------------------
+% DISCUSSION
+% -----------------------------------------------------------------------------
+
+\section{Discussion}
+
+
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% REFERENCES
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+
+%\clearpage
+% specify the bibiolography style file (without its file extension)
+\bibliographystyle{biblio/ecology_letters2}
+%% specify your bib file (without its file extension)
+\bibliography{biblio/bibliography}
+
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% APPENDICES
+% -----------------------------------------------------------------------------
+% -----------------------------------------------------------------------------
+% This TC command is to ensure that overleaf word count does not include the 
+%Appendix. See 
+%https://www.overleaf.com/learn/how-to/Is_there_a_way_to_run_a_word_count_that_doesn%27t_include_LaTeX_commands%3F
+%%% for more information
+%TC:ignore
+
+\clearpage
+
+\nolinenumbers
+\baselineskip12pt
+
+
+\part{} % Start the appendix part
+
+		\begin{center}
+
+			{\Large Supplementary Materials for}\\
+			{\Large \bf Title}\\
+			\vspace{0.2 in}
+			{\large Mark Novak$^{1}$}\\
+			\vspace{0.15 in}
+				\small{$^1$Department of Integrative Biology, Oregon State 
+				University,}\\
+			\small{Corvallis, Oregon, 97331 USA}\\
+			\vspace{0.15 in}
+			
+			\thispagestyle{empty}
+	
+		\end{center}
+		
+
+\parttoc % Insert the appendix TOC
+
+\clearpage
+
+\setcounter{page}{1}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\setcounter{equation}{0}
+
+\renewcommand{\thepage}{S\arabic{page}}
+\renewcommand{\thefigure}{S.\arabic{figure}}
+\renewcommand{\thetable}{S.\arabic{table}}
+\renewcommand{\theequation}{S.\arabic{equation}}
+
+
+
+\section{First section}
+
+
+%TC:endignore
+
+\end{document}
