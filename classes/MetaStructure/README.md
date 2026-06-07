@@ -30,6 +30,8 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 ## Further readings
 
+- [Forscher 1963) Chaos in the Brickyard](../../readings/pdfs/Forscher_1963.pdf)
+
 - [How to construct a Nature summary paragraph](../../readings/pdfs/nature-summary-paragraph.pdf)
 
 - [Swales & Feak (2004) Academic writing for graduate students: Essential tasks and skills](../../readings/pdfs/Swales_2020.pdf)
