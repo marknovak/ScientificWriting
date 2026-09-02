@@ -56,6 +56,17 @@ The first 5-10 minutes of every Wednesday will be [Accountabilibuddy](https://en
 ||Wed|6/3|[Final Report Presentations](classes/ProjectReport) & Wrap-up|
 |11|Mon|6/7|**_Manuscripts due!_**|
 
+
+---
+---
+
+
+## Major deliverables
+On the Friday of each week, you will submit a deliverable via Canvas, **_regardless of completeness and quality_,** to evidence your progress in the course.  The deliverables are:
+- **Week 0** — Your manuscript draft (to establish a baseline), _even if it's just a title page and a few notes_.
+- **Week 4** — Your Introduction section with a short paragraph summarizing your past efforts and plans for the next 4 weeks.
+- **Week 8** — Your Results sections with a short paragraph summarizing your past efforts and plans for the next 2 weeks.
+- **Week 11** — Your "final" manuscript (to evidence progress made during the course).
 ---
 
 ## Potential topics, Broken links & Suggestions

@@ -31,9 +31,13 @@ Feel free to use the following files if your journal's submission portal require
 
 ## Additional resources
 
+[Anonymized GitHub repositories](https://anonymous.4open.science/)
+
 [Directory of Open Access Journals](https://doaj.org/)
 
 [Database of Predatory Journals](https://www.predatoryjournals.org/the-list)
+
+[Beall's List of Predatory Journals](https://beallslist.net/)
 
 [Collection of Open Science Integrity Guides](https://cosig.net/)
 

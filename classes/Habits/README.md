@@ -46,6 +46,12 @@ meta-cognitive approaches.
 
 [Huey (199?) Reply to Stearns: some acynical advice for graduate students](../../readings/pdfs/Huey_1999.pdf)
 
+## Some journal guidelines on Artificial Intelligence (AI)
+
+[The American Naturalist](https://www.journals.uchicago.edu/journals/an/instruct)
+
+[Taylor \& Francis](https://authorservices.taylorandfrancis.com/publishing-your-research/writing-your-paper/#section6)
+
 ## Additional resources
 
 [Inframemethodology's Writing Process Reengineering](https://inframethodology.cbs.dk/?page_id=454)
