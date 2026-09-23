@@ -34,6 +34,8 @@ Discussion of [slides](tex/PeerReview_slides.pdf)
 
 ### Further readings
 
+[What Makes a Good Peer Review](https://methodsblog.com/2016/09/20/what-makes-a-good-review/)
+
 [Smith et al. (2023) Peer review perpetuates barriers for historically excluded groups](../../readings/pdfs/Smith_2023.pdf)
 
 [Ferreira et al. (2016) The evolution of peer review as a basis for scientific publication: directional selection towards a robust discipline?](../../readings/pdfs/Ferreira_2016.pdf)

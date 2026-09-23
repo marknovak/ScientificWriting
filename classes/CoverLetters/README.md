@@ -33,7 +33,9 @@ Identify similarities and differences.
 
 ## Further readings
 
-_I haven't found any particularly useful ones yet, but if you have suggestions, please share!_
+- [The DOs and DON’Ts of Selecting Preferred Reviewers](https://methodsblog.com/2015/10/15/preferred-reviewers/)
+
+- [When to Identify Non-Preferred Reviewers](https://methodsblog.com/2015/11/27/non-preferred-reviewers/)
 
 ## Additional resources
 

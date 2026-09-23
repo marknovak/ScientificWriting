@@ -48,6 +48,8 @@ Remaining time: [Analysis of effective papers](../Implementation/paper_analysis.
 
 - [Singh Chawla (2025) Catchy, clear, concise: Three-part phrases boost paper citations](../../readings/pdfs/CatchyClearConcise.pdf)
 
+- [Fox & Burns (2015) The relationship between manuscript title structure and success: editorial decisions and citation performance for an ecological journal](../../readings/pdfs/Fox_2015.pdf)
+
 - [Weinberger et al. (2015) Ten Simple (Empirical) Rules for Writing Science](../../readings/pdfs/Weinberger_2015.pdf)
 
 - [Orwell (1946) Politics and the English language](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
